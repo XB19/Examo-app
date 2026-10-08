@@ -8,7 +8,7 @@ import '../widgets/misc.dart';
 import '../widgets/progress_ring.dart';
 import '../widgets/section_header.dart';
 import '../widgets/subject_icon.dart';
-import 'exam_intro_screen.dart';
+import '../root_shell.dart';
 import 'notifications_screen.dart';
 import 'offline_screen.dart';
 import 'subject_detail_screen.dart';
@@ -110,25 +110,23 @@ class HomeScreen extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text('REPRENDRE', style: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: AppColors.muted, letterSpacing: .6)),
-                          Pill(label: 'EN COURS', bg: AppColors.warn100, fg: AppColors.warn600),
+                          Text('T\'ENTRAÎNER', style: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: AppColors.muted, letterSpacing: .6)),
+                          Pill(label: 'CEPD', bg: AppColors.warn100, fg: AppColors.warn600),
                         ],
                       ),
                       const SizedBox(height: 11),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const ExamCover(width: 56, height: 72, color: AppColors.mathBlue),
+                          const ExamCover(width: 56, height: 72, color: AppColors.mathBlue, year: '2025'),
                           const SizedBox(width: 12),
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                const Text('Mathématiques — BEPC 2024', style: TextStyle(fontSize: 14, fontWeight: FontWeight.w800)),
+                                const Text('Épreuves officielles du CEPD', style: TextStyle(fontSize: 14, fontWeight: FontWeight.w800)),
                                 const SizedBox(height: 4),
-                                Text('Question 7 sur 12 · 24 min restantes', style: TextStyle(fontSize: 11, color: AppColors.muted)),
-                                const SizedBox(height: 9),
-                                const LinearBar(percent: 0.58),
+                                Text('Questions une par une, note et correction à la fin', style: TextStyle(fontSize: 11, color: AppColors.muted)),
                               ],
                             ),
                           ),
@@ -136,11 +134,11 @@ class HomeScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 13),
                       AppButton(
-                        label: 'Continuer l\'épreuve',
+                        label: 'Choisir une épreuve',
                         icon: Icons.play_arrow_rounded,
                         height: 46,
                         fontSize: 14,
-                        onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ExamIntroScreen())),
+                        onPressed: () => RootShell.openTab(context, RootShell.annalesTab),
                       ),
                     ],
                   ),

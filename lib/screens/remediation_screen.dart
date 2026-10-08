@@ -6,7 +6,7 @@ import '../widgets/chip_widgets.dart';
 import '../widgets/gradient_header.dart';
 import '../widgets/progress_ring.dart';
 import '../widgets/section_header.dart';
-import 'exam_question_screen.dart';
+import '../root_shell.dart';
 
 class RemediationScreen extends StatelessWidget {
   const RemediationScreen({super.key});
@@ -129,7 +129,7 @@ class RemediationScreen extends StatelessWidget {
             label: 'Lancer l\'entraînement · 5 questions',
             icon: Icons.track_changes_rounded,
             height: 50,
-            onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ExamQuestionScreen())),
+            onPressed: () => RootShell.openTab(context, RootShell.annalesTab),
           ),
         ),
       ),
@@ -158,7 +158,7 @@ class RemediationScreen extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 10),
       child: AppCard(
-        onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ExamQuestionScreen())),
+        onTap: () => RootShell.openTab(context, RootShell.annalesTab),
         child: Row(
           children: [
             Container(

@@ -123,20 +123,24 @@ class ExamCover extends StatelessWidget {
               height: height * 0.34,
               color: color,
               padding: EdgeInsets.symmetric(horizontal: width * 0.14, vertical: height * 0.05),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text('ANNALE',
-                      style: TextStyle(
-                          fontSize: width * 0.115,
-                          fontWeight: FontWeight.w800,
-                          color: Colors.white.withValues(alpha: .7),
-                          letterSpacing: 1)),
-                  SizedBox(height: height * 0.01),
-                  Text(year,
-                      style: TextStyle(fontSize: width * 0.22, fontWeight: FontWeight.w800, color: Colors.white)),
-                ],
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text('ANNALE',
+                        style: TextStyle(
+                            fontSize: width * 0.115,
+                            fontWeight: FontWeight.w800,
+                            color: Colors.white.withValues(alpha: .7),
+                            letterSpacing: 1)),
+                    SizedBox(height: height * 0.01),
+                    Text(year,
+                        style: TextStyle(fontSize: width * 0.22, fontWeight: FontWeight.w800, color: Colors.white)),
+                  ],
+                ),
               ),
             ),
             Expanded(

@@ -62,27 +62,29 @@ class _ExamLevelScreenState extends State<ExamLevelScreen> {
                         style: TextStyle(fontSize: 13.5, color: AppColors.muted, height: 1.5)),
                     const SizedBox(height: 16),
                     for (int i = 0; i < _levels.length; i++) _levelTile(i),
-                    const SizedBox(height: 14),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        const Text('Série (si BAC)', style: TextStyle(fontSize: 15.5, fontWeight: FontWeight.w700)),
-                        Text('Facultatif', style: TextStyle(fontSize: 12.5, color: AppColors.muted)),
-                      ],
-                    ),
-                    const SizedBox(height: 10),
-                    Wrap(
-                      spacing: 8,
-                      runSpacing: 8,
-                      children: ['A4', 'C', 'D', 'G1', 'G2', 'E']
-                          .map((s) => AppChip(
-                                label: s,
-                                height: 36,
-                                tone: series == s ? ChipTone.on : ChipTone.line,
-                                onTap: () => setState(() => series = s),
-                              ))
-                          .toList(),
-                    ),
+                    if (selected == 2) ...[
+                      const SizedBox(height: 14),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          const Text('Série', style: TextStyle(fontSize: 15.5, fontWeight: FontWeight.w700)),
+                          Text('Facultatif', style: TextStyle(fontSize: 12.5, color: AppColors.muted)),
+                        ],
+                      ),
+                      const SizedBox(height: 10),
+                      Wrap(
+                        spacing: 8,
+                        runSpacing: 8,
+                        children: ['A4', 'C', 'D', 'G1', 'G2', 'E']
+                            .map((s) => AppChip(
+                                  label: s,
+                                  height: 36,
+                                  tone: series == s ? ChipTone.on : ChipTone.line,
+                                  onTap: () => setState(() => series = s),
+                                ))
+                            .toList(),
+                      ),
+                    ],
                     const SizedBox(height: 20),
                     const Text('Année de l\'examen', style: TextStyle(fontSize: 15.5, fontWeight: FontWeight.w700)),
                     const SizedBox(height: 10),
@@ -143,7 +145,10 @@ class _ExamLevelScreenState extends State<ExamLevelScreen> {
       padding: const EdgeInsets.only(bottom: 10),
       child: InkWell(
         borderRadius: BorderRadius.circular(16),
-        onTap: () => setState(() => selected = i),
+        onTap: () => setState(() {
+          selected = i;
+          if (i != 2) series = 'D';
+        }),
         child: Container(
           padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(

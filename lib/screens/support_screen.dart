@@ -3,6 +3,7 @@ import '../theme/app_colors.dart';
 import '../widgets/app_card.dart';
 import '../widgets/gradient_header.dart';
 import '../widgets/section_header.dart';
+import 'onboarding_screen.dart';
 
 class SupportScreen extends StatefulWidget {
   const SupportScreen({super.key});
@@ -15,11 +16,26 @@ class _SupportScreenState extends State<SupportScreen> {
   int expanded = 1;
 
   static const _faq = [
-    'Comment Examo lit-il mon écriture manuscrite ?',
-    'Puis-je utiliser Examo sans connexion internet ?',
-    'Examo est-il payant ?',
-    'Puis-je répondre en photographiant mon cahier ?',
-    'Comment changer d\'examen ou de série ?',
+    (
+      'Comment Examo lit-il mon écriture manuscrite ?',
+      'Prends simplement une photo nette de ta copie. Examo reconnaît ton écriture automatiquement et corrige ta réponse, comme un professeur.',
+    ),
+    (
+      'Puis-je utiliser Examo sans connexion internet ?',
+      'Oui. Télécharge tes annales quand tu as du réseau. Tu peux ensuite composer, recevoir ta note et lire les explications sans réseau. Tes résultats sont envoyés automatiquement à la prochaine connexion.',
+    ),
+    (
+      'Examo est-il payant ?',
+      'L\'essentiel d\'Examo (annales, entraînement, corrections) est gratuit. Certaines options avancées peuvent être proposées en option plus tard.',
+    ),
+    (
+      'Puis-je répondre en photographiant mon cahier ?',
+      'Oui, tu peux répondre au clavier ou photographier ta copie manuscrite : les deux façons fonctionnent pour chaque épreuve.',
+    ),
+    (
+      'Comment changer d\'examen ou de série ?',
+      'Va dans "Mon profil", puis touche "Examen préparé" pour choisir un autre examen (CEPD, BEPC, BAC) ou une autre série. Tes résultats sont conservés.',
+    ),
   ];
 
   @override
@@ -66,7 +82,10 @@ class _SupportScreenState extends State<SupportScreen> {
                     const SizedBox(width: 11),
                     Expanded(child: _quickCard('Nous écrire', '+228 90 00 12', Icons.chat_bubble_outline_rounded)),
                     const SizedBox(width: 11),
-                    Expanded(child: _quickCard('Tutoriel', '2 min', Icons.play_circle_outline_rounded)),
+                    Expanded(
+                      child: _quickCard('Tutoriel', '2 min', Icons.play_circle_outline_rounded,
+                          onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const OnboardingScreen()))),
+                    ),
                   ]),
                   const SectionHeader(title: 'Questions fréquentes'),
                   for (int i = 0; i < _faq.length; i++) _faqTile(i),
@@ -101,11 +120,12 @@ class _SupportScreenState extends State<SupportScreen> {
     );
   }
 
-  Widget _quickCard(String title, String sub, IconData icon, {bool primary = false}) {
+  Widget _quickCard(String title, String sub, IconData icon, {bool primary = false, VoidCallback? onTap}) {
     return AppCard(
       padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 10),
       color: primary ? AppColors.kx700 : Colors.white,
       borderColor: primary ? AppColors.kx700 : AppColors.line,
+      onTap: onTap,
       child: Column(
         children: [
           Container(
@@ -125,6 +145,7 @@ class _SupportScreenState extends State<SupportScreen> {
 
   Widget _faqTile(int i) {
     final open = expanded == i;
+    final (question, answer) = _faq[i];
     return Padding(
       padding: const EdgeInsets.only(bottom: 10),
       child: AppCard(
@@ -141,16 +162,13 @@ class _SupportScreenState extends State<SupportScreen> {
               children: [
                 Row(
                   children: [
-                    Expanded(child: Text(_faq[i], style: const TextStyle(fontSize: 12.5, fontWeight: FontWeight.w600, height: 1.4))),
+                    Expanded(child: Text(question, style: const TextStyle(fontSize: 12.5, fontWeight: FontWeight.w600, height: 1.4))),
                     Icon(open ? Icons.expand_less_rounded : Icons.expand_more_rounded, color: AppColors.kx600, size: 18),
                   ],
                 ),
                 if (open) ...[
                   const SizedBox(height: 10),
-                  const Text(
-                    'Oui. Télécharge tes annales quand tu as du réseau. Tu peux ensuite composer, recevoir ta note et lire les explications sans réseau. Tes résultats sont envoyés automatiquement à la prochaine connexion.',
-                    style: TextStyle(fontSize: 11, color: AppColors.ink2, height: 1.6),
-                  ),
+                  Text(answer, style: const TextStyle(fontSize: 11, color: AppColors.ink2, height: 1.6)),
                 ],
               ],
             ),

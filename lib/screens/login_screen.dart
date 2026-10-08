@@ -100,6 +100,12 @@ class _LoginScreenState extends State<LoginScreen> {
                         (route) => false,
                       ),
                     ),
+                    const SizedBox(height: 12),
+                    AppButton(
+                      label: 'Créer un compte',
+                      variant: AppButtonVariant.outline,
+                      onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ExamLevelScreen())),
+                    ),
                     const SizedBox(height: 24),
                     Row(
                       children: [

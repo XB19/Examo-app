@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import '../theme/app_colors.dart';
 import '../widgets/app_card.dart';
-import '../widgets/buttons.dart';
 import '../widgets/chip_widgets.dart';
 import '../widgets/gradient_header.dart';
 import '../widgets/misc.dart';
 import '../widgets/section_header.dart';
+import 'exam_level_screen.dart';
 import 'login_screen.dart';
 import 'notifications_screen.dart';
 import 'offline_screen.dart';
 import 'progress_screen.dart';
+import 'subjects_screen.dart';
 import 'support_screen.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -21,6 +22,7 @@ class ProfileScreen extends StatefulWidget {
 
 class _ProfileScreenState extends State<ProfileScreen> {
   bool dailyReminder = true;
+  bool audioReadout = true;
 
   @override
   Widget build(BuildContext context) {
@@ -33,11 +35,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               borderRadius: const BorderRadius.vertical(bottom: Radius.circular(28)),
               child: Column(
                 children: [
-                  HeaderNavBar(
-                    title: 'Mon profil',
-                    showBack: false,
-                    actions: [CircleIconButton(icon: Icons.settings_outlined, ghost: true, onPressed: () {})],
-                  ),
+                  const HeaderNavBar(title: 'Mon profil', showBack: false),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 22),
                     child: Row(
@@ -105,9 +103,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   AppCard(
                     padding: const EdgeInsets.symmetric(horizontal: 14),
                     child: Column(children: [
-                      _row(Icons.school_outlined, 'Examen préparé', 'BEPC · session de juin 2027'),
+                      _row(Icons.school_outlined, 'Examen préparé', 'BEPC · session de juin 2027',
+                          onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ExamLevelScreen()))),
                       _divider(),
-                      _row(Icons.import_contacts_rounded, 'Mes matières', '6 matières suivies'),
+                      _row(Icons.import_contacts_rounded, 'Mes matières', '6 matières suivies',
+                          onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const SubjectsScreen()))),
                       _divider(),
                       _row(Icons.person_outline_rounded, 'Informations personnelles', 'Nom, classe, téléphone', last: true),
                     ]),
@@ -150,7 +150,19 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         ),
                       ),
                       _divider(),
-                      _row(Icons.record_voice_over_outlined, 'Lecture audio des explications', null),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 13),
+                        child: Row(
+                          children: [
+                            _iconBadge(Icons.record_voice_over_outlined),
+                            const SizedBox(width: 13),
+                            const Expanded(
+                              child: Text('Lecture audio des explications', style: TextStyle(fontSize: 12.5, fontWeight: FontWeight.w700)),
+                            ),
+                            Switch(value: audioReadout, activeTrackColor: AppColors.kx700, onChanged: (v) => setState(() => audioReadout = v)),
+                          ],
+                        ),
+                      ),
                       _divider(),
                       _row(Icons.support_agent_rounded, 'Aide et contact', null, last: true,
                           onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const SupportScreen()))),
@@ -236,7 +248,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ],
               ),
             ),
-            const Icon(Icons.chevron_right_rounded, color: Color(0xFFB8C4D8), size: 16),
+            if (onTap != null) const Icon(Icons.chevron_right_rounded, color: Color(0xFFB8C4D8), size: 16),
           ],
         ),
       ),

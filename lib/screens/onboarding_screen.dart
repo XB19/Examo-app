@@ -3,13 +3,18 @@ import '../theme/app_colors.dart';
 import '../widgets/buttons.dart';
 import '../widgets/examo_logo.dart';
 import '../widgets/header_decoration.dart';
+import 'exam_level_screen.dart';
 import 'login_screen.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
 
-  void _next(BuildContext context) {
+  void _goToLogin(BuildContext context) {
     Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => const LoginScreen()));
+  }
+
+  void _goToSignUp(BuildContext context) {
+    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => const ExamLevelScreen()));
   }
 
   @override
@@ -38,7 +43,7 @@ class OnboardingScreen extends StatelessWidget {
                             children: [
                               const ExamoBrand(iconSize: 23, fontSize: 19),
                               GestureDetector(
-                                onTap: () => _next(context),
+                                onTap: () => _goToLogin(context),
                                 child: Text('Passer',
                                     style: TextStyle(color: Colors.white.withValues(alpha: .72), fontSize: 13, fontWeight: FontWeight.w600)),
                               ),
@@ -79,15 +84,8 @@ class OnboardingScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Container(width: 22, height: 6, decoration: BoxDecoration(color: AppColors.kx700, borderRadius: BorderRadius.circular(99))),
-                      const SizedBox(width: 6),
-                      Container(width: 6, height: 6, decoration: BoxDecoration(color: AppColors.line, borderRadius: BorderRadius.circular(99))),
-                      const SizedBox(width: 6),
-                      Container(width: 6, height: 6, decoration: BoxDecoration(color: AppColors.line, borderRadius: BorderRadius.circular(99))),
-                    ],
+                  Center(
+                    child: Container(width: 34, height: 6, decoration: BoxDecoration(color: AppColors.kx700, borderRadius: BorderRadius.circular(99))),
                   ),
                   const SizedBox(height: 22),
                   const Text('Comprends\npourquoi tu t\'es trompé',
@@ -106,19 +104,26 @@ class OnboardingScreen extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 20),
-                  Row(
-                    children: [
-                      SizedBox(width: 118, child: AppButton(label: 'Retour', variant: AppButtonVariant.outline, onPressed: () {})),
-                      const SizedBox(width: 12),
-                      Expanded(
-                        child: AppButton(
-                          label: 'Continuer',
-                          icon: Icons.arrow_forward_rounded,
-                          iconTrailing: true,
-                          onPressed: () => _next(context),
+                  AppButton(
+                    label: 'Créer mon compte',
+                    icon: Icons.arrow_forward_rounded,
+                    iconTrailing: true,
+                    onPressed: () => _goToSignUp(context),
+                  ),
+                  const SizedBox(height: 14),
+                  Center(
+                    child: GestureDetector(
+                      onTap: () => _goToLogin(context),
+                      child: RichText(
+                        text: TextSpan(
+                          style: const TextStyle(fontSize: 13, color: AppColors.ink2, fontWeight: FontWeight.w600),
+                          children: [
+                            const TextSpan(text: 'J\'ai déjà un compte ? '),
+                            TextSpan(text: 'Se connecter', style: const TextStyle(color: AppColors.kx700, fontWeight: FontWeight.w800)),
+                          ],
                         ),
                       ),
-                    ],
+                    ),
                   ),
                 ],
               ),
