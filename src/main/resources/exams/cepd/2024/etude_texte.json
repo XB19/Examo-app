@@ -1,0 +1,192 @@
+{
+  "level": "CEPD",
+  "year": 2024,
+  "month": "JUIN",
+  "subject": "ETUDE_TEXTE",
+  "title": "ETUDE DE TEXTE",
+  "durationMinutes": 75,
+  "reviewNotes": "Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "TEXT",
+      "title": "<u>TEXTE</u> : J’aime mon livre",
+      "text": "Mon livre est mon meilleur ami. Il me raconte des histoires et me donne des conseils pour la vie. Mon livre m’enseigne aussi toutes les leçons comme mon maître. Il est un ami sincère qui m’empêche de me promener partout. Avec lui, je sais lire, écrire et parler.\nChaque soir, avant d’aller au lit, je le visite et parfois, il me fait chanter ou dire des poèmes. A travers lui, aucune expression ou aucun mot ne me manque. Ah ! Quelle source incroyable et inépuisable de connaissances !\nToi aussi, trouve-toi un livre. Si tu aimes le lire chaque jour, il sera ton ami et ton guide pour la vie. Il t’aidera à abandonner les petites amitiés du quartier qui sont des sources de problèmes. Les mauvaises compagnies destructives de ta vie seront loin de toi. Aimons nos livres."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "section": "I. <u>J’UTILISE LES MOTS NOUVEAUX</u> (6pts)",
+      "stem": "1. Explique :",
+      "label": "a)",
+      "passage": "p1",
+      "prompt": "Aller au lit.",
+      "points": 0.75,
+      "type": "SHORT_TEXT",
+      "answer": "Aller au lit : aller se coucher, aller dormir.",
+      "grading": "0,75 pt pour « aller se coucher / dormir »."
+    },
+    {
+      "id": "q2",
+      "section": "I. <u>J’UTILISE LES MOTS NOUVEAUX</u> (6pts)",
+      "stem": "1. Explique :",
+      "label": "b)",
+      "passage": "p1",
+      "prompt": "Inépuisable (source inépuisable).",
+      "points": 0.75,
+      "type": "SHORT_TEXT",
+      "answer": "Inépuisable : qui ne finit jamais, qu’on ne peut pas épuiser. Une source inépuisable de connaissances ne s’arrête jamais de nous apprendre des choses.",
+      "grading": "0,75 pt pour l’idée « qui ne s’épuise pas, qui ne finit jamais »."
+    },
+    {
+      "id": "q3",
+      "section": "I. <u>J’UTILISE LES MOTS NOUVEAUX</u> (6pts)",
+      "stem": "2. Donne le contraire de :",
+      "label": "a)",
+      "passage": "p1",
+      "prompt": "Ami.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Ennemi.",
+      "grading": "1 pt pour « ennemi »."
+    },
+    {
+      "id": "q4",
+      "section": "I. <u>J’UTILISE LES MOTS NOUVEAUX</u> (6pts)",
+      "stem": "2. Donne le contraire de :",
+      "label": "b)",
+      "passage": "p1",
+      "prompt": "Inépuisable.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Épuisable (ou : limité, qui finit).",
+      "grading": "1 pt pour « épuisable » ; accepter « limité »."
+    },
+    {
+      "id": "q5",
+      "section": "I. <u>J’UTILISE LES MOTS NOUVEAUX</u> (6pts)",
+      "label": "3. a)",
+      "passage": "p1",
+      "prompt": "Trouve le radical, le préfixe et le suffixe dans le mot \"inépuisable\" ?",
+      "points": 1.5,
+      "type": "SHORT_TEXT",
+      "answer": "Préfixe : in- ; radical : épuis- (du verbe épuiser) ; suffixe : -able.",
+      "grading": "0,5 pt par élément juste."
+    },
+    {
+      "id": "q6",
+      "section": "I. <u>J’UTILISE LES MOTS NOUVEAUX</u> (6pts)",
+      "label": "b.",
+      "passage": "p1",
+      "prompt": "Trouve un adjectif formé de la même manière que \"inépuisable\".",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : incroyable, inoubliable, incassable, inévitable, imbuvable.",
+      "grading": "1 pt pour un adjectif formé de in- (ou im-) + radical + -able."
+    },
+    {
+      "id": "q7",
+      "section": "II. <u>JE MANIPULE LES PHRASES</u> (GRAMMAIRE-CONJUGAISON) (8pts)",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "« Il me raconte des histoires ». Donne la structure de cette phrase.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Il : sujet (pronom personnel).\nme raconte des histoires : groupe verbal, avec le verbe « raconte », le complément d’objet second « me » et le complément d’objet direct « des histoires ».\nStructure : Sujet + Verbe + COS + COD.",
+      "grading": "2 pts si la structure est juste (sujet + GV, ou sujet + verbe + COS + COD) ; 1 pt si elle est incomplète."
+    },
+    {
+      "id": "q8",
+      "section": "II. <u>JE MANIPULE LES PHRASES</u> (GRAMMAIRE-CONJUGAISON) (8pts)",
+      "stem": "2. « Avec lui, je sais lire, écrire et parler ».",
+      "label": "a)",
+      "passage": "p1",
+      "prompt": "Donne l’infinitif et le temps du verbe conjugué dans cette phrase.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Le verbe conjugué est « sais » : infinitif savoir, temps : présent de l’indicatif.",
+      "grading": "0,5 pt pour « savoir » ; 0,5 pt pour le présent."
+    },
+    {
+      "id": "q9",
+      "section": "II. <u>JE MANIPULE LES PHRASES</u> (GRAMMAIRE-CONJUGAISON) (8pts)",
+      "stem": "2. « Avec lui, je sais lire, écrire et parler ».",
+      "label": "b)",
+      "passage": "p1",
+      "prompt": "Mets cette phrase au futur simple et au passé composé de l’indicatif.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Futur simple : Avec lui, je saurai lire, écrire et parler.\nPassé composé : Avec lui, j’ai su lire, écrire et parler.",
+      "grading": "1 pt par temps juste."
+    },
+    {
+      "id": "q10",
+      "section": "II. <u>JE MANIPULE LES PHRASES</u> (GRAMMAIRE-CONJUGAISON) (8pts)",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "« Chaque soir, avant d’aller au lit, je le visite ». Réécris cette phrase de deux manières différentes en gardant les mêmes mots et le même sens.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Je le visite chaque soir, avant d’aller au lit.\nAvant d’aller au lit, chaque soir, je le visite.",
+      "grading": "1 pt par phrase juste (mêmes mots, même sens)."
+    },
+    {
+      "id": "q11",
+      "section": "II. <u>JE MANIPULE LES PHRASES</u> (GRAMMAIRE-CONJUGAISON) (8pts)",
+      "stem": "4. « Si tu aimes <u>le</u> lire chaque jour, il sera ton ami et ton guide pour la vie. »",
+      "label": "a)",
+      "passage": "p1",
+      "prompt": "Donne la nature et la fonction du mot souligné dans cette phrase.",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "« le » est un pronom personnel ; il est complément d’objet direct du verbe « lire » (il remplace « ton livre »).",
+      "grading": "0,25 pt pour la nature (pronom personnel) ; 0,25 pt pour la fonction (COD de « lire »)."
+    },
+    {
+      "id": "q12",
+      "section": "II. <u>JE MANIPULE LES PHRASES</u> (GRAMMAIRE-CONJUGAISON) (8pts)",
+      "stem": "4. « Si tu aimes <u>le</u> lire chaque jour, il sera ton ami et ton guide pour la vie. »",
+      "label": "b)",
+      "passage": "p1",
+      "prompt": "Réécris cette phrase en remplaçant le mot souligné par le groupe nominal (GN) convenable.",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Si tu aimes lire ton livre chaque jour, il sera ton ami et ton guide pour la vie.",
+      "grading": "0,5 pt si « le » est remplacé par un GN convenable (ton livre, ce livre, le livre)."
+    },
+    {
+      "id": "q13",
+      "section": "III. <u>COMPREHENSION DU TEXTE</u> (6pts)",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Quel autre titre peux-tu donner à ce texte ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : « Le livre, mon meilleur ami », « Le livre, un ami précieux », « L’importance de la lecture ».",
+      "grading": "1 pt pour un titre en rapport avec l’idée du texte (le livre est un ami utile)."
+    },
+    {
+      "id": "q14",
+      "section": "III. <u>COMPREHENSION DU TEXTE</u> (6pts)",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "Relève dans le texte deux utilités du livre.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : il raconte des histoires et donne des conseils pour la vie ; il enseigne toutes les leçons ; il apprend à lire, écrire et parler ; il éloigne des mauvaises compagnies.",
+      "grading": "1 pt par utilité relevée dans le texte."
+    },
+    {
+      "id": "q15",
+      "section": "III. <u>COMPREHENSION DU TEXTE</u> (6pts)",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "Quelle leçon peux-tu tirer de ce texte.",
+      "points": 3,
+      "type": "SHORT_TEXT",
+      "answer": "Il faut aimer les livres et lire chaque jour : la lecture nous instruit, nous apprend à bien parler et à bien écrire, et nous éloigne des mauvaises compagnies.",
+      "grading": "3 pts pour une leçon complète et bien exprimée ; 1 ou 2 pts si l’idée est juste mais incomplète."
+    }
+  ]
+}

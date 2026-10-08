@@ -1,0 +1,88 @@
+{
+  "level": "CEPD",
+  "year": 2021,
+  "month": "JUIN",
+  "subject": "EDUSIVIP",
+  "title": "EDUSIVIP(Sciences et Technologies).",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Donne deux (2) exemples d’outils-leviers.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : les ciseaux, la pince, les tenailles, la brouette, le pied-de-biche, le décapsuleur, la balançoire.",
+      "grading": "0,5 pt par outil-levier juste."
+    },
+    {
+      "id": "q2",
+      "stem": "2. Quelle est la couleur du sang :",
+      "label": "a.",
+      "prompt": "A l’entrée des poumons ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Rouge sombre (rouge foncé) : il est pauvre en oxygène et chargé de gaz carbonique.",
+      "grading": "0,5 pt pour rouge sombre / foncé."
+    },
+    {
+      "id": "q3",
+      "stem": "2. Quelle est la couleur du sang :",
+      "label": "b.",
+      "prompt": "A la sortie des poumons ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Rouge vif (rouge clair) : il s’est chargé d’oxygène.",
+      "grading": "0,5 pt pour rouge vif / clair."
+    },
+    {
+      "id": "q4",
+      "label": "3.",
+      "prompt": "Cite deux moyens de conservation des aliments.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Le séchage, le fumage, le salage, la réfrigération (au réfrigérateur), la congélation, la mise en conserve, le sucrage (confitures).",
+      "grading": "0,5 pt par moyen juste."
+    },
+    {
+      "id": "q5",
+      "label": "4.",
+      "prompt": "Tu as semé des grains de maïs depuis deux semaines mais elles ne germent pas. Donne deux causes de cette non germination des grains.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Les grains étaient mauvais (abîmés, trop vieux, mangés par des insectes) ; le sol manquait d’eau ou était trop mouillé ; les grains ont été semés trop profond ; il faisait trop froid ou il manquait d’air.",
+      "grading": "0,5 pt par cause valable."
+    },
+    {
+      "id": "q6",
+      "label": "5.",
+      "prompt": "Dessine la coupe longitudinale d’un os long et mets les différentes parties.",
+      "points": 3,
+      "type": "PHOTO",
+      "answer": "Le schéma montre l’os coupé dans sa longueur, avec ces annotations : épiphyses (les deux extrémités renflées), diaphyse (la partie centrale), cartilage articulaire, os spongieux (dans les épiphyses), os compact, canal médullaire avec la moelle jaune, moelle rouge, périoste.",
+      "grading": "1 pt pour le dessin (forme allongée, deux extrémités renflées, canal central) ; 2 pts pour les annotations (0,25 pt par partie juste, au maximum 2 pts)."
+    },
+    {
+      "id": "q7",
+      "label": "6.",
+      "prompt": "Complète le tableau en indiquant pour chaque type d’hygiène deux maladies qu’elle permet d’éviter.",
+      "points": 3,
+      "type": "TABLE",
+      "table": {
+        "header": ["", "Hygiène alimentaire", "Hygiène corporelle et vestimentaire", "Hygiène du milieu"],
+        "rows": [
+          ["Maladies évitées", null, null, null],
+          ["", null, null, null]
+        ]
+      },
+      "tableAnswer": [
+        ["Maladies évitées", "le choléra", "la gale", "le paludisme"],
+        ["", "la fièvre typhoïde", "la teigne", "la diarrhée"]
+      ],
+      "answer": "Hygiène alimentaire : le choléra, la fièvre typhoïde (aussi : la diarrhée, la dysenterie, les vers intestinaux).\nHygiène corporelle et vestimentaire : la gale, la teigne (aussi : les poux, les mycoses, la conjonctivite).\nHygiène du milieu : le paludisme, la diarrhée (aussi : le choléra, la fièvre typhoïde).",
+      "grading": "0,5 pt par case juste (six cases). Accepter toute maladie que ce type d’hygiène permet vraiment d’éviter."
+    }
+  ]
+}

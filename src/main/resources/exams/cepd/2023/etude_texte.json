@@ -1,0 +1,129 @@
+{
+  "level": "CEPD",
+  "year": 2023,
+  "month": "JUIN",
+  "subject": "ETUDE_TEXTE",
+  "title": "ETUDE DE TEXTE",
+  "durationMinutes": 75,
+  "reviewNotes": "Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "TEXT",
+      "title": "<u>TEXTE</u> : Le Togo propre",
+      "text": "La propreté est une arme pour notre santé et notre richesse. Elle diminue nos dépenses en nous évitant beaucoup de maladies. C’est pourquoi, en bons citoyens, nous devons entretenir nos maisons, nos écoles, nos villages, nos villes et nos lieux de travail. Pour accompagner les citoyens, le gouvernement togolais a initié le \"TOGO PROPRE\" chaque premier samedi du mois.\nLa propreté donne du respect à nous-mêmes et à notre pays. Elle attire les étrangers et les devises. Le Togo est notre maison commune, nous devons le garder toujours propre et attrayant. Pour son développement, le Togo a besoin des enfants, des femmes et des hommes sains de corps et d’esprit."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "section": "I. <u>J’utilise les mots nouveaux</u> : (6pts)",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Explique : nous devons <u>entretenir</u> nos maisons ; elle <u>attire</u> les étrangers.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Entretenir nos maisons : les garder propres et en bon état (les nettoyer, les réparer).\nElle attire les étrangers : elle fait venir les étrangers, elle leur donne envie de venir.",
+      "grading": "1 pt par explication juste."
+    },
+    {
+      "id": "q2",
+      "section": "I. <u>J’utilise les mots nouveaux</u> : (6pts)",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "Trouve deux mots de la même famille pour chacun des mots suivants : riche ; école.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Riche : richesse, enrichir, richement, enrichissement.\nÉcole : écolier, écolière, scolaire, scolarité.",
+      "grading": "0,5 pt par mot juste (deux mots pour chacun)."
+    },
+    {
+      "id": "q3",
+      "section": "I. <u>J’utilise les mots nouveaux</u> : (6pts)",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "Donne un homonyme du mot \"sain\" et emploie-le dans une phrase.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Homonymes : saint, sein, seing, cinq (prononcé « sin » devant une consonne).\nExemple : Saint Pierre est un saint de l’Église.",
+      "grading": "1 pt pour un homonyme juste ; 1 pt pour une phrase correcte où il est bien employé."
+    },
+    {
+      "id": "q4",
+      "section": "II. <u>Je manipule les phrases 1et 2</u> : (8pts)",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "« Elle attire les étrangers ». Remplace les étrangers par le pronom personnel qui convient.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Elle les attire.",
+      "grading": "1 pt pour « Elle les attire »."
+    },
+    {
+      "id": "q5",
+      "section": "II. <u>Je manipule les phrases 1et 2</u> : (8pts)",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "« La propreté donne du respect à nous-mêmes et à notre pays ». Mets cette phrase aux autres temps simples de l’indicatif.",
+      "points": 3,
+      "type": "SHORT_TEXT",
+      "answer": "Imparfait : La propreté donnait du respect à nous-mêmes et à notre pays.\nPassé simple : La propreté donna du respect à nous-mêmes et à notre pays.\nFutur simple : La propreté donnera du respect à nous-mêmes et à notre pays.",
+      "grading": "1 pt par temps juste (imparfait, passé simple, futur simple)."
+    },
+    {
+      "id": "q6",
+      "section": "II. <u>Je manipule les phrases 1et 2</u> : (8pts)",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "La propreté est une arme pour notre santé et notre richesse. Mets cette phrase à la forme interrogative de deux manières différentes.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Est-ce que la propreté est une arme pour notre santé et notre richesse ?\nLa propreté est-elle une arme pour notre santé et notre richesse ?",
+      "grading": "1 pt par forme interrogative juste. Accepter aussi l’intonation (« La propreté est une arme… ? »)."
+    },
+    {
+      "id": "q7",
+      "section": "II. <u>Je manipule les phrases 1et 2</u> : (8pts)",
+      "label": "4.",
+      "passage": "p1",
+      "prompt": "Elle attire les étrangers et les devises. Donne la structure de cette phrase.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Elle : sujet (pronom personnel).\nattire les étrangers et les devises : groupe verbal, avec le verbe « attire » et ses compléments d’objet direct « les étrangers et les devises ».\nStructure : Sujet + Verbe + COD.",
+      "grading": "2 pts pour la structure juste (sujet + verbe + COD, ou GNS + GV) ; 1 pt si elle est incomplète."
+    },
+    {
+      "id": "q8",
+      "section": "III. <u>Je comprends un texte</u> : (6pts)",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Que dois-tu faire pour être en bonne santé ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Je dois être propre et garder propre mon environnement : entretenir ma maison, mon école, mon village et ma ville ; je dois aussi me laver et laver les aliments.",
+      "grading": "2 pts pour l’idée de propreté de soi et de son milieu ; 1 pt si la réponse est incomplète."
+    },
+    {
+      "id": "q9",
+      "section": "III. <u>Je comprends un texte</u> : (6pts)",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "Qu’est-ce que le gouvernement togolais a fait pour accompagner les citoyens à maintenir le Togo toujours propre ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Le gouvernement togolais a initié le « TOGO PROPRE » chaque premier samedi du mois.",
+      "grading": "1 pt pour « Togo propre » ; 1 pt pour « chaque premier samedi du mois »."
+    },
+    {
+      "id": "q10",
+      "section": "III. <u>Je comprends un texte</u> : (6pts)",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "Dis en quatre phrases comment tu organises la propreté dans ta classe.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : Chaque matin, une équipe balaie la classe avant l’arrivée du maître. Nous jetons les papiers dans la poubelle. Nous essuyons le tableau et les tables. Chaque vendredi, toute la classe nettoie la cour.",
+      "grading": "0,5 pt par phrase correcte et en rapport avec la propreté de la classe (quatre attendues)."
+    }
+  ]
+}

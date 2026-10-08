@@ -1,0 +1,83 @@
+{
+  "level": "CEPD",
+  "year": 2022,
+  "month": "JUIN",
+  "subject": "SCIENCES_TECHNO",
+  "title": "SCIENCES ET TECHNOLOGIES",
+  "durationMinutes": 30,
+  "reviewNotes": "Session « CEPD MAI – JUIN 2022 ». Sujet imprimé deux fois sur la page : retranscrit une seule fois. À la question 2, la liste des renseignements devient un tableau où l’élève écrit l’instrument en face de chaque renseignement. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Après la leçon sur la digestion, tu veux confirmer à ton papa que tu as bien compris ta leçon. Ordonne les organes suivants (lieux) dans l’ordre de passage des aliments dans le tube digestif de l’homme : estomac, intestin grêle, bouche, anus, gros intestin, œsophage.",
+      "points": 1.5,
+      "type": "SHORT_TEXT",
+      "answer": "Bouche → œsophage → estomac → intestin grêle → gros intestin → anus.",
+      "grading": "1,5 pt si l’ordre est entièrement juste ; retirer 0,25 pt par organe mal placé."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "prompt": "La station météorologique d’une localité a envoyé les renseignements suivants :\nPour confirmer à ton maître que tu as assimilé le cours, on te demande de préciser pour chaque renseignement, l’instrument ou l’appareil de mesure.",
+      "points": 2,
+      "type": "TABLE",
+      "table": {
+        "header": ["Renseignement", "Instrument ou appareil de mesure"],
+        "rows": [
+          ["Température : 38°C", null],
+          ["Direction du vent : du sud vers le nord", null],
+          ["Quantité de pluie tombée ; 50ml", null],
+          ["Vitesse du vent : 60km/h", null]
+        ]
+      },
+      "tableAnswer": [
+        ["Température : 38°C", "le thermomètre"],
+        ["Direction du vent : du sud vers le nord", "la girouette"],
+        ["Quantité de pluie tombée ; 50ml", "le pluviomètre"],
+        ["Vitesse du vent : 60km/h", "l’anémomètre"]
+      ],
+      "answer": "Température : le thermomètre.\nDirection du vent : la girouette.\nQuantité de pluie tombée : le pluviomètre.\nVitesse du vent : l’anémomètre.",
+      "grading": "0,5 pt par instrument juste."
+    },
+    {
+      "id": "q3",
+      "stem": "3. Prouve à ta sœur qui vient d’accoucher un joli bébé que tu as bien maîtrisé la leçon sur les différents types d’allaitement en répondant aux questions suivantes :",
+      "label": "a.",
+      "prompt": "Quel est le meilleur allaitement ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "L’allaitement maternel (au sein).",
+      "grading": "1 pt pour l’allaitement maternel."
+    },
+    {
+      "id": "q4",
+      "stem": "3. Prouve à ta sœur qui vient d’accoucher un joli bébé que tu as bien maîtrisé la leçon sur les différents types d’allaitement en répondant aux questions suivantes :",
+      "label": "b.",
+      "prompt": "Donne trois raisons pour justifier ta réponse.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Le lait maternel est complet (il contient tout ce dont le bébé a besoin) ; il est propre et toujours à la bonne température ; il protège le bébé contre les maladies ; il est gratuit ; il renforce le lien entre la mère et l’enfant.",
+      "grading": "Environ 0,33 pt par raison valable (trois attendues) : 1 pt pour trois raisons, 0,75 pt pour deux, 0,25 pt pour une."
+    },
+    {
+      "id": "q5",
+      "label": "4.",
+      "prompt": "Les villageois d’un petit village boivent une eau non potable. Montre leurs deux techniques simples pour rendre cette eau potable.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Faire bouillir l’eau puis la laisser refroidir dans un récipient propre et couvert ; filtrer l’eau (avec un filtre ou un linge propre) ; mettre quelques gouttes d’eau de Javel ou un comprimé de chlore (Aquatabs) et attendre avant de boire.",
+      "grading": "1 pt par technique valable."
+    },
+    {
+      "id": "q6",
+      "label": "5.",
+      "prompt": "Fais le croquis annoté de la coupe d’une dent saine.",
+      "points": 2.5,
+      "type": "PHOTO",
+      "answer": "Annotations attendues : la couronne, le collet et la racine ; l’émail, l’ivoire (la dentine), la pulpe dentaire (avec les vaisseaux sanguins et le nerf), le cément, la gencive et l’os de la mâchoire.",
+      "grading": "1 pt pour le croquis (forme de la dent avec couronne et racine) ; 1,5 pt pour les annotations (au moins 5 justes)."
+    }
+  ]
+}

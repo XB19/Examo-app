@@ -1,0 +1,68 @@
+{
+  "level": "CEPD",
+  "year": 2023,
+  "month": "JUIN",
+  "subject": "CALCUL_ECRIT",
+  "title": "EXERCICES DE CALCUL ECRIT",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé trois fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Ton ami a des difficultés à effectuer l’opération suivante : 9h 30min 40s – 3h 40min 55s Pose et effectue l’opération.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "On ne peut pas retirer 55 s de 40 s : on emprunte 1 min = 60 s. 9 h 30 min 40 s = 9 h 29 min 100 s.\nOn ne peut pas retirer 40 min de 29 min : on emprunte 1 h = 60 min. 9 h 29 min 100 s = 8 h 89 min 100 s.\n8 h 89 min 100 s − 3 h 40 min 55 s = 5 h 49 min 45 s.",
+      "grading": "1 pt pour la conversion des secondes ; 1 pt pour la conversion des minutes ; 2 pts pour le résultat 5 h 49 min 45 s."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "prompt": "Tu paies les 4/5 de ta dette et il te reste 2500 F à payer. Calcule le montant de ta dette.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Il reste 5/5 − 4/5 = 1/5 de la dette, soit 2 500 F.\nDette : 2 500 F × 5 = 12 500 F.",
+      "grading": "2 pts pour la fraction restante (1/5) ; 2 pts pour 12 500 F."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "prompt": "Une personne emprunte dans une banque une somme de 120 000 F au taux de 10%. Quelle somme versera -t-elle au bout d’un an à la banque (intérêt et capital réunis) ?",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Intérêt : 120 000 F × 10 ÷ 100 = 12 000 F.\nSomme à verser : 120 000 F + 12 000 F = 132 000 F.",
+      "grading": "2 pts pour l’intérêt (12 000 F) ; 2 pts pour 132 000 F."
+    },
+    {
+      "id": "q4",
+      "stem": "4. Un coin de la clôture de votre maison forme un angle de 80°.",
+      "label": "a)",
+      "prompt": "Trace cet angle.",
+      "points": 2,
+      "type": "PHOTO",
+      "answer": "Trace une demi-droite, place le centre du rapporteur sur son origine, marque 80° et trace la deuxième demi-droite : l’angle mesure 80° (il est aigu, plus petit qu’un angle droit).",
+      "grading": "2 pts pour un angle de 80° tracé au rapporteur (tolérance de quelques degrés) ; 1 pt si l’angle est aigu mais mal mesuré."
+    },
+    {
+      "id": "q5",
+      "stem": "4. Un coin de la clôture de votre maison forme un angle de 80°.",
+      "label": "b)",
+      "prompt": "Trace sa bissectrice.",
+      "points": 2,
+      "type": "PHOTO",
+      "answer": "La bissectrice partage l’angle en deux angles égaux de 40° : trace la demi-droite qui part du sommet et passe à 40° de chaque côté (au rapporteur ou au compas).",
+      "grading": "2 pts pour la bissectrice qui coupe l’angle en deux angles égaux de 40°."
+    },
+    {
+      "id": "q6",
+      "label": "5.",
+      "prompt": "Ton père veut acheter un terrain rectangulaire qui coute 8 000 F le m². Si le terrain a 60 m de long et 40 m de large, quelle somme ton père doit-il débourser pour acquérir ce terrain ?",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Aire du terrain : 60 m × 40 m = 2 400 m².\nPrix : 8 000 F × 2 400 = 19 200 000 F.",
+      "grading": "2 pts pour l’aire (2 400 m²) ; 2 pts pour le prix (19 200 000 F)."
+    }
+  ]
+}

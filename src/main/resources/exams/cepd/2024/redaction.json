@@ -1,0 +1,20 @@
+{
+  "level": "CEPD",
+  "year": 2024,
+  "month": "JUIN",
+  "subject": "REDACTION",
+  "title": "REDACTION",
+  "durationMinutes": 60,
+  "reviewNotes": "Sujet imprimé quatre fois sur la page : retranscrit une seule fois. Barème non imprimé : 20 points (hypothèse à valider par un enseignant).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Sujet : Hier était le premier jour du déroulement de la phase écrite de l’examen du CEPD. Raconte d’une manière vivante ce qui s’est passé dans votre centre d’écrit.\nN’oublie pas de faire part de tes impressions et sentiments.",
+      "points": 20,
+      "type": "LONG_TEXT",
+      "answer": "Il n’y a pas une seule bonne réponse. Une bonne rédaction comporte :\n– une introduction : le jour, le lieu (le centre d’écrit) et ton état d’esprit au réveil ;\n– un développement vivant, dans l’ordre : l’arrivée au centre, l’appel, l’installation dans la salle, la distribution des sujets, les épreuves de la journée, avec des détails, des paroles rapportées et tes impressions (peur, stress, joie, soulagement) ;\n– une conclusion : la fin de la journée et tes sentiments (espoir de réussir, fierté).\nExemple de début : « Hier, je me suis réveillé très tôt, le cœur battant : c’était le premier jour de l’examen du CEPD… »",
+      "grading": "Sur 20 : respect du sujet (récit du premier jour au centre d’écrit) 5 pts ; impressions et sentiments exprimés 3 pts ; récit vivant et ordonné (introduction, développement, conclusion) 4 pts ; richesse des idées 2 pts ; expression et vocabulaire 3 pts ; orthographe et grammaire 2 pts ; présentation 1 pt."
+    }
+  ]
+}

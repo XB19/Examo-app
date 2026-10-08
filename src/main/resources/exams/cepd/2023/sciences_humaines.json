@@ -1,0 +1,102 @@
+{
+  "level": "CEPD",
+  "year": 2023,
+  "month": "JUIN",
+  "subject": "SCIENCES_HUMAINES",
+  "title": "SCIENCES HUMAINES",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant (Na Biéma Bonsafo et la ligne de l’équateur en particulier).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Ton père a relevé dans ton cahier les deux noms suivants : Jean GUTEMBERG ; Na Biéma Bonsafo. Qui sont-ils ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Jean Gutenberg : l’inventeur de l’imprimerie, au 15e siècle (vers 1450).\nNa Biéma Bonsafo : une reine de Sansanné-Mango, qui a résisté à la colonisation allemande au nord du Togo.",
+      "grading": "1 pt par personnage correctement identifié."
+    },
+    {
+      "id": "q2",
+      "stem": "2. Depuis le CE1, tu as appris qu’une ligne imaginaire divise la terre en deux et elle passe par l’Afrique.",
+      "label": "a)",
+      "prompt": "Donne le nom de cette ligne.",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "L’équateur.",
+      "grading": "0,5 pt pour l’équateur."
+    },
+    {
+      "id": "q3",
+      "stem": "2. Depuis le CE1, tu as appris qu’une ligne imaginaire divise la terre en deux et elle passe par l’Afrique.",
+      "label": "b)",
+      "prompt": "Cette ligne traverse le Togo. Vrai ou faux ?",
+      "points": 0.5,
+      "type": "CHOICE",
+      "options": ["Vrai", "Faux"],
+      "correctOption": 1,
+      "answer": "Faux : l’équateur passe au sud du Togo (le Togo est entièrement situé au nord de l’équateur)."
+    },
+    {
+      "id": "q4",
+      "stem": "3. Voici quelques dates de l’histoire du Togo : 20 septembre 1960 ; 27 avril 1960 ; 27 août 1914 ; 30 août 1956.\nRelève celles des événements ci-dessous :",
+      "label": "-",
+      "prompt": "Admission du Togo à l’ONU",
+      "points": 1,
+      "type": "CHOICE",
+      "options": ["20 septembre 1960", "27 avril 1960", "27 août 1914", "30 août 1956"],
+      "correctOption": 0,
+      "answer": "Admission du Togo à l’ONU : 20 septembre 1960."
+    },
+    {
+      "id": "q5",
+      "stem": "3. Voici quelques dates de l’histoire du Togo : 20 septembre 1960 ; 27 avril 1960 ; 27 août 1914 ; 30 août 1956.\nRelève celles des événements ci-dessous :",
+      "label": "-",
+      "prompt": "Indépendance du Togo",
+      "points": 1,
+      "type": "CHOICE",
+      "options": ["20 septembre 1960", "27 avril 1960", "27 août 1914", "30 août 1956"],
+      "correctOption": 1,
+      "answer": "Indépendance du Togo : 27 avril 1960."
+    },
+    {
+      "id": "q6",
+      "stem": "4. Parmi les inventions du 15è siècle :",
+      "label": "a)",
+      "prompt": "Laquelle a permis le développement de l’école ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "L’imprimerie.",
+      "grading": "0,5 pt pour l’imprimerie."
+    },
+    {
+      "id": "q7",
+      "stem": "4. Parmi les inventions du 15è siècle :",
+      "label": "b)",
+      "prompt": "Laquelle a permis de voyager sur la mer ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "La boussole (avec la caravelle, un bateau capable de voyager loin en mer).",
+      "grading": "0,5 pt pour la boussole ou la caravelle."
+    },
+    {
+      "id": "q8",
+      "label": "5.",
+      "prompt": "Cite deux fleuves qui ont donné leur nom à des préfectures du Togo. Donne le chef- lieu de chacune des préfectures citées. (0,25 x 4) = 1pt",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : Zio (Tsévié), Haho (Notsè), Ogou (Atakpamé), Amou (Amlamé), Oti (Mango), Kéran (Kandé), Anié (Anié), Moyen-Mono (Tohoun), Bas-Mono (Afagnan).",
+      "grading": "0,25 pt par fleuve et 0,25 pt par chef-lieu (deux exemples)."
+    },
+    {
+      "id": "q9",
+      "label": "6.",
+      "prompt": "Lors d’une excursion, les élèves d’une école ont visité les villes suivantes du Togo : Kpalimé, Cinkansé et Aného. Sur une carte du Togo, trace les routes principales qui relient Lomé à ces différentes villes du Togo. Localise aussi, sur la même carte, l’harmattan et la mousson.",
+      "points": 3,
+      "type": "PHOTO",
+      "answer": "Sur la carte du Togo : Lomé au sud, au bord de la mer ; la route Lomé – Kpalimé vers le nord-ouest ; la route Lomé – Aného vers l’est, le long de la côte ; la grande route nationale qui traverse tout le pays du sud au nord jusqu’à Cinkansé, à la frontière du Burkina Faso. L’harmattan est une flèche qui vient du nord-est ; la mousson est une flèche qui vient du sud-ouest, de la mer.",
+      "grading": "0,5 pt pour la carte ; 0,5 pt par route juste (3 routes) ; 0,5 pt par vent bien placé (harmattan et mousson)."
+    }
+  ]
+}

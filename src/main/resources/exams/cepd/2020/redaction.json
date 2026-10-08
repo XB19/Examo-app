@@ -1,0 +1,20 @@
+{
+  "level": "CEPD",
+  "year": 2020,
+  "month": "AOUT",
+  "subject": "REDACTION",
+  "title": "REDACTION",
+  "durationMinutes": 60,
+  "reviewNotes": "Session « CEPD - AOÛT 2020 ». Sujet imprimé deux fois sur la page : retranscrit une seule fois. Barème non imprimé : 20 points (hypothèse à valider par un enseignant).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "<u>Sujet</u>\nTu as écouté à la radio, à la télévision ou dans ton milieu la sensibilisation pour éviter le coronavirus qui a fait déjà des milliers de morts.\nDis ce que tu as entendu et ce que tu fais pour éviter cette maladie.",
+      "points": 20,
+      "type": "LONG_TEXT",
+      "answer": "Il n’y a pas une seule bonne réponse. Une bonne rédaction comporte :\n– une introduction : la maladie du coronavirus et la sensibilisation entendue (radio, télévision, quartier) ;\n– un développement en deux parties : ce que tu as entendu (la maladie est dangereuse, elle se transmet par la toux, les mains, le contact ; les gestes barrières) puis ce que tu fais (porter le cache-nez, se laver les mains au savon, garder ses distances, éviter les rassemblements, conseiller sa famille) ;\n– une conclusion : ton engagement et un conseil à tous.\nExemple de début : « Depuis quelques mois, on ne parle que du coronavirus. Hier soir encore, à la radio, une infirmière expliquait comment éviter cette terrible maladie… »",
+      "grading": "Sur 20 : respect du sujet (ce que l’élève a entendu et ce qu’il fait) 6 pts ; plan (introduction, développement, conclusion) 4 pts ; richesse et justesse des idées 3 pts ; expression et vocabulaire 3 pts ; orthographe et grammaire 3 pts ; présentation 1 pt."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "level": "CEPD",
+  "year": 2023,
+  "month": "JUIN",
+  "subject": "PRODUCTION_TEXTE",
+  "title": "JE PRODUIS UN TEXTE",
+  "durationMinutes": 60,
+  "reviewNotes": "Sujet imprimé cinq fois sur la page : retranscrit une seule fois. Barème non imprimé : 20 points (hypothèse à valider par un enseignant).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "C’est la sortie des classes. Le ciel s’assombrit. La pluie menace. Raconte.",
+      "points": 20,
+      "type": "LONG_TEXT",
+      "answer": "Il n’y a pas une seule bonne réponse. Une bonne production comporte :\n– une introduction : la fin des cours, le ciel qui devient sombre, le vent qui se lève ;\n– un développement vivant : la réaction des élèves (course, cris, abri), le chemin du retour, l’arrivée de la pluie, ce que tu as fait, vu et ressenti (peur, amusement) ;\n– une conclusion : l’arrivée à la maison et la fin de l’aventure.\nExemple de début : « La cloche venait de sonner la fin des cours. Dehors, le ciel était devenu tout noir et un vent frais soulevait la poussière de la cour… »",
+      "grading": "Sur 20 : respect du sujet (récit de la sortie des classes sous la menace de la pluie) 5 pts ; récit vivant et ordonné (introduction, développement, conclusion) 5 pts ; richesse des idées et des descriptions 3 pts ; expression et vocabulaire 3 pts ; orthographe et grammaire 3 pts ; présentation 1 pt."
+    }
+  ]
+}

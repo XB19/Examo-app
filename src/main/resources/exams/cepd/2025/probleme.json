@@ -1,0 +1,48 @@
+{
+  "level": "CEPD",
+  "year": 2025,
+  "month": "JUIN",
+  "subject": "PROBLEME",
+  "title": "PROBLEME",
+  "durationMinutes": 45,
+  "reviewNotes": "Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "STATEMENT",
+      "text": "Une coopérative agricole possède des vaches et des porcs. Elle vend par mois 500 litres de lait et 300 kilogrammes de viande. Le lait est livré à 400 F le litre et la viande à 2000 F le kilogramme. Calcule :"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Le montant des recettes de cette coopérative par mois.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Recette du lait : 400 F × 500 = 200 000 F.\nRecette de la viande : 2 000 F × 300 = 600 000 F.\nRecettes par mois : 200 000 F + 600 000 F = 800 000 F.",
+      "grading": "1,5 pt recette du lait (200 000 F) ; 1,5 pt recette de la viande (600 000 F) ; 1 pt total (800 000 F)."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "Le bénéfice mensuel sachant que les dépenses mensuelles sont les suivantes :\n- salaire des manœuvres = 150 000 F\n- achat de nourritures = 55 000 F\n- autres dépenses = 70 000 F.",
+      "points": 3,
+      "type": "SHORT_TEXT",
+      "answer": "Dépenses : 150 000 F + 55 000 F + 70 000 F = 275 000 F.\nBénéfice mensuel : 800 000 F − 275 000 F = 525 000 F.",
+      "grading": "1,5 pt total des dépenses (275 000 F) ; 1,5 pt bénéfice (525 000 F). Si la recette trouvée à la question 1 est fausse mais que la méthode est juste, accorder les points de méthode."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "Avec ce bénéfice, la coopérative décide d’acheter un semoir et un congélateur. Le prix du congélateur est le double de celui du semoir. Trouve la valeur de chaque objet.",
+      "points": 3,
+      "type": "SHORT_TEXT",
+      "answer": "Le semoir vaut 1 part et le congélateur 2 parts : 3 parts en tout.\nValeur du semoir : 525 000 F ÷ 3 = 175 000 F.\nValeur du congélateur : 175 000 F × 2 = 350 000 F.",
+      "grading": "1 pt nombre de parts (3) ; 1 pt semoir (175 000 F) ; 1 pt congélateur (350 000 F). Accepter des résultats justes calculés à partir d’un bénéfice faux."
+    }
+  ]
+}

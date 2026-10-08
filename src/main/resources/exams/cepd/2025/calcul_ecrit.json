@@ -1,0 +1,67 @@
+{
+  "level": "CEPD",
+  "year": 2025,
+  "month": "JUIN",
+  "subject": "CALCUL_ECRIT",
+  "title": "EXERCICES ECRITS DE CALCUL",
+  "durationMinutes": 45,
+  "reviewNotes": "Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Un bus a parcouru une distance de 240 km à la vitesse moyenne de 80 km/h. Quel temps a-t-il mis ?",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Temps = distance ÷ vitesse = 240 km ÷ 80 km/h = 3 h. Le bus a mis 3 heures.",
+      "grading": "2 pts pour l’opération (240 ÷ 80) ; 2 pts pour le résultat 3 h avec l’unité."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "prompt": "Une personne emprunte dans une banque une somme de 160 000 F au taux de 4%. Quelle somme versera-t-elle au bout d’un an à la banque (capital et intérêt réunis).",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Intérêt : 160 000 F × 4 ÷ 100 = 6 400 F.\nSomme à verser : 160 000 F + 6 400 F = 166 400 F.",
+      "grading": "2 pts pour l’intérêt (6 400 F) ; 2 pts pour la somme totale (166 400 F)."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "prompt": "Sur un plan cadastral à l’échelle de 1/500 000, la distance entre deux villes est de 90 mm. Calcule la distance réelle entre ces deux villes.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Distance réelle = 90 mm × 500 000 = 45 000 000 mm = 45 km.",
+      "grading": "2 pts pour l’opération (90 × 500 000) ; 2 pts pour le résultat converti (45 km ou 45 000 m). Résultat 45 000 000 mm sans conversion : 3 pts."
+    },
+    {
+      "id": "q4",
+      "label": "4.",
+      "prompt": "Voici un tableau de proportionnalité : Compète les cases vides avec les nombres qui manquent.",
+      "points": 4,
+      "type": "TABLE",
+      "table": {
+        "rows": [
+          ["20", "40", "60", "80", "100", null],
+          ["5", "10", null, null, null, "35"]
+        ]
+      },
+      "tableAnswer": [
+        ["20", "40", "60", "80", "100", "140"],
+        ["5", "10", "15", "20", "25", "35"]
+      ],
+      "answer": "On passe de la 1re ligne à la 2e en divisant par 4 (20 ÷ 4 = 5).\n60 ÷ 4 = 15 ; 80 ÷ 4 = 20 ; 100 ÷ 4 = 25 ; et 35 × 4 = 140.\nLigne 1 : 20 | 40 | 60 | 80 | 100 | 140\nLigne 2 : 5 | 10 | 15 | 20 | 25 | 35",
+      "grading": "1 pt par case juste (4 cases : 15, 20, 25 et 140)."
+    },
+    {
+      "id": "q5",
+      "label": "5.",
+      "prompt": "Construis un triangle rectangle dont les côtés de l’angle droit mesurent 8 cm et 6 cm. Trace ensuite ses médianes.",
+      "points": 4,
+      "type": "PHOTO",
+      "answer": "Trace un angle droit, puis, à partir de son sommet, un côté de 8 cm et un côté de 6 cm. Relie leurs extrémités : ce troisième côté (l’hypoténuse) mesure 10 cm.\nMarque le milieu de chaque côté et relie-le au sommet opposé : ce sont les 3 médianes. Elles se coupent en un même point.",
+      "grading": "2 pts pour le triangle rectangle (angle droit marqué, côtés de 8 cm et 6 cm) ; 2 pts pour les trois médianes (milieux marqués et reliés aux sommets opposés). Juger sur la photo et tolérer de petites imprécisions de mesure."
+    }
+  ]
+}

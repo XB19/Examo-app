@@ -1,0 +1,57 @@
+{
+  "level": "CEPD",
+  "year": 2022,
+  "month": "JUIN",
+  "subject": "CALCUL_MENTAL",
+  "title": "CALCUL MENTAL",
+  "durationMinutes": 5,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Barème non imprimé : 2 points par question (hypothèse à valider). Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Pour préparer la sauce, maman a utilisé 11 tas de tomates achetés à 81 F le tas. Aide maman à trouver la somme dépensée.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "81 F × 11 = 891 F (810 F + 81 F). Maman a dépensé 891 F.",
+      "grading": "2 pts pour 891 F. 0 sinon."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "prompt": "Combien faut-il ajouter à un angle de 135° pour avoir un angle plat.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Un angle plat mesure 180°. 180° − 135° = 45°. Il faut ajouter 45°.",
+      "grading": "2 pts pour 45°. 0 sinon."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "prompt": "Tante Awa a vendu 400 litres de miel pur dans des bidons de 25 litres chacun. Quel est le nombre de bidons vendu.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "400 l ÷ 25 l = 16. Elle a vendu 16 bidons.",
+      "grading": "2 pts pour 16 bidons. 0 sinon."
+    },
+    {
+      "id": "q4",
+      "label": "4.",
+      "prompt": "Pour faire le tour de son champ, Yao fait 1200 pas de 0,75m chacun. Quel est le périmètre de son champ ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "0,75 m × 1 200 = 900 m. Le périmètre du champ est 900 m.",
+      "grading": "2 pts pour 900 m. 1 pt si le nombre est juste sans unité."
+    },
+    {
+      "id": "q5",
+      "label": "5.",
+      "prompt": "Il y a dix (10) ans que tes parents célébraient ta naissance. En quelle année es-tu né(e) ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "On enlève 10 ans à l’année de l’examen : 2022 − 10 = 2012. Je suis né(e) en 2012.",
+      "grading": "2 pts pour 2012 (année de l’examen moins 10). Accepter aussi l’année en cours moins 10 si l’élève l’explique."
+    }
+  ]
+}

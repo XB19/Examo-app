@@ -1,0 +1,114 @@
+{
+  "level": "CEPD",
+  "year": 2020,
+  "month": "AOUT",
+  "subject": "HISTOIRE_GEO",
+  "title": "HISTOIRE – GEOGRAPHIE",
+  "durationMinutes": 30,
+  "reviewNotes": "Session « CEPD - AOÛT 2020 ». Corrigé rédigé par Examo, à valider par un enseignant (longueur du Mono : les manuels donnent entre 400 et 560 km).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "1- Au cours des résistances en Afrique, une puissance coloniale a été vaincue par un chef féodal. Donne :",
+      "label": "a-",
+      "prompt": "Le nom de cette puissance",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "L’Italie.",
+      "grading": "0,5 pt pour l’Italie."
+    },
+    {
+      "id": "q2",
+      "stem": "1- Au cours des résistances en Afrique, une puissance coloniale a été vaincue par un chef féodal. Donne :",
+      "label": "b-",
+      "prompt": "Le nom de ce chef",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Ménélik II, empereur d’Éthiopie.",
+      "grading": "0,5 pt pour Ménélik (Ménélik II)."
+    },
+    {
+      "id": "q3",
+      "stem": "1- Au cours des résistances en Afrique, une puissance coloniale a été vaincue par un chef féodal. Donne :",
+      "label": "c-",
+      "prompt": "Le nom du lieu de la bataille",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Adoua (Adwa), en Éthiopie.",
+      "grading": "0,5 pt pour Adoua / Adwa."
+    },
+    {
+      "id": "q4",
+      "stem": "1- Au cours des résistances en Afrique, une puissance coloniale a été vaincue par un chef féodal. Donne :",
+      "label": "d-",
+      "prompt": "L’année de cette bataille.",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "1896 (le 1ᵉʳ mars 1896).",
+      "grading": "0,5 pt pour 1896."
+    },
+    {
+      "id": "q5",
+      "label": "2-",
+      "prompt": "Qu’est-ce que le troc ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Le troc est l’échange direct d’un bien contre un autre bien, sans utiliser de monnaie (par exemple du maïs contre du sel).",
+      "grading": "1 pt pour l’échange de marchandises sans monnaie."
+    },
+    {
+      "id": "q6",
+      "stem": "3- Complète ces deux tableaux A et B",
+      "label": "A)",
+      "prompt": "Complète le tableau A.",
+      "points": 2,
+      "type": "TABLE",
+      "table": {
+        "header": ["Continent/ pays", "Plus long fleuve", "Longueur"],
+        "rows": [
+          ["Le Togo", null, null],
+          ["L’Afrique", null, null]
+        ]
+      },
+      "tableAnswer": [
+        ["Le Togo", "le Mono", "560 km"],
+        ["L’Afrique", "le Nil", "6 650 km"]
+      ],
+      "answer": "Le Togo : le Mono, environ 560 km.\nL’Afrique : le Nil, environ 6 650 km.",
+      "grading": "0,5 pt par case juste. Pour le Mono, accepter une longueur entre 400 et 560 km ; pour le Nil, entre 6 500 et 6 700 km."
+    },
+    {
+      "id": "q7",
+      "stem": "3- Complète ces deux tableaux A et B",
+      "label": "B)",
+      "prompt": "Complète le tableau B.",
+      "points": 2,
+      "type": "TABLE",
+      "table": {
+        "header": ["Empire", "Capitale", "Empereur"],
+        "rows": [
+          [null, null, "Soundiata kéita"],
+          ["Songhaï", null, "Sonni Ali Ber"],
+          ["Ghana", "Koumbi Saleh", null]
+        ]
+      },
+      "tableAnswer": [
+        ["Mali", "Niani", "Soundiata kéita"],
+        ["Songhaï", "Gao", "Sonni Ali Ber"],
+        ["Ghana", "Koumbi Saleh", "Kaya Maghan"]
+      ],
+      "answer": "Mali – Niani – Soundiata Kéita\nSonghaï – Gao – Sonni Ali Ber\nGhana – Koumbi Saleh – Kaya Maghan (Kaya Maghan Cissé)",
+      "grading": "0,5 pt par case juste. Pour le Ghana, accepter Kaya Maghan, Kaya Maghan Cissé ou Tounka Manin."
+    },
+    {
+      "id": "q8",
+      "label": "4-",
+      "prompt": "Sur une carte du Togo, indique :\na- La capitale.\nb- Le barrage de Nangbéto\nc- Le chef- lieu de la région économique dans laquelle se trouve ton école.\nNB : contour et limites 1,5pt.",
+      "points": 3,
+      "type": "PHOTO",
+      "answer": "La carte du Togo, avec son contour et ses frontières bien tracés, montre : Lomé, la capitale, au sud au bord de la mer ; le barrage de Nangbéto, sur le fleuve Mono, dans la région des Plateaux ; le chef-lieu de la région de l’école (Dapaong, Kara, Sokodé, Atakpamé ou Lomé).",
+      "grading": "1,5 pt pour le contour et les limites ; 0,5 pt pour Lomé ; 0,5 pt pour le barrage de Nangbéto ; 0,5 pt pour un chef-lieu de région économique bien placé."
+    }
+  ]
+}

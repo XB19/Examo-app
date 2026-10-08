@@ -1,0 +1,106 @@
+{
+  "level": "CEPD",
+  "year": 2022,
+  "month": "JUIN",
+  "subject": "DICTEE_QUESTIONS",
+  "title": "DICTEE – QUESTIONS",
+  "reviewNotes": "Session « CEPD MAI-JUIN 2022 » (fichier rangé dans le dossier 2021 sur ecole.gouv.tg). Barème non imprimé : dictée sur 10 et questions sur 10 réparties comme ci-dessous (hypothèse à valider). Seule la durée des questions est imprimée (30 min). Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "DICTATION",
+      "title": "<u>Dictée</u> : L’arbre",
+      "text": "Un arbre ? C’est un être. Il naît, grandit et meurt. Il y a des arbres qui ont une durée de vie courte tandis que d’autres vivent des siècles durant. Vivant ou mort, l’arbre rend d’innombrables services à l’homme et aux animaux. Sans arbres, point de forêt. L’arbre rafraîchit le corps et l’esprit du voyageur ou du travailleur épuisé.\nSauvons donc les arbres. Plantons-en en toutes les circonstances, car « celui qui a planté un arbre avant de mourir n’a pas vécu inutile »."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q0",
+      "passage": "p1",
+      "prompt": "<u>Dictée</u> : L’arbre",
+      "points": 10,
+      "type": "DICTATION",
+      "answer": "Le texte exact de la dictée est affiché dans la correction.",
+      "grading": "Sur 10 points : retirer 1 point par faute d’orthographe ou de grammaire (un mot oublié compte comme une faute) et 0,5 point par faute d’accent, de majuscule ou de ponctuation. La note ne descend pas sous 0."
+    },
+    {
+      "id": "q1",
+      "section": "Questions",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Que veut dire « l’arbre rend d’innombrables services à l’homme et aux animaux » ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Cela veut dire que l’arbre est très utile à l’homme et aux animaux : il les aide de très nombreuses façons, qu’on ne peut pas compter.",
+      "grading": "2 pts pour l’idée « l’arbre est utile de très nombreuses façons » ; 1 pt si « innombrables » n’est pas compris."
+    },
+    {
+      "id": "q2",
+      "section": "Questions",
+      "label": "2.a.",
+      "passage": "p1",
+      "prompt": "Quel service un arbre mort rend-il à l’homme ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Il donne du bois : bois de chauffe pour cuisiner, charbon, planches pour construire des maisons et des meubles.",
+      "grading": "1 pt pour un service valable d’un arbre mort."
+    },
+    {
+      "id": "q3",
+      "section": "Questions",
+      "label": "b.",
+      "passage": "p1",
+      "prompt": "Cite aussi un service qu’un arbre vivant rend à l’homme.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Il donne de l’ombre et de la fraîcheur ; des fruits ; des feuilles et des écorces qui soignent ; il purifie l’air.",
+      "grading": "1 pt pour un service valable d’un arbre vivant."
+    },
+    {
+      "id": "q4",
+      "section": "Questions",
+      "stem": "3. « Il naît, grandit et meurt »",
+      "label": "a.",
+      "passage": "p1",
+      "prompt": "A quel temps sont conjugués les verbes de cette phrase ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Au présent de l’indicatif.",
+      "grading": "1 pt pour le présent (de l’indicatif)."
+    },
+    {
+      "id": "q5",
+      "section": "Questions",
+      "stem": "3. « Il naît, grandit et meurt »",
+      "label": "b.",
+      "passage": "p1",
+      "prompt": "Recopie cette phrase en mettant ces verbes à l’imparfait de l’indicatif.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Il naissait, grandissait et mourait.",
+      "grading": "Environ 0,67 pt par verbe juste (naissait, grandissait, mourait)."
+    },
+    {
+      "id": "q6",
+      "section": "Questions",
+      "label": "4.",
+      "passage": "p1",
+      "prompt": "« L’arbre rafraîchit le corps et l’esprit du voyageur ». Recopie cette phrase puis souligne le GN(COD).",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "L’arbre rafraîchit <u>le corps et l’esprit du voyageur</u>.\nLe GN COD est : « le corps et l’esprit du voyageur ».",
+      "grading": "1 pt pour la phrase recopiée ; 1 pt si le COD « le corps et l’esprit du voyageur » est bien repéré (au clavier, l’élève peut l’écrire à part, entre guillemets ou en majuscules)."
+    },
+    {
+      "id": "q7",
+      "section": "Questions",
+      "label": "5.",
+      "passage": "p1",
+      "prompt": "« L’arbre rafraîchit le corps et l’esprit du voyageur ou du travailleur épuisé. ». Remplace dans cette phrase la conjonction \"ou\" par une autre conjonction de sens voisin.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "L’arbre rafraîchit le corps et l’esprit du voyageur et du travailleur épuisé.",
+      "grading": "1 pt si « ou » est remplacé par une conjonction de sens voisin (« et », « ou bien », « soit… soit »)."
+    }
+  ]
+}

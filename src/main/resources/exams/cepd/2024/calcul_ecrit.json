@@ -1,0 +1,57 @@
+{
+  "level": "CEPD",
+  "year": 2024,
+  "month": "JUIN",
+  "subject": "CALCUL_ECRIT",
+  "title": "EXERCICES ECRITS DE CALCUL",
+  "durationMinutes": 45,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Une course est organisée sur une piste de 4 km. On y place des obstacles (petits cartons) tous les 20 m. Calcule le nombre d’obstacles à placer le long de la piste sachant qu’il n’y a pas d’obstacle au départ et à l’arrivée.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "4 km = 4 000 m.\nNombre d’intervalles : 4 000 m ÷ 20 m = 200.\nPas d’obstacle au départ ni à l’arrivée : 200 − 1 = 199 obstacles.",
+      "grading": "1 pt pour la conversion (4 000 m) ; 1 pt pour les 200 intervalles ; 2 pts pour 199 obstacles."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "prompt": "Papa dispose de 3 domaines A, B et C mesurant : A = 7ha ; B = 3,7 a et C = 250 ca. Trouve en mètres carrés l’aire totale des trois domaines de papa.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "A = 7 ha = 70 000 m² ; B = 3,7 a = 370 m² ; C = 250 ca = 250 m².\nAire totale : 70 000 m² + 370 m² + 250 m² = 70 620 m².",
+      "grading": "1 pt par conversion juste (3 pts) ; 1 pt pour le total (70 620 m²)."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "prompt": "Un avion, roulant à une vitesse moyenne de 750 km/h a mis 8 h sans escale pour rallier deux pays. Calcule la distance qui sépare ces deux pays.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Distance = vitesse × temps = 750 km/h × 8 h = 6 000 km.",
+      "grading": "2 pts pour l’opération ; 2 pts pour 6 000 km avec l’unité."
+    },
+    {
+      "id": "q4",
+      "label": "4.",
+      "prompt": "Mazama a fait construire une boîte cubique de 0,8 m d’arrête pour y ranger des marchandises. Trouve en mètres cube le volume de cette boîte.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Volume du cube = arête × arête × arête = 0,8 m × 0,8 m × 0,8 m = 0,512 m³.",
+      "grading": "2 pts pour la formule ; 2 pts pour 0,512 m³."
+    },
+    {
+      "id": "q5",
+      "label": "5.",
+      "prompt": "Trace un segment de droite oblique mesurant 8 cm. Trace ensuite la droite (D) qui représente sa médiatrice.",
+      "points": 4,
+      "type": "PHOTO",
+      "answer": "Trace un segment oblique [AB] de 8 cm. Marque son milieu M, à 4 cm de chaque extrémité. Trace la droite (D) qui passe par M et qui est perpendiculaire à [AB] : c’est la médiatrice. Code l’angle droit et les deux moitiés égales.",
+      "grading": "1 pt pour le segment oblique de 8 cm ; 1 pt pour le milieu marqué ; 2 pts pour la droite perpendiculaire passant par le milieu."
+    }
+  ]
+}

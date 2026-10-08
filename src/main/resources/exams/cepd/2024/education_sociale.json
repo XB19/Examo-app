@@ -1,0 +1,79 @@
+{
+  "level": "CEPD",
+  "year": 2024,
+  "month": "JUIN",
+  "subject": "EDUCATION_SOCIALE",
+  "title": "EDUCATION SOCIALE",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant (développement des sigles en particulier).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "1. Ton frère, conducteur de taxi-moto te dit qu’il porte le casque lorsqu’il est proche des forces de l’ordre ou les militaires.",
+      "label": "a-",
+      "prompt": "Ton frère se comporte-t-il bien ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Non. Il doit porter son casque tout le temps quand il roule, pour se protéger, et pas seulement quand il voit les forces de l’ordre.",
+      "grading": "0,5 pt pour « non » ; 0,5 pt pour l’explication (le casque se porte toujours, pour sa sécurité)."
+    },
+    {
+      "id": "q2",
+      "stem": "1. Ton frère, conducteur de taxi-moto te dit qu’il porte le casque lorsqu’il est proche des forces de l’ordre ou les militaires.",
+      "label": "b-",
+      "prompt": "Qu’est-ce qui peut lui arriver en roulant sans casque ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "En cas d’accident, il peut être gravement blessé à la tête, rester handicapé ou même mourir. Il peut aussi être arrêté et payer une amende.",
+      "grading": "1 pt pour la blessure grave à la tête ou la mort en cas d’accident."
+    },
+    {
+      "id": "q3",
+      "label": "2.",
+      "prompt": "Au cours de ton voyage en ville, tu vois la présence des feux tricolores au carrefour qui règlementent la circulation des véhicules. Donne la signification de chaque couleur.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Rouge : arrêt obligatoire, on ne passe pas.\nOrange (jaune) : attention, on ralentit et on se prépare à s’arrêter.\nVert : on peut passer.",
+      "grading": "0,75 pt pour le rouge ; 0,5 pt pour l’orange ; 0,75 pt pour le vert."
+    },
+    {
+      "id": "q4",
+      "label": "3.",
+      "prompt": "Tu aimes ton pays le Togo et tu rêves le voir propre et développé.\nEcris quatre comportements que tu dois adopter pour réaliser ton rêve.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : jeter les ordures dans la poubelle ; participer aux travaux de nettoyage (salubrité) ; planter et protéger les arbres ; bien travailler à l’école ; respecter les biens publics ; respecter le code de la route et les lois.",
+      "grading": "0,5 pt par comportement valable (quatre attendus)."
+    },
+    {
+      "id": "q5",
+      "stem": "4. De quel ministère dépendent :",
+      "label": "a)",
+      "prompt": "les infirmiers ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Du ministère de la Santé.",
+      "grading": "1 pt pour le ministère de la Santé."
+    },
+    {
+      "id": "q6",
+      "stem": "4. De quel ministère dépendent :",
+      "label": "b)",
+      "prompt": "les élèves et les enseignants ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Du ministère des Enseignements primaire, secondaire et technique (ministère de l’Éducation).",
+      "grading": "1 pt pour le ministère chargé de l’enseignement (de l’éducation)."
+    },
+    {
+      "id": "q7",
+      "label": "5.",
+      "prompt": "Ton petit frère a lu les sigles suivant dans un livre. Aide-le à comprendre le sens en les définissant : MEPST, COGEP, UNICEF, DRE.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "MEPST : Ministère des Enseignements Primaire, Secondaire et Technique.\nCOGEP : Comité de Gestion de l’École Primaire.\nUNICEF : Fonds des Nations unies pour l’enfance.\nDRE : Direction Régionale de l’Éducation.",
+      "grading": "0,5 pt par sigle correctement développé."
+    }
+  ]
+}

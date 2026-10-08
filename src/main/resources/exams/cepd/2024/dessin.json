@@ -1,0 +1,20 @@
+{
+  "level": "CEPD",
+  "year": 2024,
+  "month": "JUIN",
+  "subject": "DESSIN",
+  "title": "DESSIN",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé quatre fois sur la page : retranscrit une seule fois. Barème non imprimé : 10 points (hypothèse à valider par un enseignant).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "<u>Sujet</u> : Depuis un moment, ton frère, arrivé à la maison, te dit qu’il voit des gens qui consomment de la drogue ou de l’alcool. Tu en a parlé à ton maître et il te demande de dessiner une affiche interdisant la consommation de la drogue ou de l’alcool. Dessine cette affiche.",
+      "points": 10,
+      "type": "PHOTO",
+      "answer": "L’affiche montre clairement l’interdiction : par exemple une bouteille d’alcool, une cigarette ou de la drogue barrée d’une croix rouge ou dans un panneau d’interdiction. Elle porte un message court et lisible, comme « NON À LA DROGUE ! » ou « L’ALCOOL TUE ». Le dessin occupe bien la feuille et il est soigné.",
+      "grading": "Sur 10 : respect du sujet (affiche qui interdit la drogue ou l’alcool) 4 pts ; symbole d’interdiction clair 2 pts ; message écrit lisible 2 pts ; mise en page, soin et couleurs 2 pts."
+    }
+  ]
+}

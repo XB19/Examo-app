@@ -1,0 +1,105 @@
+{
+  "level": "CEPD",
+  "year": 2020,
+  "month": "AOUT",
+  "subject": "EDUSIVIP",
+  "title": "EDUSIVIP",
+  "durationMinutes": 30,
+  "reviewNotes": "Session « CEPD - AOÛT 2020 ». Sujet imprimé deux fois : retranscrit le premier exemplaire (le second numérote par erreur « c), d) »). Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "1-",
+      "label": "a)",
+      "prompt": "Cite deux maladies que peut contracter une personne qui boit de l’eau non potable.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Le choléra, la fièvre typhoïde, la diarrhée, la dysenterie, le ver de Guinée (deux au choix).",
+      "grading": "0,5 pt par maladie juste."
+    },
+    {
+      "id": "q2",
+      "stem": "1-",
+      "label": "b)",
+      "prompt": "Donne deux moyens pour rendre cette eau potable.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Faire bouillir l’eau ; la filtrer ; y mettre quelques gouttes d’eau de Javel ou un comprimé de chlore.",
+      "grading": "0,5 pt par moyen valable."
+    },
+    {
+      "id": "q3",
+      "label": "2-",
+      "prompt": "Reproduis et complète le tableau :",
+      "points": 2,
+      "type": "TABLE",
+      "table": {
+        "header": ["Principes", "Un exemple d’application"],
+        "rows": [
+          [null, "Compte-gouttes, les seringues"],
+          ["Les leviers", null],
+          [null, "Distribution d’eau"],
+          ["La dilatation des corps", null]
+        ]
+      },
+      "tableAnswer": [
+        ["La pression atmosphérique", "Compte-gouttes, les seringues"],
+        ["Les leviers", "les ciseaux"],
+        ["Les vases communicants", "Distribution d’eau"],
+        ["La dilatation des corps", "le thermomètre"]
+      ],
+      "answer": "La pression atmosphérique : compte-gouttes, les seringues.\nLes leviers : les ciseaux (ou la pince, la brouette, le pied-de-biche).\nLes vases communicants : distribution d’eau (château d’eau).\nLa dilatation des corps : le thermomètre (ou les joints de dilatation des rails et des ponts).",
+      "grading": "0,5 pt par case juste. Accepter tout exemple juste pour les leviers et la dilatation."
+    },
+    {
+      "id": "q4",
+      "stem": "3-",
+      "label": "a)",
+      "prompt": "On parle actuellement d’une maladie qui tue par milliers dans le monde entier et qui nous oblige à porter des cache-nez. Donne le nom de cette maladie.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Le coronavirus (la Covid-19).",
+      "grading": "1 pt pour le coronavirus / la Covid-19."
+    },
+    {
+      "id": "q5",
+      "stem": "3-",
+      "label": "b)",
+      "prompt": "Donne au moins deux mesures préconisées par le gouvernement pour éviter la contamination de cette maladie.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Porter le cache-nez ; se laver régulièrement les mains au savon ou au gel hydroalcoolique ; respecter la distance d’au moins un mètre ; éviter les rassemblements ; rester chez soi pendant le couvre-feu.",
+      "grading": "0,5 pt par mesure valable (deux attendues)."
+    },
+    {
+      "id": "q6",
+      "stem": "4- Quels rôles jouent les éléments suivants dans le sang :",
+      "label": "-",
+      "prompt": "Les globules blancs.",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Ils défendent le corps contre les microbes (ils nous protègent contre les maladies).",
+      "grading": "0,5 pt pour la défense contre les microbes."
+    },
+    {
+      "id": "q7",
+      "stem": "4- Quels rôles jouent les éléments suivants dans le sang :",
+      "label": "-",
+      "prompt": "Les globules rouges.",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Ils transportent l’oxygène dans tout le corps (et ramènent une partie du gaz carbonique aux poumons).",
+      "grading": "0,5 pt pour le transport de l’oxygène."
+    },
+    {
+      "id": "q8",
+      "label": "5-",
+      "prompt": "Fais et annote le croquis de l’appareil digestif de l’homme.",
+      "points": 3,
+      "type": "PHOTO",
+      "answer": "Annotations attendues : la bouche (avec les dents et la langue), les glandes salivaires, le pharynx, l’œsophage, l’estomac, le foie, la vésicule biliaire, le pancréas, l’intestin grêle, le gros intestin (côlon), le rectum et l’anus.",
+      "grading": "1 pt pour le croquis (tube digestif complet de la bouche à l’anus) ; 2 pts pour les annotations (environ 0,25 pt par organe juste, au maximum 2 pts)."
+    }
+  ]
+}

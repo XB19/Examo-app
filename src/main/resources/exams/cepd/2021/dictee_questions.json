@@ -1,0 +1,140 @@
+{
+  "level": "CEPD",
+  "year": 2021,
+  "month": "JUIN",
+  "subject": "DICTEE_QUESTIONS",
+  "title": "DICTEE : L’espoir",
+  "reviewNotes": "Fichier « Dictée.pdf » sur ecole.gouv.tg. Seule la durée des questions est imprimée (30 min). Barème de la dictée non imprimé : 10 points (hypothèse à valider). Le texte imprime « Nèmè » en gras et souligné ; la consigne « NB : Ecrire Nèmè au tableau » est montrée à l’élève à la place du tableau. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "DICTATION",
+      "title": "<u>DICTEE</u> : L’espoir",
+      "text": "L’homme marchait assez vite. Nèmè le suivait sans peine. Elle ne sentait plus la fatigue. De temps en temps, elle levait les yeux vers cet homme avec une sorte de tranquillité et d’abandon inexprimable. Jamais on ne lui avait appris à se tourner vers la providence et à prier. Cependant elle sentait en elle quelque chose qui ressemblait à de l’espérance et à de la joie et qui s’en allait vers le ciel."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q0",
+      "stem": "NB : Ecrire Nèmè au tableau",
+      "passage": "p1",
+      "prompt": "<u>DICTEE</u> : L’espoir",
+      "points": 10,
+      "type": "DICTATION",
+      "answer": "Le texte exact de la dictée est affiché dans la correction.",
+      "grading": "Sur 10 points : retirer 1 point par faute d’orthographe ou de grammaire (un mot oublié compte comme une faute) et 0,5 point par faute d’accent, de majuscule ou de ponctuation. La note ne descend pas sous 0. Le nom « Nèmè » était écrit au tableau."
+    },
+    {
+      "id": "q1",
+      "section": "<u>QUESTIONS</u>",
+      "stem": "1. Remplace dans l’expression « sans peine » le mot « sans » par un mot qui :",
+      "label": "a.",
+      "passage": "p1",
+      "prompt": "donne le même sens à la phrase.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Nèmè le suivait avec facilité (ou : avec aisance) : elle le suivait facilement.",
+      "grading": "1 pt pour une expression de même sens (« avec facilité », « avec aisance », « facilement »)."
+    },
+    {
+      "id": "q2",
+      "section": "<u>QUESTIONS</u>",
+      "stem": "1. Remplace dans l’expression « sans peine » le mot « sans » par un mot qui :",
+      "label": "b.",
+      "passage": "p1",
+      "prompt": "donne le sens contraire à la phrase.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Nèmè le suivait avec peine.",
+      "grading": "1 pt pour « avec peine »."
+    },
+    {
+      "id": "q3",
+      "section": "<u>QUESTIONS</u>",
+      "label": "2.a.",
+      "passage": "p1",
+      "prompt": "Indique à quel temps le verbe de la troisième phrase est conjugué ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "La troisième phrase est « Elle ne sentait plus la fatigue. » : le verbe est à l’imparfait de l’indicatif.",
+      "grading": "0,5 pt pour l’imparfait."
+    },
+    {
+      "id": "q4",
+      "section": "<u>QUESTIONS</u>",
+      "label": "b.",
+      "passage": "p1",
+      "prompt": "Quel est son infinitif ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Sentir.",
+      "grading": "0,5 pt pour « sentir »."
+    },
+    {
+      "id": "q5",
+      "section": "<u>QUESTIONS</u>",
+      "label": "c.",
+      "passage": "p1",
+      "prompt": "Ecris son participe passé.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Senti.",
+      "grading": "1 pt pour « senti »."
+    },
+    {
+      "id": "q6",
+      "section": "<u>QUESTIONS</u>",
+      "label": "d.",
+      "passage": "p1",
+      "prompt": "Ecris la phrase au présent de l’indicatif en remplaçant « elle » par « tu ».",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Tu ne sens plus la fatigue.",
+      "grading": "1 pt pour « Tu ne sens plus la fatigue. »"
+    },
+    {
+      "id": "q7",
+      "section": "<u>QUESTIONS</u>",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "Trouve deux mots de la même famille que tranquillité.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Tranquille, tranquillement, tranquilliser, tranquillisant (deux au choix).",
+      "grading": "1 pt par mot juste."
+    },
+    {
+      "id": "q8",
+      "section": "<u>QUESTIONS</u>",
+      "label": "4.a.",
+      "passage": "p1",
+      "prompt": "Relève dans la dernière phrase le GN COD.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "« quelque chose qui ressemblait à de l’espérance et à de la joie et qui s’en allait vers le ciel » (le noyau est « quelque chose »).",
+      "grading": "1 pt pour « quelque chose » avec ou sans ses propositions relatives."
+    },
+    {
+      "id": "q9",
+      "section": "<u>QUESTIONS</u>",
+      "label": "b.",
+      "passage": "p1",
+      "prompt": "Relève dans la première phrase le GNS.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "« L’homme ».",
+      "grading": "1 pt pour « L’homme »."
+    },
+    {
+      "id": "q10",
+      "section": "<u>QUESTIONS</u>",
+      "label": "5.",
+      "passage": "p1",
+      "prompt": "Donne deux mots de même son mais de sens différent que « s’en ».",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Sans, sang, cent, sent (du verbe sentir) : deux au choix.",
+      "grading": "0,5 pt par homophone juste."
+    }
+  ]
+}
