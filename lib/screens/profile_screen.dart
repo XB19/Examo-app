@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../services/progress_store.dart';
 import '../theme/app_colors.dart';
 import '../widgets/app_card.dart';
 import '../widgets/chip_widgets.dart';
@@ -26,10 +27,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final store = ProgressStore.instance;
     return Scaffold(
       backgroundColor: AppColors.bg,
       body: SafeArea(
-        child: Column(
+        child: ListenableBuilder(
+          listenable: store,
+          builder: (context, _) => Column(
           children: [
             GradientHeaderShell(
               borderRadius: const BorderRadius.vertical(bottom: Radius.circular(28)),
@@ -40,38 +44,28 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     padding: const EdgeInsets.symmetric(horizontal: 22),
                     child: Row(
                       children: [
-                        Stack(
-                          clipBehavior: Clip.none,
-                          children: [
-                            const StudentAvatar(size: 72),
-                            Positioned(
-                              right: -2,
-                              bottom: -2,
-                              child: Container(
-                                width: 26,
-                                height: 26,
-                                decoration: BoxDecoration(color: AppColors.gold500, shape: BoxShape.circle, border: Border.all(color: AppColors.kx700, width: 2.5)),
-                                child: const Icon(Icons.school_outlined, color: Colors.white, size: 13),
-                              ),
-                            ),
-                          ],
-                        ),
+                        const StudentAvatar(size: 72),
                         const SizedBox(width: 14),
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              const Text('Koffi ADJOVI', style: TextStyle(color: Colors.white, fontSize: 19, fontWeight: FontWeight.w800, letterSpacing: -0.5)),
+                              const Text('Élève Examo', style: TextStyle(color: Colors.white, fontSize: 19, fontWeight: FontWeight.w800, letterSpacing: -0.5)),
                               Padding(
                                 padding: const EdgeInsets.only(top: 3),
-                                child: Text('Classe de 3ᵉ · +228 90 42 18 07', style: TextStyle(color: Colors.white.withValues(alpha: .8), fontSize: 12)),
+                                child: Text('Préparation CEPD', style: TextStyle(color: Colors.white.withValues(alpha: .8), fontSize: 12)),
                               ),
-                              const SizedBox(height: 8),
-                              Row(children: [
-                                Pill(label: 'BEPC 2027', icon: Icons.school_outlined, bg: AppColors.gold500.withValues(alpha: .24), fg: const Color(0xFFFFD79A)),
-                                const SizedBox(width: 7),
-                                Pill(label: '5 j', icon: Icons.local_fire_department_rounded, bg: Colors.white.withValues(alpha: .16), fg: Colors.white),
-                              ]),
+                              if (store.streakDays > 0) ...[
+                                const SizedBox(height: 8),
+                                Row(children: [
+                                  Pill(
+                                    label: '${store.streakDays} j',
+                                    icon: Icons.local_fire_department_rounded,
+                                    bg: Colors.white.withValues(alpha: .16),
+                                    fg: Colors.white,
+                                  ),
+                                ]),
+                              ],
                             ],
                           ),
                         ),
@@ -83,11 +77,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     padding: const EdgeInsets.symmetric(horizontal: 22),
                     child: Row(
                       children: [
-                        _statChip(context, '18', 'Épreuves'),
+                        _statChip(context, '${store.examCount}', 'Épreuves'),
                         const SizedBox(width: 9),
-                        _statChip(context, '11,4', 'Moyenne', color: const Color(0xFFFFD79A)),
+                        _statChip(context, store.examCount > 0 ? store.averageOn20.toStringAsFixed(1).replaceAll('.', ',') : '–', 'Moyenne', color: const Color(0xFFFFD79A)),
                         const SizedBox(width: 9),
-                        _statChip(context, '5 j', 'Régularité'),
+                        _statChip(context, '${store.streakDays} j', 'Régularité'),
                       ],
                     ),
                   ),
@@ -119,9 +113,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       _row(Icons.bar_chart_rounded, 'Ma progression', 'Moyenne, matières, chapitres',
                           onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ProgressScreen()))),
                       _divider(),
-                      _row(Icons.import_contacts_rounded, 'Mes épreuves traitées', '18 épreuves · 3 en cours'),
+                      _row(Icons.import_contacts_rounded, 'Mes épreuves traitées',
+                          store.examCount > 0 ? '${store.examCount} épreuve${store.examCount > 1 ? 's' : ''}' : 'Aucune pour l\'instant'),
                       _divider(),
-                      _row(Icons.wifi_off_rounded, 'Téléchargements', '18 annales · 149 Mo', last: true,
+                      _row(Icons.wifi_off_rounded, 'Hors connexion', 'Bientôt disponible', last: true,
                           onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const OfflineScreen()))),
                     ]),
                   ),
@@ -197,6 +192,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               ),
             ),
           ],
+          ),
         ),
       ),
     );

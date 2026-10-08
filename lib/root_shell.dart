@@ -11,7 +11,11 @@ import 'widgets/bottom_nav.dart';
 class RootShell extends StatefulWidget {
   const RootShell({super.key});
 
+  static const homeTab = 0;
   static const annalesTab = 1;
+  static const progressTab = 2;
+  static const revisionsTab = 3;
+  static const profileTab = 4;
 
   /// Revient à la coquille principale et affiche l'onglet demandé (ex. les annales).
   static void openTab(BuildContext context, int tab) {

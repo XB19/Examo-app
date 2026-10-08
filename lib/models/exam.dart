@@ -49,10 +49,16 @@ class Exam {
 
   String get shortLabel => '$level ${sessionMonth == 'AOUT' ? 'août ' : ''}$sessionYear';
 
-  Color get color => _subjectColors[subjectCode] ?? AppColors.kx700;
+  Color get color => subjectColor(subjectCode);
 
-  IconData get icon => _subjectIcons[subjectCode] ?? Icons.description_outlined;
+  IconData get icon => subjectIcon(subjectCode);
 }
+
+/// Couleur/icône d'une matière à partir de son code backend (ex. CALCUL_MENTAL),
+/// partagées entre l'écran d'annales et les écrans de progression/profil.
+Color subjectColor(String code) => _subjectColors[code] ?? AppColors.kx700;
+
+IconData subjectIcon(String code) => _subjectIcons[code] ?? Icons.description_outlined;
 
 const _subjectColors = <String, Color>{
   'PROBLEME': AppColors.mathBlue,

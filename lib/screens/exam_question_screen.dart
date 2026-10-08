@@ -6,6 +6,7 @@ import '../models/exam_content.dart';
 import '../models/exam_session.dart';
 import '../models/student_answer.dart';
 import '../services/exam_api.dart';
+import '../services/progress_store.dart';
 import '../services/voice.dart';
 import '../theme/app_colors.dart';
 import '../widgets/answer_inputs.dart';
@@ -149,6 +150,7 @@ class _ExamQuestionScreenState extends State<ExamQuestionScreen> {
         result: result,
         aiAvailable: aiAvailable,
       );
+      ProgressStore.instance.record(session);
       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => ResultScreen(session: session)));
     } catch (e) {
       if (!mounted) return;
