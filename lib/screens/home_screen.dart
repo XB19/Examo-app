@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
               children: [
                 GradientHeaderShell(
                   borderRadius: const BorderRadius.vertical(bottom: Radius.circular(30)),
-                  padding: const EdgeInsets.only(bottom: 60),
+                  padding: EdgeInsets.only(bottom: hasHistory ? 60 : 40),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
@@ -44,14 +44,8 @@ class HomeScreen extends StatelessWidget {
                             const SizedBox(width: 12),
                             const StudentAvatar(size: 42),
                             const SizedBox(width: 12),
-                            Expanded(
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text('Bonjour,', style: TextStyle(color: Colors.white.withValues(alpha: .74), fontSize: 11.5, fontWeight: FontWeight.w600)),
-                                  const Text('Prêt(e) à t\'entraîner ?', style: TextStyle(color: Colors.white, fontSize: 15.5, fontWeight: FontWeight.w800, letterSpacing: -0.2)),
-                                ],
-                              ),
+                            const Expanded(
+                              child: Text('Bonjour !', style: TextStyle(color: Colors.white, fontSize: 16.5, fontWeight: FontWeight.w800, letterSpacing: -0.2)),
                             ),
                             CircleIconButton(
                               icon: Icons.notifications_none_rounded,
@@ -60,54 +54,52 @@ class HomeScreen extends StatelessWidget {
                           ],
                         ),
                       ),
-                      const SizedBox(height: 16),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 22),
-                        child: Row(
-                          children: [
-                            ProgressRing(
-                              size: 100,
-                              percent: store.overallPercent,
-                              center: Text(
-                                hasHistory ? '${(store.overallPercent * 100).round()}%' : '–',
-                                style: const TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.w800, letterSpacing: -1),
+                      if (hasHistory) ...[
+                        const SizedBox(height: 18),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 22),
+                          child: Row(
+                            children: [
+                              ProgressRing(
+                                size: 92,
+                                percent: store.overallPercent,
+                                center: Text(
+                                  '${(store.overallPercent * 100).round()}%',
+                                  style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.w800, letterSpacing: -1),
+                                ),
                               ),
-                            ),
-                            const SizedBox(width: 16),
-                            Expanded(
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text('Ta préparation au CEPD', style: TextStyle(color: Colors.white.withValues(alpha: .78), fontSize: 12, fontWeight: FontWeight.w600)),
-                                  const SizedBox(height: 4),
-                                  Text(
-                                    hasHistory ? 'Tu es à ${(store.overallPercent * 100).round()} % de réussite' : 'Commence ta première épreuve',
-                                    style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w800, letterSpacing: -0.4),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(top: 6),
-                                    child: Text(
-                                      hasHistory
-                                          ? '${store.examCount} épreuve${store.examCount > 1 ? 's' : ''} traitée${store.examCount > 1 ? 's' : ''} · moyenne ${store.averageOn20.toStringAsFixed(1).replaceAll('.', ',')} / 20'
-                                          : 'Choisis une annale dans l\'onglet Annales pour commencer.',
-                                      style: TextStyle(color: Colors.white.withValues(alpha: .8), fontSize: 11, height: 1.5),
+                              const SizedBox(width: 16),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      '${(store.overallPercent * 100).round()} % de réussite au CEPD',
+                                      style: const TextStyle(color: Colors.white, fontSize: 16.5, fontWeight: FontWeight.w800, letterSpacing: -0.3, height: 1.25),
                                     ),
-                                  ),
-                                  if (store.streakDays > 0) ...[
-                                    const SizedBox(height: 9),
-                                    Pill(
-                                      label: '${store.streakDays} jour${store.streakDays > 1 ? 's' : ''} d\'affilée',
-                                      icon: Icons.local_fire_department_rounded,
-                                      bg: AppColors.gold500.withValues(alpha: .22),
-                                      fg: const Color(0xFFFFD79A),
+                                    Padding(
+                                      padding: const EdgeInsets.only(top: 6),
+                                      child: Text(
+                                        '${store.examCount} épreuve${store.examCount > 1 ? 's' : ''} · moyenne ${store.averageOn20.toStringAsFixed(1).replaceAll('.', ',')} / 20',
+                                        style: TextStyle(color: Colors.white.withValues(alpha: .8), fontSize: 11, height: 1.5),
+                                      ),
                                     ),
+                                    if (store.streakDays > 0) ...[
+                                      const SizedBox(height: 9),
+                                      Pill(
+                                        label: '${store.streakDays} jour${store.streakDays > 1 ? 's' : ''} d\'affilée',
+                                        icon: Icons.local_fire_department_rounded,
+                                        bg: AppColors.gold500.withValues(alpha: .22),
+                                        fg: const Color(0xFFFFD79A),
+                                      ),
+                                    ],
                                   ],
-                                ],
+                                ),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
-                      ),
+                      ],
                     ],
                   ),
                 ),
