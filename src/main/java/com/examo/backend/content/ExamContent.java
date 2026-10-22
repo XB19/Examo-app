@@ -1,7 +1,9 @@
 package com.examo.backend.content;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
@@ -64,6 +66,8 @@ public record ExamContent(
         /** Marqueur d'un trou dans l'énoncé d'une question FILL_BLANKS. */
         public static final String BLANK = "___";
 
+        private static final Pattern MARKUP = Pattern.compile("<[^>]+>");
+
         public int blankCount() {
             if (prompt == null) {
                 return 0;
@@ -73,6 +77,24 @@ public record ExamContent(
                 count++;
             }
             return count;
+        }
+
+        /**
+         * Énoncé complet, sans balises, pour le bouton « Écouter la question » —
+         * même construction que `ExamQuestion.spokenText` côté app, pour que le
+         * son généré corresponde à ce que l'élève aurait entendu en synthèse locale.
+         */
+        public String spokenText() {
+            List<String> parts = new ArrayList<>();
+            if (stem != null && !stem.isBlank()) {
+                parts.add(stem);
+            }
+            parts.add(label != null && !label.isBlank() ? label + " " + prompt : prompt);
+            if (options != null && !options.isEmpty()) {
+                parts.add(String.join(" ; ", options));
+            }
+            String joined = String.join(". ", parts);
+            return MARKUP.matcher(joined).replaceAll("").replace(BLANK, " … ");
         }
     }
 
