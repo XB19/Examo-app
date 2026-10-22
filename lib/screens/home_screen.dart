@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
               children: [
                 GradientHeaderShell(
                   borderRadius: const BorderRadius.vertical(bottom: Radius.circular(30)),
-                  padding: EdgeInsets.only(bottom: hasHistory ? 60 : 40),
+                  padding: EdgeInsets.only(bottom: hasHistory ? 60 : 56),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
@@ -104,7 +104,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 Transform.translate(
-                  offset: const Offset(0, -50),
+                  offset: Offset(0, hasHistory ? -50 : -24),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20),
                     child: AppCard(
