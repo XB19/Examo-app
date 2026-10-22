@@ -78,6 +78,14 @@ const _subjectColors = <String, Color>{
   'DESSIN': AppColors.gold600,
 };
 
+/// Toutes les matières interactives proposées au CEPD par le backend, dans
+/// l'ordre d'affichage voulu (calcul puis français, puis le reste).
+const cepdSubjectCodes = [
+  'CALCUL_MENTAL', 'CALCUL_ECRIT', 'PROBLEME', 'DICTEE_QUESTIONS', 'ETUDE_TEXTE',
+  'REDACTION', 'PRODUCTION_TEXTE', 'SCIENCES_TECHNO', 'EDUSIVIP', 'HISTOIRE_GEO',
+  'SCIENCES_HUMAINES', 'EDUCATION_CIVIQUE', 'EDUCATION_SOCIALE', 'DESSIN',
+];
+
 const _subjectIcons = <String, IconData>{
   'PROBLEME': Icons.calculate_rounded,
   'CALCUL_ECRIT': Icons.calculate_rounded,

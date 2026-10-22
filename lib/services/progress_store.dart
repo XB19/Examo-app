@@ -305,11 +305,3 @@ class ProgressStore extends ChangeNotifier {
     return unlocked;
   }
 }
-
-/// Toutes les matières interactives proposées au CEPD par le backend,
-/// utilisé pour savoir si l'élève a essayé "toutes les matières".
-const cepdSubjectCodes = [
-  'CALCUL_MENTAL', 'CALCUL_ECRIT', 'PROBLEME', 'DICTEE_QUESTIONS', 'ETUDE_TEXTE',
-  'REDACTION', 'PRODUCTION_TEXTE', 'SCIENCES_TECHNO', 'EDUSIVIP', 'HISTOIRE_GEO',
-  'SCIENCES_HUMAINES', 'EDUCATION_CIVIQUE', 'EDUCATION_SOCIALE', 'DESSIN',
-];
