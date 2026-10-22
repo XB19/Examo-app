@@ -99,6 +99,11 @@ class ExamApi {
   /// [index] correspondant à sa position dans `ExamPassage.sentences`.
   static String dictationAudioUrl(int examId, int index) => '$baseUrl/api/exams/$examId/dictation-audio/$index';
 
+  /// Audio (ElevenLabs, mis en cache côté serveur) de l'énoncé d'une question
+  /// quelconque (`ExamQuestion.spokenText`), pour le bouton « Écouter la question ».
+  static String questionAudioUrl(int examId, String questionId) =>
+      '$baseUrl/api/exams/$examId/questions/$questionId/audio';
+
   static String pageImageUrl(Exam exam, int page) => '$baseUrl/api/exams/${exam.id}/pages/$page';
 
   static String photoUrl(String submissionId, String questionId) => '$baseUrl/api/submissions/$submissionId/photos/$questionId';

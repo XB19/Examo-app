@@ -35,6 +35,7 @@ class _ExamQuestionScreenState extends State<ExamQuestionScreen> {
   late final Timer ticker;
   int index = 0;
   bool submitting = false;
+  bool useElevenLabs = false;
 
   List<ExamQuestion> get questions => widget.content.questions;
   ExamQuestion get question => questions[index];
@@ -46,6 +47,19 @@ class _ExamQuestionScreenState extends State<ExamQuestionScreen> {
     ticker = Timer.periodic(const Duration(seconds: 1), (_) {
       if (mounted) setState(() {});
     });
+    ExamApi.voiceAvailable().then((v) {
+      if (mounted) setState(() => useElevenLabs = v);
+    });
+  }
+
+  /// Lit l'énoncé d'une question (hors dictée) : voix ElevenLabs du serveur en
+  /// priorité (même voix que la dictée), repli sur la voix du téléphone si le
+  /// réseau est coupé.
+  Future<void> _listen(ExamQuestion q) async {
+    final ok = useElevenLabs && await Voice.instance.playUrl(ExamApi.questionAudioUrl(widget.exam.id, q.id));
+    if (ok) return;
+    if (useElevenLabs && mounted) setState(() => useElevenLabs = false);
+    if (mounted) await Voice.instance.speakOrExplain(context, q.spokenText);
   }
 
   @override
@@ -286,7 +300,7 @@ class _ExamQuestionScreenState extends State<ExamQuestionScreen> {
                               builder: (context, speaking, _) => SmallButton(
                                 label: speaking ? 'Arrêter' : 'Écouter la question',
                                 icon: speaking ? Icons.stop_rounded : Icons.volume_up_outlined,
-                                onPressed: () => speaking ? Voice.instance.stop() : Voice.instance.speakOrExplain(context, q.spokenText),
+                                onPressed: () => speaking ? Voice.instance.stop() : _listen(q),
                               ),
                             ),
                           ),
