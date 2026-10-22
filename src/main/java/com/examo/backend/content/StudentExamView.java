@@ -49,15 +49,23 @@ public record StudentExamView(
 
     private static PassageView passage(Passage p) {
         if (p.kind() == PassageKind.DICTATION) {
-            List<String> spoken = new java.util.ArrayList<>();
-            String title = spokenTitle(p.title());
-            if (title != null) {
-                spoken.add(title);
-            }
-            spoken.addAll(sentences(p.text()));
-            return new PassageView(p.id(), p.kind(), null, null, spoken);
+            return new PassageView(p.id(), p.kind(), null, null, spokenSentences(p));
         }
         return new PassageView(p.id(), p.kind(), p.title(), p.text(), null);
+    }
+
+    /**
+     * Phrases d'une dictée dans l'ordre de lecture (titre inclus en premier) : même liste que celle
+     * envoyée à l'élève, réutilisée par DictationAudioController pour que les index correspondent.
+     */
+    public static List<String> spokenSentences(Passage p) {
+        List<String> spoken = new java.util.ArrayList<>();
+        String title = spokenTitle(p.title());
+        if (title != null) {
+            spoken.add(title);
+        }
+        spoken.addAll(sentences(p.text()));
+        return spoken;
     }
 
     /** « <u>Dictée</u> : Tout le monde travaille. » se lit « Tout le monde travaille. » */
