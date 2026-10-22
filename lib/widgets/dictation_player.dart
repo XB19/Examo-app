@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 
+import '../services/exam_api.dart';
 import '../services/voice.dart';
 import '../theme/app_colors.dart';
 import 'chip_widgets.dart';
 
 /// Lit la dictée à voix haute, en entier ou phrase par phrase. Le texte n'est jamais affiché.
+/// Utilise la voix ElevenLabs du serveur quand elle est disponible (meilleure qualité,
+/// générée une fois puis mise en cache), sinon la voix du téléphone.
 class DictationPlayer extends StatefulWidget {
+  final int examId;
   final List<String> sentences;
-  const DictationPlayer({super.key, required this.sentences});
+  const DictationPlayer({super.key, required this.examId, required this.sentences});
 
   @override
   State<DictationPlayer> createState() => _DictationPlayerState();
@@ -18,27 +22,46 @@ class _DictationPlayerState extends State<DictationPlayer> {
   bool playingAll = false;
   bool slow = true;
   bool? voiceAvailable;
+  bool useElevenLabs = false;
   int _run = 0;
 
   double get _rate => slow ? Voice.slowRate : Voice.normalRate;
+  double get _speed => slow ? 0.75 : 1.0;
 
   @override
   void initState() {
     super.initState();
-    Voice.instance.ttsAvailable.then((ok) {
-      if (mounted) setState(() => voiceAvailable = ok);
+    _checkVoices();
+  }
+
+  Future<void> _checkVoices() async {
+    final results = await Future.wait([ExamApi.voiceAvailable(), Voice.instance.ttsAvailable]);
+    if (!mounted) return;
+    final elevenLabs = results[0];
+    final tts = results[1];
+    setState(() {
+      useElevenLabs = elevenLabs;
+      voiceAvailable = elevenLabs || tts;
     });
   }
 
-  Future<void> _speak(String sentence) async {
-    final ok = await Voice.instance.speak(sentence, rate: _rate);
-    if (!ok && mounted) {
-      _run++;
-      setState(() {
-        voiceAvailable = false;
-        playingAll = false;
-      });
+  Future<void> _speak(String sentence, int index) async {
+    final ok = useElevenLabs
+        ? await Voice.instance.playUrl(ExamApi.dictationAudioUrl(widget.examId, index), speed: _speed)
+        : await Voice.instance.speak(sentence, rate: _rate);
+    if (ok || !mounted) return;
+    if (useElevenLabs) {
+      // Le serveur audio n'a pas répondu (réseau coupé) : on retombe sur la voix
+      // du téléphone pour le reste de la dictée, plutôt que d'abandonner.
+      setState(() => useElevenLabs = false);
+      final fallback = await Voice.instance.speak(sentence, rate: _rate);
+      if (fallback || !mounted) return;
     }
+    _run++;
+    setState(() {
+      voiceAvailable = false;
+      playingAll = false;
+    });
   }
 
   /// Sans voix sur le téléphone : une autre personne lit la dictée à l'élève.
@@ -77,7 +100,7 @@ class _DictationPlayerState extends State<DictationPlayer> {
     for (int i = current; i < widget.sentences.length; i++) {
       if (run != _run || !mounted) return;
       setState(() => current = i);
-      await _speak(widget.sentences[i]);
+      await _speak(widget.sentences[i], i);
       if (run != _run || !mounted) return;
       // Laisse à l'élève le temps d'écrire avant la phrase suivante.
       await Future.delayed(Duration(milliseconds: slow ? 2500 : 1200));
@@ -94,7 +117,7 @@ class _DictationPlayerState extends State<DictationPlayer> {
   Future<void> _playOne(int index) async {
     await _stop();
     setState(() => current = index.clamp(0, widget.sentences.length - 1));
-    await _speak(widget.sentences[current]);
+    await _speak(widget.sentences[current], current);
   }
 
   @override

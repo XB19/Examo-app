@@ -14,6 +14,7 @@ import 'rich_prompt.dart';
 
 /// Zone de réponse adaptée au type de question.
 class AnswerInput extends StatelessWidget {
+  final int examId;
   final ExamQuestion question;
   final ExamPassage? passage;
   final StudentAnswer answer;
@@ -22,6 +23,7 @@ class AnswerInput extends StatelessWidget {
 
   const AnswerInput({
     super.key,
+    required this.examId,
     required this.question,
     required this.passage,
     required this.answer,
@@ -47,7 +49,7 @@ class AnswerInput extends StatelessWidget {
           : Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                DictationPlayer(sentences: passage?.sentences ?? const []),
+                DictationPlayer(examId: examId, sentences: passage?.sentences ?? const []),
                 const SizedBox(height: 14),
                 PhotoAnswer(
                   answer: answer,

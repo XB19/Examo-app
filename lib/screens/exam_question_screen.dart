@@ -295,6 +295,7 @@ class _ExamQuestionScreenState extends State<ExamQuestionScreen> {
                         Text('TA RÉPONSE', style: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: AppColors.muted, letterSpacing: .6)),
                         const SizedBox(height: 10),
                         AnswerInput(
+                          examId: widget.exam.id,
                           question: q,
                           passage: passage,
                           answer: answers[q.id]!,

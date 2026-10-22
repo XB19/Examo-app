@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
@@ -18,6 +19,7 @@ class Voice {
 
   final FlutterTts _tts = FlutterTts();
   final SpeechToText _stt = SpeechToText();
+  final AudioPlayer _player = AudioPlayer();
   Future<bool>? _ttsReady;
   bool _sttReady = false;
 
@@ -83,11 +85,40 @@ class Voice {
     }
   }
 
-  Future<void> stop() async {
-    if (_ttsReady == null) return;
+  /// Joue un fichier audio distant (ElevenLabs) et attend la fin de la lecture.
+  /// Renvoie false si la lecture échoue (réseau coupé, etc.) — l'appelant peut
+  /// alors se rabattre sur [speak].
+  Future<bool> playUrl(String url, {double speed = 1.0}) async {
+    await stop();
     try {
-      await _tts.stop();
+      speaking.value = true;
+      final done = Completer<void>();
+      late final StreamSubscription sub;
+      sub = _player.onPlayerComplete.listen((_) {
+        sub.cancel();
+        if (!done.isCompleted) done.complete();
+      });
+      await _player.setPlaybackRate(speed);
+      await _player.play(UrlSource(url));
+      // Garde-fou : une dictée dure rarement plus de deux minutes.
+      await done.future.timeout(const Duration(minutes: 2), onTimeout: () {});
+      return true;
+    } catch (_) {
+      return false;
+    } finally {
+      _done();
+    }
+  }
+
+  Future<void> stop() async {
+    try {
+      await _player.stop();
     } catch (_) {}
+    if (_ttsReady != null) {
+      try {
+        await _tts.stop();
+      } catch (_) {}
+    }
     _done();
   }
 

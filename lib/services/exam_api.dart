@@ -86,6 +86,19 @@ class ExamApi {
     return (jsonDecode(utf8.decode(response.bodyBytes)) as Map<String, dynamic>)['reply'] as String;
   }
 
+  static Future<bool> voiceAvailable() async {
+    try {
+      final json = await _getJson(Uri.parse('$baseUrl/api/voice/status'));
+      return (json as Map<String, dynamic>)['available'] == true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  /// Audio (ElevenLabs, mis en cache côté serveur) d'une phrase de dictée,
+  /// [index] correspondant à sa position dans `ExamPassage.sentences`.
+  static String dictationAudioUrl(int examId, int index) => '$baseUrl/api/exams/$examId/dictation-audio/$index';
+
   static String pageImageUrl(Exam exam, int page) => '$baseUrl/api/exams/${exam.id}/pages/$page';
 
   static String photoUrl(String submissionId, String questionId) => '$baseUrl/api/submissions/$submissionId/photos/$questionId';
