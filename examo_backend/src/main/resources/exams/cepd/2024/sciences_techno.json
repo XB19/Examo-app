@@ -1,0 +1,89 @@
+{
+  "level": "CEPD",
+  "year": 2024,
+  "month": "JUIN",
+  "subject": "SCIENCES_TECHNO",
+  "title": "SCIENCES ET TECHNOLOGIE",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. À la question 1, chaque case du tableau propose la liste des instruments du sujet. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "En te basant sur tes connaissances en classe, complète le tableau ci-dessous avec les instruments suivants : le thermomètre, le compte-goutte, les ciseaux, le dispositif des châteaux d’eau dans les villes.",
+      "points": 2,
+      "type": "TABLE",
+      "options": ["le thermomètre", "le compte-goutte", "les ciseaux", "le dispositif des châteaux d’eau dans les villes"],
+      "table": {
+        "header": ["Principe de dilatation des liquides", "Principe des leviers", "Principe des vases communicants", "Principe de la pression atmosphérique"],
+        "rows": [
+          [null, null, null, null]
+        ]
+      },
+      "tableAnswer": [
+        ["le thermomètre", "les ciseaux", "le dispositif des châteaux d’eau dans les villes", "le compte-goutte"]
+      ],
+      "answer": "Principe de dilatation des liquides : le thermomètre.\nPrincipe des leviers : les ciseaux.\nPrincipe des vases communicants : le dispositif des châteaux d’eau dans les villes.\nPrincipe de la pression atmosphérique : le compte-goutte.",
+      "grading": "0,5 pt par case juste."
+    },
+    {
+      "id": "q2",
+      "stem": "2. Un os est laissé dans du vinaigre ou de l’acide pendant 10 jours.",
+      "label": "a)",
+      "prompt": "Que veut-on mettre en évidence ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "On veut montrer que l’os contient de la matière minérale (des sels de calcium) qui le rend dur : sans elle, l’os devient mou et souple.",
+      "grading": "1 pt pour la présence de matière minérale (sels de calcium) qui donne sa dureté à l’os."
+    },
+    {
+      "id": "q3",
+      "stem": "2. Un os est laissé dans du vinaigre ou de l’acide pendant 10 jours.",
+      "label": "b)",
+      "prompt": "Quel élément a disparu dans ces conditions ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "La matière minérale (les sels de calcium) a disparu ; il ne reste que la matière organique (l’osséine) et l’os devient souple.",
+      "grading": "1 pt pour la matière minérale / le calcium."
+    },
+    {
+      "id": "q4",
+      "stem": "3. Tu as suivi le cours sur les aliments en classe. Réponds aux questions suivantes :",
+      "label": "-",
+      "prompt": "Cite deux aliments qui font grandir.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Les aliments de construction, riches en protéines : la viande, le poisson, les œufs, le lait, le haricot, le soja.",
+      "grading": "0,5 pt par aliment de construction juste."
+    },
+    {
+      "id": "q5",
+      "stem": "3. Tu as suivi le cours sur les aliments en classe. Réponds aux questions suivantes :",
+      "label": "-",
+      "prompt": "Qu’est-ce que la ration alimentaire.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "C’est la quantité d’aliments variés qu’une personne doit manger en une journée pour couvrir les besoins de son corps (selon son âge, son activité et sa santé).",
+      "grading": "1 pt pour l’idée de quantité d’aliments nécessaire par jour."
+    },
+    {
+      "id": "q6",
+      "label": "4.",
+      "prompt": "Ta grande sœur est enceinte. Donne-lui deux conseils qu’elle doit suivre pour être en bonne santé et pour le bon développement du fœtus.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Aller régulièrement aux consultations prénatales ; bien manger (repas variés) ; dormir sous une moustiquaire imprégnée ; ne pas boire d’alcool ni fumer ; se reposer et éviter les travaux trop pénibles ; ne pas prendre de médicaments sans l’avis du médecin.",
+      "grading": "1 pt par conseil valable."
+    },
+    {
+      "id": "q7",
+      "label": "5.",
+      "prompt": "Fais le schéma de l’appareil respiratoire de l’homme et indique avec précision ses différentes parties.",
+      "points": 2,
+      "type": "PHOTO",
+      "answer": "Annotations attendues : fosses nasales, bouche, pharynx, larynx, trachée-artère, bronches, bronchioles, poumons (droit et gauche), diaphragme. On peut aussi indiquer les alvéoles pulmonaires et la cage thoracique (côtes).",
+      "grading": "1 pt pour le schéma ; 1 pt pour les annotations (au moins 5 justes)."
+    }
+  ]
+}

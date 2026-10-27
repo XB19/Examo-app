@@ -1,0 +1,68 @@
+{
+  "level": "CEPD",
+  "year": 2020,
+  "month": "AOUT",
+  "subject": "CALCUL_ECRIT",
+  "title": "EXERCICE ECRITS DE CALCUL",
+  "durationMinutes": 30,
+  "reviewNotes": "Session « CEPD - AOÛT 2020 ». Sujet imprimé deux fois : retranscrit le premier exemplaire (le second numérote par erreur « c-, d- »). Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1-",
+      "prompt": "Le champ carré de papa a un périmètre qui mesure 400m. Aide papa à calculer l’aire de son champ.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Côté du carré : 400 m ÷ 4 = 100 m.\nAire : 100 m × 100 m = 10 000 m² (soit 1 ha).",
+      "grading": "2 pts pour le côté (100 m) ; 2 pts pour l’aire (10 000 m²)."
+    },
+    {
+      "id": "q2",
+      "label": "2-",
+      "prompt": "Sur une route longue de 6,444 km, on a planté des poteaux téléphoniques espacés de 36m les uns des autres. Sachant qu’il y a un poteau à chaque extrémité, trouve le nombre total de poteaux plantés sur cette route.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "6,444 km = 6 444 m.\nNombre d’intervalles : 6 444 m ÷ 36 m = 179.\nUn poteau à chaque extrémité : 179 + 1 = 180 poteaux.",
+      "grading": "1 pt pour la conversion ; 1 pt pour 179 intervalles ; 2 pts pour 180 poteaux."
+    },
+    {
+      "id": "q3",
+      "stem": "3- une table coûte 5250F de plus que la chaise. Ton oncle achète les deux meubles au prix total de 16750F",
+      "label": "a-",
+      "prompt": "Quel est le prix de la chaise ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Deux fois le prix de la chaise : 16 750 F − 5 250 F = 11 500 F.\nPrix de la chaise : 11 500 F ÷ 2 = 5 750 F.",
+      "grading": "1 pt pour 11 500 F ; 1 pt pour 5 750 F."
+    },
+    {
+      "id": "q4",
+      "stem": "3- une table coûte 5250F de plus que la chaise. Ton oncle achète les deux meubles au prix total de 16750F",
+      "label": "b-",
+      "prompt": "Combien coûte la table ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "5 750 F + 5 250 F = 11 000 F. La table coûte 11 000 F.",
+      "grading": "2 pts pour 11 000 F. Accepter un résultat juste calculé à partir d’un prix de chaise faux."
+    },
+    {
+      "id": "q5",
+      "label": "4-",
+      "prompt": "Une marchande d’étoffe a vendu successivement des coupons d’étoffe mesurant respectivement 42,50m ; 145m ; 32,25m et 16 ,75m. Quelle est la longueur totale d’étoffe vendue ?",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "42,50 m + 145 m + 32,25 m + 16,75 m = 236,5 m.",
+      "grading": "4 pts pour 236,5 m (ou 236,50 m) ; 2 pts si une seule erreur de calcul avec une addition bien posée."
+    },
+    {
+      "id": "q6",
+      "label": "5-",
+      "prompt": "Un train arrive à destination à 13h46 min. Son trajet a duré 3h25 min. Quelle a été l’heure de départ de ce train ?",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "13 h 46 min − 3 h 25 min = 10 h 21 min. Le train est parti à 10 h 21 min.",
+      "grading": "4 pts pour 10 h 21 min."
+    }
+  ]
+}

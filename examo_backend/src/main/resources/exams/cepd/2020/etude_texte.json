@@ -1,0 +1,170 @@
+{
+  "level": "CEPD",
+  "year": 2020,
+  "month": "AOUT",
+  "subject": "ETUDE_TEXTE",
+  "title": "ETUDE DE TEXTE",
+  "durationMinutes": 75,
+  "reviewNotes": "Session « CEPD - AOÛT 2020 ». Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "TEXT",
+      "title": "<u>TEXTE</u>",
+      "text": "La forêt est d’<u>une grande importance</u> dans la vie d’un homme. A quoi sert la forêt ?\nLes arbres de la forêt donnent des fruits. Les animaux sauvages n’ayant pas de maison, les arbres les protègent.\nL’homme peut couper les arbres pour faire des maisons et des meubles. Sans la forêt, le vent emporterait la couche de <u>terre fertile</u> dans laquelle poussent les plantes. Grâce aux nombreux arbres, l’eau de pluie ne ruisselle pas et n’emporte pas cette bonne terre. De même, de nombreuses racines retiennent le sol. Les feuilles forment une espèce d’engrais qui enrichit le sol. Les arbres nous abritent du vent, ils purifient l’air que nous respirons…\nMais attention ! Il faudra que l’homme, à chaque fois qu’il coupe un arbre dans la forêt, en plante aussitôt pour le remplacer. Si toutes les forêts disparaissent, il serait difficile à l’homme de vivre sur la terre, car celle-ci se transformerait alors en désert."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "section": "I- <u>VOCABULAIRE</u>",
+      "stem": "1- Explique :",
+      "label": "a-",
+      "passage": "p1",
+      "prompt": "Une grande importance.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Une grande importance : une grande utilité, une grande valeur ; la forêt compte beaucoup dans la vie de l’homme.",
+      "grading": "1 pt pour l’idée de grande utilité / grande valeur."
+    },
+    {
+      "id": "q2",
+      "section": "I- <u>VOCABULAIRE</u>",
+      "stem": "1- Explique :",
+      "label": "b-",
+      "passage": "p1",
+      "prompt": "Une terre fertile",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Une terre fertile : une terre riche, où les plantes poussent bien et donnent de bonnes récoltes.",
+      "grading": "1 pt pour l’idée de terre riche, qui produit beaucoup."
+    },
+    {
+      "id": "q3",
+      "section": "I- <u>VOCABULAIRE</u>",
+      "stem": "2- Donne le contraire de :",
+      "label": "a-",
+      "passage": "p1",
+      "prompt": "Les animaux sauvages.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Les animaux domestiques.",
+      "grading": "1 pt pour « domestiques »."
+    },
+    {
+      "id": "q4",
+      "section": "I- <u>VOCABULAIRE</u>",
+      "stem": "2- Donne le contraire de :",
+      "label": "b-",
+      "passage": "p1",
+      "prompt": "Enrichit le sol.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Appauvrit le sol.",
+      "grading": "1 pt pour « appauvrit »."
+    },
+    {
+      "id": "q5",
+      "section": "I- <u>VOCABULAIRE</u>",
+      "stem": "3-",
+      "label": "a-",
+      "passage": "p1",
+      "prompt": "Trouve un mot de la même famille que « forêt ».",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Forestier, forestière, déforestation, reforestation (un au choix).",
+      "grading": "1 pt pour un mot juste."
+    },
+    {
+      "id": "q6",
+      "section": "I- <u>VOCABULAIRE</u>",
+      "stem": "3-",
+      "label": "b-",
+      "passage": "p1",
+      "prompt": "Donne le synonyme de « maison ».",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Habitation, demeure, logement, logis, case (un au choix).",
+      "grading": "1 pt pour un synonyme juste."
+    },
+    {
+      "id": "q7",
+      "section": "II- <u>GRAMMAIRE ET CONJUGAISON</u>",
+      "label": "1-",
+      "passage": "p1",
+      "prompt": "Ecris à la forme passive : « Les arbres donnent des fruits ».",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Des fruits sont donnés par les arbres.",
+      "grading": "2 pts pour la phrase passive juste ; 1 pt s’il manque l’accord (« donnés »)."
+    },
+    {
+      "id": "q8",
+      "section": "II- <u>GRAMMAIRE ET CONJUGAISON</u>",
+      "label": "2-",
+      "passage": "p1",
+      "prompt": "Ecris d’une autre manière la phrase suivante : « Sans la forêt, le vent emporterait la couche de terre fertile ».",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Le vent emporterait la couche de terre fertile sans la forêt.\n(ou : S’il n’y avait pas de forêt, le vent emporterait la couche de terre fertile.)",
+      "grading": "2 pts pour une phrase de même sens écrite autrement (déplacement du complément ou subordonnée en « si »)."
+    },
+    {
+      "id": "q9",
+      "section": "II- <u>GRAMMAIRE ET CONJUGAISON</u>",
+      "label": "3-",
+      "passage": "p1",
+      "prompt": "Donne la structure de la phrase suivante : « L’homme coupe les arbres ».",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "L’homme : groupe nominal sujet (GNS).\ncoupe les arbres : groupe verbal (GV), avec le verbe « coupe » et le COD « les arbres ».\nStructure : GNS + GV (Sujet + Verbe + COD).",
+      "grading": "2 pts pour la structure juste ; 1 pt si elle est incomplète."
+    },
+    {
+      "id": "q10",
+      "section": "II- <u>GRAMMAIRE ET CONJUGAISON</u>",
+      "label": "4-",
+      "passage": "p1",
+      "prompt": "« De nombreuses racines retiennent le sol ». Mets cette phrase à l’imparfait de l’indicatif.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "De nombreuses racines retenaient le sol.",
+      "grading": "2 pts pour « retenaient »."
+    },
+    {
+      "id": "q11",
+      "section": "III- <u>COMPREHENSION DU TEXTE</u>",
+      "label": "1-",
+      "passage": "p1",
+      "prompt": "Relève dans le texte deux utilités de la forêt pour l’homme.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : les arbres donnent des fruits ; l’homme coupe les arbres pour faire des maisons et des meubles ; la forêt retient la terre fertile ; les arbres nous abritent du vent ; ils purifient l’air que nous respirons.",
+      "grading": "1 pt par utilité relevée dans le texte."
+    },
+    {
+      "id": "q12",
+      "section": "III- <u>COMPREHENSION DU TEXTE</u>",
+      "stem": "2-",
+      "label": "a-",
+      "passage": "p1",
+      "prompt": "Le 1ᵉʳ juin c’est la journée de l’arbre au Togo. Que fais-tu ce jour-là ? Pourquoi ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Ce jour-là, je plante un arbre (ou plusieurs). Je le fais pour remplacer les arbres coupés, protéger la terre et l’environnement et empêcher le pays de devenir un désert.",
+      "grading": "1 pt pour « je plante un arbre » ; 1 pt pour la raison."
+    },
+    {
+      "id": "q13",
+      "section": "III- <u>COMPREHENSION DU TEXTE</u>",
+      "stem": "2-",
+      "label": "b-",
+      "passage": "p1",
+      "prompt": "Que devons-nous faire pour éviter que notre pays ne devienne pas un désert ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Nous devons planter un arbre chaque fois que nous en coupons un, reboiser, éviter les feux de brousse et ne pas couper les arbres sans raison.",
+      "grading": "1 pt par action valable (deux attendues)."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "level": "CEPD",
+  "year": 2021,
+  "month": "JUIN",
+  "subject": "CALCUL_MENTAL",
+  "title": "Calcul mental",
+  "durationMinutes": 5,
+  "reviewNotes": "Sujet imprimé trois fois sur la page : retranscrit une seule fois. Barème non imprimé : 2 points par question (hypothèse à valider). Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Je fais deux achats : l’un à 375F et l’autre à 625F. Combien dois-je payer ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "375 F + 625 F = 1 000 F. Je dois payer 1 000 F.",
+      "grading": "2 pts pour 1 000 F. 0 sinon."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "prompt": "Le réservoir d’une voiture a un volume de 60l. le pompiste le remplit aux deux tiers. Quel est le volume d’essence servi.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "60 l ÷ 3 × 2 = 40 l. Le pompiste a servi 40 l d’essence.",
+      "grading": "2 pts pour 40 l. 0 sinon."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "prompt": "Une roue d’un vélo parcourt 2,5mètres en un tour de roue. Quelle distance parcourt-elle en 8 tours ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "2,5 m × 8 = 20 m. Elle parcourt 20 m.",
+      "grading": "2 pts pour 20 m. 1 pt si le nombre est juste sans unité."
+    },
+    {
+      "id": "q4",
+      "label": "4.",
+      "prompt": "Fréderic a 12litres d’huile qu’il met en bouteilles de 0,75litre. Combien de bouteilles fera-t-il ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "12 l ÷ 0,75 l = 16. Il fera 16 bouteilles.",
+      "grading": "2 pts pour 16 bouteilles. 0 sinon."
+    },
+    {
+      "id": "q5",
+      "label": "5.",
+      "prompt": "Au prix de 17,5francs la pièce, quelle est la recette faite sur 100 pains vendus ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "17,5 F × 100 = 1 750 F. La recette est de 1 750 F.",
+      "grading": "2 pts pour 1 750 F. 0 sinon."
+    }
+  ]
+}

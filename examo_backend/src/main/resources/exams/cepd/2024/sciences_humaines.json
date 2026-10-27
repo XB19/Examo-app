@@ -1,0 +1,113 @@
+{
+  "level": "CEPD",
+  "year": 2024,
+  "month": "JUIN",
+  "subject": "SCIENCES_HUMAINES",
+  "title": "SCIENCES HUMAINES",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. À la question 1, les deux colonnes du sujet (événements et dates à relier) deviennent un tableau avec un choix de date pour chaque événement. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Ton camarade veut relier à l’aide d’une flèche chaque événement à sa date de réalisation mais n’y arrive pas. Aide-le.",
+      "points": 2,
+      "type": "TABLE",
+      "options": ["30 août 1956", "27 avril 1960", "5 juillet 1884", "20 septembre 1960"],
+      "table": {
+        "rows": [
+          ["Signature du traité de protectorat", null],
+          ["Indépendance du TOGO", null],
+          ["Admission du Togo à l’ONU", null],
+          ["Autonomie du Togo", null]
+        ]
+      },
+      "tableAnswer": [
+        ["Signature du traité de protectorat", "5 juillet 1884"],
+        ["Indépendance du TOGO", "27 avril 1960"],
+        ["Admission du Togo à l’ONU", "20 septembre 1960"],
+        ["Autonomie du Togo", "30 août 1956"]
+      ],
+      "answer": "Signature du traité de protectorat → 5 juillet 1884\nIndépendance du TOGO → 27 avril 1960\nAdmission du Togo à l’ONU → 20 septembre 1960\nAutonomie du Togo → 30 août 1956",
+      "grading": "0,5 pt par association juste."
+    },
+    {
+      "id": "q2",
+      "stem": "2. Vous avez étudié l’hydrographie et la végétation du Togo. Réponds aux questions suivantes :",
+      "label": "a)",
+      "prompt": "Quelle est l’importance des cours d’eau ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Les cours d’eau donnent de l’eau pour boire, cuisiner et arroser les cultures ; ils permettent la pêche, le transport en pirogue et la production d’électricité (barrage de Nangbéto).",
+      "grading": "0,5 pt par importance juste (deux attendues)."
+    },
+    {
+      "id": "q3",
+      "stem": "2. Vous avez étudié l’hydrographie et la végétation du Togo. Réponds aux questions suivantes :",
+      "label": "b)",
+      "prompt": "Quelle est l’utilité de la forêt ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "La forêt donne du bois (pour cuisiner et construire), des fruits, des plantes qui soignent et du gibier ; elle protège le sol contre l’érosion, aide à faire tomber la pluie et purifie l’air.",
+      "grading": "0,5 pt par utilité juste (deux attendues)."
+    },
+    {
+      "id": "q4",
+      "stem": "3. L’une des grandes inventions du 15è siècle a favorisé le développement de l’éducation.",
+      "label": "a)",
+      "prompt": "De quelle invention s’agit-il ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "L’imprimerie.",
+      "grading": "0,5 pt pour l’imprimerie."
+    },
+    {
+      "id": "q5",
+      "stem": "3. L’une des grandes inventions du 15è siècle a favorisé le développement de l’éducation.",
+      "label": "b)",
+      "prompt": "Qui en est l’auteur ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Johannes Gutenberg.",
+      "grading": "0,5 pt pour Gutenberg."
+    },
+    {
+      "id": "q6",
+      "stem": "3. L’une des grandes inventions du 15è siècle a favorisé le développement de l’éducation.",
+      "label": "c)",
+      "prompt": "Quelle est l’année de cette invention ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Vers 1450.",
+      "grading": "0,5 pt pour une année entre 1440 et 1455."
+    },
+    {
+      "id": "q7",
+      "label": "4.",
+      "prompt": "Tu veux montrer à ton papa que tu as bien compris ton cours sur l’agriculture au Togo. Donne-lui le nom de deux cultures d’exportation que le Togo produit.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : le café, le cacao, le coton, le soja, l’anacarde (noix de cajou).",
+      "grading": "0,5 pt par culture d’exportation juste."
+    },
+    {
+      "id": "q8",
+      "label": "5.",
+      "prompt": "Cite les pays voisins du Togo et leurs capitales respectives.",
+      "points": 1.5,
+      "type": "SHORT_TEXT",
+      "answer": "Le Ghana (capitale : Accra) à l’ouest ; le Bénin (capitale : Porto-Novo) à l’est ; le Burkina Faso (capitale : Ouagadougou) au nord.",
+      "grading": "0,25 pt par pays et 0,25 pt par capitale. Pour le Bénin, accepter Porto-Novo ou Cotonou."
+    },
+    {
+      "id": "q9",
+      "label": "6.",
+      "prompt": "Sur une carte du Togo avec ses limites bien faites, place : Les deux principaux vents qui soufflent au Togo ; Le barrage de Nangbeto ; la capitale Lomé.",
+      "points": 2,
+      "type": "PHOTO",
+      "answer": "La carte du Togo, avec ses frontières bien tracées, montre : l’harmattan (flèche qui vient du nord-est) et la mousson (flèche qui vient du sud-ouest, de la mer) ; le barrage de Nangbéto, sur le fleuve Mono, dans la région des Plateaux ; Lomé, au sud, au bord de la mer, près de la frontière du Ghana.",
+      "grading": "0,5 pt pour la carte bien faite ; 0,5 pt par vent bien placé ; 0,25 pt pour le barrage de Nangbéto ; 0,25 pt pour Lomé."
+    }
+  ]
+}

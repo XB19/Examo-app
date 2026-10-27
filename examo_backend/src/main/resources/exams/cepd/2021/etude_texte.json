@@ -1,0 +1,153 @@
+{
+  "level": "CEPD",
+  "year": 2021,
+  "month": "JUIN",
+  "subject": "ETUDE_TEXTE",
+  "title": "Etude de texte (Lecture et compréhension)",
+  "durationMinutes": 75,
+  "reviewNotes": "Corrigé rédigé par Examo, à valider par un enseignant (question III.4 en particulier : « Voici » ne se met pas vraiment au passif).",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "TEXT",
+      "title": "<u>Etude de texte</u> (Lecture et compréhension) : Les petits commerces de femmes.",
+      "text": "Le secteur alimentaire n’est jamais en crise. Ici, en Afrique Occidentale, les femmes qui ont l’esprit d’initiative ont imaginé une multitude de façons d’en tirer profit. Certaines par exemple, installent un petit baraquement près d’un chantier et préparent le déjeuner des ouvriers. D’autres alimentent ceux qui se rendent à leur travail le matin. Elles dressent une petite table avec des bancs, font bouillir de l’eau sur un réchaud à charbon de bois et servent un petit déjeuner simple fait de café, accompagné de pain frais et de beurre. Dans l’après-midi, elles proposent un repas léger aux ouvriers qui ont fini leur journée de travail.\nCertaines femmes trouvent un endroit fréquenté, près d’un marché, et font griller des arachides. Voici une autre idée de petit commerce puisque les gens qui travaillent sont pressés et n’ont souvent pas de temps d’effectuer un long trajet pour se rendre au marché, ils s’approvisionnent au petit étalage de fruits et de légumes du coin. Certaines propriétaires de ces éventaires proposent même service de livraison de légumes frais à domicile. Veillez toutefois à ne pas pratiquer des prix trop élevés sous peine de voir vos clients reprendre le chemin du marché."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "section": "I. <u>Compréhension du texte</u>",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Quel commerce pratiquent les femmes ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Elles pratiquent le petit commerce alimentaire : elles vendent des repas, des petits déjeuners, des arachides grillées, des fruits et des légumes.",
+      "grading": "1 pt pour le commerce de nourriture (commerce alimentaire)."
+    },
+    {
+      "id": "q2",
+      "section": "I. <u>Compréhension du texte</u>",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "A quels endroits les trouve-t-on ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Près des chantiers ; sur le chemin de ceux qui vont au travail le matin ; dans les endroits fréquentés, près des marchés ; au coin des rues (petits étalages du coin).",
+      "grading": "1 pt par endroit relevé dans le texte (deux attendus)."
+    },
+    {
+      "id": "q3",
+      "section": "I. <u>Compréhension du texte</u>",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "Penses-tu que ces femmes participent au développement de leur pays ? Pourquoi ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Oui. Elles gagnent de l’argent pour faire vivre leur famille, elles nourrissent les travailleurs et leur font gagner du temps, et elles font tourner le commerce.",
+      "grading": "0,5 pt pour « oui » ; 1,5 pt pour une justification valable."
+    },
+    {
+      "id": "q4",
+      "section": "II. <u>vocabulaire (J’utilise les mots nouveaux)</u>",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "J’explique : un secteur en crise ; un endroit fréquenté ; un service de livraison à domicile .",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Un secteur en crise : une activité qui va mal, qui connaît de grandes difficultés.\nUn endroit fréquenté : un lieu où passent beaucoup de gens.\nUn service de livraison à domicile : on apporte la marchandise chez le client, à sa maison.",
+      "grading": "Environ 0,67 pt par explication juste."
+    },
+    {
+      "id": "q5",
+      "section": "II. <u>vocabulaire (J’utilise les mots nouveaux)</u>",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "Trouve deux (2) mots de sens voisin à chacun des mots suivants: travail, domicile.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Travail : labeur, emploi, métier, besogne, ouvrage.\nDomicile : maison, demeure, logement, habitation, logis.",
+      "grading": "0,5 pt par mot juste (deux pour chacun)."
+    },
+    {
+      "id": "q6",
+      "section": "II. <u>vocabulaire (J’utilise les mots nouveaux)</u>",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "Je trouve deux (2) mots de même famille que matin et je mets chacun dans une phrase.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Matinée : J’ai étudié toute la matinée.\nMatinal : Mon père est très matinal, il se lève à cinq heures.",
+      "grading": "0,5 pt par mot juste et 0,5 pt par phrase correcte où il est bien employé."
+    },
+    {
+      "id": "q7",
+      "section": "II. <u>vocabulaire (J’utilise les mots nouveaux)</u>",
+      "label": "4.",
+      "passage": "p1",
+      "prompt": "Quel est le contraire de : le matin ; jamais ; simple ; trop.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Le matin : le soir.\nJamais : toujours.\nSimple : compliqué.\nTrop : peu (pas assez).",
+      "grading": "0,5 pt par contraire juste."
+    },
+    {
+      "id": "q8",
+      "section": "III. <u>Grammaire et Conjugaison(Je manipule les phrases)</u>",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Ecris la troisième phrase du texte à la forme interrogative avec inversion de sujet.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Certaines, par exemple, installent-elles un petit baraquement près d’un chantier et préparent-elles le déjeuner des ouvriers ?",
+      "grading": "2 pts pour l’inversion du sujet (installent-elles… préparent-elles… ?) ; 1 pt si un seul verbe est inversé."
+    },
+    {
+      "id": "q9",
+      "section": "III. <u>Grammaire et Conjugaison(Je manipule les phrases)</u>",
+      "stem": "2. « Dans l’après-midi………..leur journée de travail ». Relève dans cette phrase :",
+      "label": "-",
+      "passage": "p1",
+      "prompt": "un GN circonstanciel de temps",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "« Dans l’après-midi ».",
+      "grading": "1 pt pour « Dans l’après-midi »."
+    },
+    {
+      "id": "q10",
+      "section": "III. <u>Grammaire et Conjugaison(Je manipule les phrases)</u>",
+      "stem": "2. « Dans l’après-midi………..leur journée de travail ». Relève dans cette phrase :",
+      "label": "-",
+      "passage": "p1",
+      "prompt": "un GN complément d’objet direct (COD)",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "« un repas léger » (COD de « proposent »). On accepte aussi « leur journée de travail » (COD de « ont fini »).",
+      "grading": "1 pt pour « un repas léger » ou « leur journée de travail »."
+    },
+    {
+      "id": "q11",
+      "section": "III. <u>Grammaire et Conjugaison(Je manipule les phrases)</u>",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "« Certaines femmes…………des arachides ». Réécris cette phrase au futur simple et au conditionnel présent de l’indicatif.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Futur simple : Certaines femmes trouveront un endroit fréquenté, près d’un marché, et feront griller des arachides.\nConditionnel présent : Certaines femmes trouveraient un endroit fréquenté, près d’un marché, et feraient griller des arachides.",
+      "grading": "1 pt par temps juste (les deux verbes conjugués)."
+    },
+    {
+      "id": "q12",
+      "section": "III. <u>Grammaire et Conjugaison(Je manipule les phrases)</u>",
+      "label": "4.",
+      "passage": "p1",
+      "prompt": "« Voici une autre idée de petit commerce » Mets cette phrase à la forme passive.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Une autre idée de petit commerce est proposée (présentée) ici.",
+      "grading": "1 pt pour une phrase où « une autre idée de petit commerce » devient sujet d’un verbe au passif (est proposée, est présentée, est donnée)."
+    }
+  ]
+}

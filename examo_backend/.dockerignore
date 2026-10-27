@@ -1,0 +1,9 @@
+target/
+storage/
+secrets.properties
+.env
+.git/
+.idea/
+.vscode/
+*.iml
+HELP.md

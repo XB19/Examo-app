@@ -1,0 +1,77 @@
+{
+  "level": "CEPD",
+  "year": 2022,
+  "month": "JUIN",
+  "subject": "EDUCATION_SOCIALE",
+  "title": "EDUCATION SOCIALE",
+  "durationMinutes": 30,
+  "reviewNotes": "Session « CEPD MAI – JUIN 2022 ». Sujet imprimé deux fois sur la page : retranscrit une seule fois. À la question 1, les deux colonnes à cocher « Bon » et « Mauvais » deviennent une seule colonne où l’élève choisit « Bon » ou « Mauvais ». Corrigé rédigé par Examo, à valider par un enseignant (sens des couleurs du drapeau et ordre des secours en particulier).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Apprécie les comportements suivants par « bon » ou « mauvais » en mettant une croix dans les cases correspondantes.",
+      "points": 1.5,
+      "type": "TABLE",
+      "options": ["Bon", "Mauvais"],
+      "table": {
+        "header": ["Comportements", "Bon / Mauvais"],
+        "rows": [
+          ["Allumer les feux de brousse", null],
+          ["Planter des arbres", null],
+          ["Aider ses parents", null],
+          ["Bien chanter l’hymne national", null],
+          ["Refuser d’apprendre ses leçons", null],
+          ["Refuser de respecter les mesures barrières", null]
+        ]
+      },
+      "tableAnswer": [
+        ["Allumer les feux de brousse", "Mauvais"],
+        ["Planter des arbres", "Bon"],
+        ["Aider ses parents", "Bon"],
+        ["Bien chanter l’hymne national", "Bon"],
+        ["Refuser d’apprendre ses leçons", "Mauvais"],
+        ["Refuser de respecter les mesures barrières", "Mauvais"]
+      ],
+      "answer": "Bon : planter des arbres ; aider ses parents ; bien chanter l’hymne national.\nMauvais : allumer les feux de brousse ; refuser d’apprendre ses leçons ; refuser de respecter les mesures barrières.",
+      "grading": "0,25 pt par comportement bien classé."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "prompt": "Le drapeau togolais est composé de plusieurs couleurs. Nomme ces couleurs en précisant le sens de chacune d’elles.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Le vert (les bandes vertes) : l’espérance et l’agriculture (la richesse de la terre).\nLe jaune (les bandes jaunes) : les richesses du sous-sol et la foi dans le travail.\nLe rouge (le carré rouge) : le sang versé par les martyrs pour l’indépendance, l’amour de la patrie.\nLe blanc (l’étoile blanche) : la paix, la liberté et la pureté.",
+      "grading": "1 pt par couleur nommée avec son sens (0,5 pt pour la couleur, 0,5 pt pour le sens). Accepter les sens voisins enseignés en classe."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "prompt": "Quels sont les actes de l’Etat civil que tu connais.",
+      "points": 1.5,
+      "type": "SHORT_TEXT",
+      "answer": "L’acte de naissance, l’acte de mariage et l’acte de décès.",
+      "grading": "0,5 pt par acte juste."
+    },
+    {
+      "id": "q4",
+      "label": "4.",
+      "prompt": "La constitution togolaise a prévu trois pouvoirs. Cite-les.",
+      "points": 1.5,
+      "type": "SHORT_TEXT",
+      "answer": "Le pouvoir exécutif, le pouvoir législatif et le pouvoir judiciaire.",
+      "grading": "0,5 pt par pouvoir juste."
+    },
+    {
+      "id": "q5",
+      "label": "5.",
+      "prompt": "Un incendie s’est déclenché dans votre quartier avec des blessés graves. Des secouristes suivants : la gendarmerie, les sapeurs-pompiers, l’ambulancier doivent intervenir pour sauver les blessés. Ton neveu te demande l’ordre de passages de ces secouristes sur les lieux. Ordonne leur passage pour lui.",
+      "points": 1.5,
+      "type": "SHORT_TEXT",
+      "answer": "1. Les sapeurs-pompiers : ils éteignent le feu et dégagent les blessés.\n2. L’ambulancier : il donne les premiers soins et transporte les blessés à l’hôpital.\n3. La gendarmerie : elle sécurise les lieux et mène l’enquête.",
+      "grading": "0,5 pt par secouriste bien placé. Accepter un autre ordre s’il est bien justifié (par exemple la gendarmerie en premier pour sécuriser les lieux)."
+    }
+  ]
+}

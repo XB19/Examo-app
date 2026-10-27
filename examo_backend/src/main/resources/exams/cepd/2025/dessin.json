@@ -1,0 +1,20 @@
+{
+  "level": "CEPD",
+  "year": 2025,
+  "month": "JUIN",
+  "subject": "DESSIN",
+  "title": "DESSIN",
+  "durationMinutes": 30,
+  "reviewNotes": "Barème non imprimé sur le sujet : 10 points (hypothèse à valider par un enseignant).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "<u>Sujet</u> : Tu aimes admirer les petits oiseaux et tu as grande envie de les apprivoiser. Lors d’une promenade, tu as vu deux oiseaux se poser sur une branche d’un arbre. Dessine-les.",
+      "points": 10,
+      "type": "PHOTO",
+      "answer": "Le dessin montre une branche d’arbre, avec quelques feuilles, et deux oiseaux posés dessus, bien reconnaissables : tête, bec, ailes, queue et pattes accrochées à la branche. Le dessin occupe bien la feuille, les traits sont nets et les couleurs, s’il y en a, sont soignées.",
+      "grading": "Sur 10 : respect du sujet (deux oiseaux posés sur une branche) 4 pts ; oiseaux bien dessinés (bec, ailes, queue, pattes) 3 pts ; mise en page et propreté 2 pts ; soin et couleurs 1 pt."
+    }
+  ]
+}

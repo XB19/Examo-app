@@ -1,0 +1,90 @@
+{
+  "level": "CEPD",
+  "year": 2022,
+  "month": "JUIN",
+  "subject": "SCIENCES_HUMAINES",
+  "title": "Sciences humaines",
+  "durationMinutes": 30,
+  "reviewNotes": "Session « CEPD MAI - JUIN 2022 ». Sujet imprimé deux fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "1. Madame Naka est togolaise mais ne maîtrise pas l’histoire de son pays. Peux-tu l’aider en répondant à ces questions :",
+      "label": "a.",
+      "prompt": "En quelle année le Togo a eu son indépendance ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "En 1960 (le 27 avril 1960).",
+      "grading": "1 pt pour 1960."
+    },
+    {
+      "id": "q2",
+      "stem": "1. Madame Naka est togolaise mais ne maîtrise pas l’histoire de son pays. Peux-tu l’aider en répondant à ces questions :",
+      "label": "b.",
+      "prompt": "Qui fut le premier Président du Togo ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Sylvanus Olympio.",
+      "grading": "1 pt pour Sylvanus Olympio."
+    },
+    {
+      "id": "q3",
+      "stem": "1. Madame Naka est togolaise mais ne maîtrise pas l’histoire de son pays. Peux-tu l’aider en répondant à ces questions :",
+      "label": "c.",
+      "prompt": "Comment s’appelle l’actuel Président de la république du Togo ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Faure Essozimna Gnassingbé (Président de la République en 2022).",
+      "grading": "1 pt pour Faure Gnassingbé."
+    },
+    {
+      "id": "q4",
+      "stem": "2. De nos jours les jeunes ne veulent plus rester à la campagne mais préfèrent aller en ville.",
+      "label": "a.",
+      "prompt": "Pourquoi les jeunes préfèrent aller en ville ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Ils espèrent y trouver du travail, gagner plus d’argent, avoir une vie plus facile (électricité, écoles, hôpitaux, loisirs).",
+      "grading": "1 pt pour une raison valable (travail, meilleures conditions de vie)."
+    },
+    {
+      "id": "q5",
+      "stem": "2. De nos jours les jeunes ne veulent plus rester à la campagne mais préfèrent aller en ville.",
+      "label": "b.",
+      "prompt": "Comment appelle-t-on ce phénomène ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "L’exode rural.",
+      "grading": "1 pt pour l’exode rural."
+    },
+    {
+      "id": "q6",
+      "stem": "2. De nos jours les jeunes ne veulent plus rester à la campagne mais préfèrent aller en ville.",
+      "label": "c.",
+      "prompt": "Donne deux conséquences de ce phénomène pour la ville.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : le chômage ; les bidonvilles et le manque de logements ; l’insécurité et la délinquance ; la saleté et les embouteillages.",
+      "grading": "0,5 pt par conséquence valable."
+    },
+    {
+      "id": "q7",
+      "label": "3.",
+      "prompt": "Que vous rappelle les noms suivants : Jean Gutenberg ? Na Biéma Bonsafo ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Jean Gutenberg : l’inventeur de l’imprimerie, au 15e siècle (vers 1450).\nNa Biéma Bonsafo : une reine de Sansanné-Mango qui a résisté à la colonisation allemande au nord du Togo.",
+      "grading": "0,5 pt par personnage correctement identifié."
+    },
+    {
+      "id": "q8",
+      "label": "4.",
+      "prompt": "Sur une carte du Togo réalisée dans un quadrillage, indique :\n- La zone de culture de café, cacao ;\n- Les villes de Dapaong, de Sokodé\n- Le fleuve Mono et la rivière Oti.",
+      "points": 3,
+      "type": "PHOTO",
+      "answer": "La carte du Togo, tracée dans un quadrillage, montre : la zone du café et du cacao à l’ouest de la région des Plateaux (autour de Kpalimé, Badou et Atakpamé) ; Dapaong tout au nord (région des Savanes) ; Sokodé au centre (région Centrale) ; le fleuve Mono qui coule du nord au sud à l’est du pays jusqu’à la mer ; la rivière Oti au nord-ouest, près de Mango.",
+      "grading": "0,5 pt pour la carte dans le quadrillage ; 0,5 pt pour la zone du café et du cacao ; 0,5 pt par ville bien placée ; 0,5 pt pour le Mono ; 0,5 pt pour l’Oti."
+    }
+  ]
+}

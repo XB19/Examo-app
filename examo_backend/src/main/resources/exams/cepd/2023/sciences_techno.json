@@ -1,0 +1,118 @@
+{
+  "level": "CEPD",
+  "year": 2023,
+  "month": "JUIN",
+  "subject": "SCIENCES_TECHNO",
+  "title": "SCIENCES ET TECHNOLOGIES",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Voici le nom de quelques appareils et instruments utilisés dans les stations météo : le thermomètre, la girouette, le pluviomètre, l’hygromètre, le baromètre et l’anémomètre.\nChoisis deux d’entre eux et dis à quoi sert chacun d’eux.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Le thermomètre mesure la température ; la girouette indique la direction du vent ; le pluviomètre mesure la quantité de pluie tombée ; l’hygromètre mesure l’humidité de l’air ; le baromètre mesure la pression atmosphérique ; l’anémomètre mesure la vitesse du vent.",
+      "grading": "0,5 pt par instrument dont l’usage est juste (deux attendus)."
+    },
+    {
+      "id": "q2",
+      "stem": "2. Ta grande sœur affirme : « j’allaite mon bébé au sein, c’est pourquoi il est en bonne santé ».",
+      "label": "a)",
+      "prompt": "Comment appelle-t-on ce mode d’allaitement ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "L’allaitement maternel (au sein).",
+      "grading": "0,5 pt pour l’allaitement maternel."
+    },
+    {
+      "id": "q3",
+      "stem": "2. Ta grande sœur affirme : « j’allaite mon bébé au sein, c’est pourquoi il est en bonne santé ».",
+      "label": "b)",
+      "prompt": "Est-ce le meilleur mode ? Pourquoi ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Oui. Le lait maternel est complet, toujours propre, à la bonne température et gratuit ; il protège le bébé contre les maladies.",
+      "grading": "0,5 pt pour « oui » ; 0,5 pt pour une raison valable."
+    },
+    {
+      "id": "q4",
+      "stem": "2. Ta grande sœur affirme : « j’allaite mon bébé au sein, c’est pourquoi il est en bonne santé ».",
+      "label": "c)",
+      "prompt": "Cite deux autres modes d’allaitement.",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "L’allaitement artificiel (au biberon, avec du lait en poudre ou du lait de vache) et l’allaitement mixte (au sein et au biberon).",
+      "grading": "0,25 pt par mode juste."
+    },
+    {
+      "id": "q5",
+      "stem": "3. Les rendements donnés par le champ du paysan Kaha ont baissé considérablement ces deux dernières années.",
+      "label": "a)",
+      "prompt": "Quelle est la cause de la baisse du rendement ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Le sol s’est appauvri (épuisé) parce qu’il a été cultivé plusieurs années de suite sans repos ni engrais.",
+      "grading": "0,5 pt pour l’appauvrissement du sol."
+    },
+    {
+      "id": "q6",
+      "stem": "3. Les rendements donnés par le champ du paysan Kaha ont baissé considérablement ces deux dernières années.",
+      "label": "b)",
+      "prompt": "Cite deux moyens pour aider le paysan Kaha à avoir de bons rendements.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Mettre de l’engrais (fumier, compost ou engrais chimique) ; pratiquer la rotation des cultures ou la jachère ; utiliser de bonnes semences ; lutter contre l’érosion.",
+      "grading": "0,5 pt par moyen valable."
+    },
+    {
+      "id": "q7",
+      "label": "4. a)",
+      "prompt": "Quelle est la formule dentaire d’un adulte ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Pour une demi-mâchoire : 2 incisives, 1 canine, 2 prémolaires et 3 molaires (2I + 1C + 2PM + 3M), soit 8 dents par demi-mâchoire et 32 dents en tout.",
+      "grading": "1 pt pour la formule (2I 1C 2PM 3M) ou 32 dents bien réparties ; 0,5 pt pour « 32 dents » seulement."
+    },
+    {
+      "id": "q8",
+      "label": "b)",
+      "prompt": "Que fais-tu pour éviter la carie dentaire ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Je me brosse les dents après chaque repas et avant de dormir, et je mange peu de sucreries.",
+      "grading": "0,5 pt pour le brossage régulier des dents (ou éviter les sucreries)."
+    },
+    {
+      "id": "q9",
+      "label": "c)",
+      "prompt": "Fais le schéma annoté de la coupe longitudinale d’une dent saine de l’homme.",
+      "points": 2.5,
+      "type": "PHOTO",
+      "answer": "Annotations attendues : la couronne, le collet et la racine ; l’émail, l’ivoire (la dentine), la pulpe dentaire (avec les vaisseaux sanguins et le nerf), le cément, la gencive et l’os de la mâchoire.",
+      "grading": "1 pt pour le dessin (forme de la dent avec couronne et racine) ; 1,5 pt pour les annotations (au moins 5 justes)."
+    },
+    {
+      "id": "q10",
+      "stem": "5. Lors d’un jeu de football, ton ami se casse l’avant-bras.",
+      "label": "a)",
+      "prompt": "De quel accident s’agit-il ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "D’une fracture.",
+      "grading": "0,5 pt pour la fracture."
+    },
+    {
+      "id": "q11",
+      "stem": "5. Lors d’un jeu de football, ton ami se casse l’avant-bras.",
+      "label": "b)",
+      "prompt": "Avant de le conduire à l’hôpital, quel secours lui apportes-tu ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Je ne bouge pas le bras blessé ; je l’immobilise avec une attelle (planchette, carton) bien attachée, puis je le soutiens avec une écharpe autour du cou.",
+      "grading": "1 pt pour l’immobilisation du bras (attelle, écharpe)."
+    }
+  ]
+}

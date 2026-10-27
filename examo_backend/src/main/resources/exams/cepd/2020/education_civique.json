@@ -1,0 +1,96 @@
+{
+  "level": "CEPD",
+  "year": 2020,
+  "month": "AOUT",
+  "subject": "EDUCATION_CIVIQUE",
+  "title": "ECM",
+  "durationMinutes": 30,
+  "reviewNotes": "Session « CEPD - AOÛT 2020 ». Sujet imprimé deux fois : retranscrit le premier exemplaire (le second numérote par erreur « c-, d- »). Les pointillés à compléter de la question 2 deviennent des cases à remplir. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "1- Depuis un certain temps, on parle à la radio et à la télévision d’une maladie dangereuse qui tue les hommes.",
+      "label": "a-",
+      "prompt": "Donne le nom de cette maladie.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Le coronavirus (la Covid-19).",
+      "grading": "1 pt pour le coronavirus / la Covid-19."
+    },
+    {
+      "id": "q2",
+      "stem": "1- Depuis un certain temps, on parle à la radio et à la télévision d’une maladie dangereuse qui tue les hommes.",
+      "label": "b-",
+      "prompt": "Cite deux moyens pour l’éviter.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Porter un cache-nez (masque) ; se laver souvent les mains à l’eau et au savon ; garder une distance d’au moins un mètre avec les autres ; éviter les rassemblements ; tousser ou éternuer dans le pli du coude.",
+      "grading": "1 pt par moyen valable."
+    },
+    {
+      "id": "q3",
+      "stem": "2- Complète les phrases suivantes par ce qui est juste :",
+      "label": "a-",
+      "prompt": "Le pouvoir exécutif est détenu par ___",
+      "points": 1,
+      "type": "FILL_BLANKS",
+      "blanksAnswer": ["le Président de la République et le Gouvernement"],
+      "answer": "Le pouvoir exécutif est détenu par le Président de la République et le Gouvernement.",
+      "grading": "1 pt pour le Président de la République et le Gouvernement ; 0,5 pt pour un seul des deux."
+    },
+    {
+      "id": "q4",
+      "stem": "2- Complète les phrases suivantes par ce qui est juste :",
+      "label": "b-",
+      "prompt": "La CEDEAO signifie : ___",
+      "points": 1,
+      "type": "FILL_BLANKS",
+      "blanksAnswer": ["Communauté Économique des États de l’Afrique de l’Ouest"],
+      "answer": "La CEDEAO signifie : Communauté Économique des États de l’Afrique de l’Ouest.",
+      "grading": "1 pt si le sigle est entièrement juste ; 0,5 pt s’il manque un mot."
+    },
+    {
+      "id": "q5",
+      "label": "3-",
+      "prompt": "Tu arrives à un croisement de routes à vélo. Le feu rouge s’allume mais le policier qui assure la circulation t’ordonne de passer. Que fais-tu ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Je passe, en faisant attention : les ordres du policier qui règle la circulation passent avant les feux tricolores.",
+      "grading": "1 pt pour « je passe » ; 1 pt pour la raison (l’ordre de l’agent passe avant le feu)."
+    },
+    {
+      "id": "q6",
+      "stem": "4- Mets vrai ou faux devant chaque déclaration :",
+      "label": "-",
+      "prompt": "Le Maire est le secrétaire du préfet.",
+      "points": 1,
+      "type": "CHOICE",
+      "options": ["vrai", "faux"],
+      "correctOption": 1,
+      "answer": "Faux : le maire est le chef de la commune, élu par le conseil municipal ; il n’est pas le secrétaire du préfet."
+    },
+    {
+      "id": "q7",
+      "stem": "4- Mets vrai ou faux devant chaque déclaration :",
+      "label": "-",
+      "prompt": "Les Conseillers Municipaux sont élus par commune.",
+      "points": 1,
+      "type": "CHOICE",
+      "options": ["vrai", "faux"],
+      "correctOption": 0,
+      "answer": "Vrai : les conseillers municipaux sont élus par les habitants de chaque commune."
+    },
+    {
+      "id": "q8",
+      "stem": "4- Mets vrai ou faux devant chaque déclaration :",
+      "label": "-",
+      "prompt": "Le numéro 111 est le numéro vert pour demander des renseignements sur le coronavirus.",
+      "points": 1,
+      "type": "CHOICE",
+      "options": ["vrai", "faux"],
+      "correctOption": 0,
+      "answer": "Vrai : au Togo, le 111 était le numéro vert gratuit pour s’informer sur le coronavirus."
+    }
+  ]
+}

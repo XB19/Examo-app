@@ -1,0 +1,101 @@
+{
+  "level": "CEPD",
+  "year": 2025,
+  "month": "JUIN",
+  "subject": "SCIENCES_TECHNO",
+  "title": "SCIENCES ET TECHNOLOGIE",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "1. Ce matin, maman a pris sa température. Le thermomètre indique 39°.",
+      "label": "a.",
+      "prompt": "Maman est-elle en bonne santé ? Justifie ta réponse.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Non, maman n’est pas en bonne santé : elle a de la fièvre, car la température normale du corps est d’environ 37 °C et 39° est au-dessus.",
+      "grading": "0,5 pt pour « non » ; 0,5 pt pour la justification (fièvre, température normale d’environ 37 °C)."
+    },
+    {
+      "id": "q2",
+      "stem": "1. Ce matin, maman a pris sa température. Le thermomètre indique 39°.",
+      "label": "b.",
+      "prompt": "Sur quel principe fonctionne le thermomètre ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Sur le principe de la dilatation : le liquide du thermomètre (mercure ou alcool) augmente de volume et monte dans le tube quand il se réchauffe ; il descend quand il se refroidit.",
+      "grading": "1 pt pour la dilatation du liquide sous l’effet de la chaleur."
+    },
+    {
+      "id": "q3",
+      "label": "2.",
+      "prompt": "Ton père veut protéger son portail métallique contre la rouille. Dis-lui deux méthodes qu’il peut utiliser.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Le peindre (avec une peinture antirouille, du minium) ; le graisser ou le huiler ; le galvaniser (le recouvrir de zinc) ; le protéger de l’humidité.",
+      "grading": "1 pt par méthode valable."
+    },
+    {
+      "id": "q4",
+      "stem": "3. Complète :",
+      "label": "a.",
+      "prompt": "L’air qui sort des poumons contient ___",
+      "points": 0.5,
+      "type": "FILL_BLANKS",
+      "blanksAnswer": ["beaucoup de gaz carbonique (dioxyde de carbone) et de la vapeur d’eau"],
+      "answer": "L’air qui sort des poumons contient beaucoup de gaz carbonique (dioxyde de carbone) et de la vapeur d’eau.",
+      "grading": "0,5 pt pour le gaz carbonique (dioxyde de carbone). Accepter aussi « moins d’oxygène et plus de gaz carbonique »."
+    },
+    {
+      "id": "q5",
+      "stem": "3. Complète :",
+      "label": "b.",
+      "prompt": "L’air qui entre dans les poumons contient ___",
+      "points": 0.5,
+      "type": "FILL_BLANKS",
+      "blanksAnswer": ["beaucoup d’oxygène"],
+      "answer": "L’air qui entre dans les poumons contient beaucoup d’oxygène.",
+      "grading": "0,5 pt pour l’oxygène."
+    },
+    {
+      "id": "q6",
+      "stem": "3. Complète :",
+      "label": "c.",
+      "prompt": "Les mouvements respiratoires sont : ___ et ___",
+      "points": 1,
+      "type": "FILL_BLANKS",
+      "blanksAnswer": ["l’inspiration", "l’expiration"],
+      "answer": "Les mouvements respiratoires sont : l’inspiration et l’expiration.",
+      "grading": "0,5 pt par mouvement juste, dans n’importe quel ordre."
+    },
+    {
+      "id": "q7",
+      "label": "4. a.",
+      "prompt": "Votre grande sœur attend un bébé ? Indique deux comportements qu’elle doit adopter au cours de sa grossesse.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Aller régulièrement aux consultations prénatales ; bien manger (repas variés) ; dormir sous une moustiquaire imprégnée ; ne pas boire d’alcool ni fumer ; se reposer et éviter les travaux trop pénibles ; ne pas prendre de médicaments sans l’avis du médecin.",
+      "grading": "0,5 pt par comportement valable."
+    },
+    {
+      "id": "q8",
+      "label": "b.",
+      "prompt": "Quelques mois après la naissance du bébé, elle veut le sevrer. A quel âge doit-elle sevrer son enfant et comment doit-elle procéder ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Elle peut sevrer l’enfant vers 18 mois à 2 ans. Elle doit le faire progressivement : donner peu à peu d’autres aliments (bouillies enrichies, purées) et diminuer petit à petit les tétées, sans arrêter brutalement.",
+      "grading": "0,5 pt pour l’âge (entre 18 mois et 2 ans) ; 0,5 pt pour la méthode progressive."
+    },
+    {
+      "id": "q9",
+      "label": "5.",
+      "prompt": "Fais le schéma annoté de la coupe longitudinale d’un os long.",
+      "points": 2,
+      "type": "PHOTO",
+      "answer": "Le schéma montre l’os coupé dans sa longueur, avec ces annotations : épiphyses (les deux extrémités renflées), diaphyse (la partie centrale), cartilage articulaire, os spongieux (dans les épiphyses), os compact, canal médullaire avec la moelle jaune, moelle rouge, périoste.",
+      "grading": "1 pt pour le dessin (forme allongée, deux extrémités renflées, canal central) ; 1 pt pour les annotations (au moins 4 justes parmi : épiphyse, diaphyse, moelle, os compact, os spongieux, cartilage, périoste)."
+    }
+  ]
+}

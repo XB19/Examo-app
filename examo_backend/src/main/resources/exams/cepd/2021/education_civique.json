@@ -1,0 +1,80 @@
+{
+  "level": "CEPD",
+  "year": 2021,
+  "month": "JUIN",
+  "subject": "EDUCATION_CIVIQUE",
+  "title": "Education Civique et Morale (Education sociale).",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1. a.",
+      "prompt": "Définis C E 2 ; CEPD",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "CE2 : Cours Élémentaire deuxième année.\nCEPD : Certificat d’Études du Premier Degré.",
+      "grading": "1 pt par sigle correctement défini."
+    },
+    {
+      "id": "q2",
+      "label": "b.",
+      "prompt": "L’immatriculation d’un véhicule porte PR, définis ce sigle.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "PR : Présidence de la République.",
+      "grading": "1 pt pour « Présidence de la République »."
+    },
+    {
+      "id": "q3",
+      "stem": "2. Laquelle des personnalités suivantes : le maire ; le ministre ; le député, le directeur d’école ; le conseiller municipal.",
+      "label": "a.",
+      "prompt": "est nommée ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Le ministre et le directeur d’école sont nommés.",
+      "grading": "0,5 pt par personnalité juste (le ministre, le directeur d’école). Retirer 0,5 pt par personnalité élue citée à tort."
+    },
+    {
+      "id": "q4",
+      "stem": "2. Laquelle des personnalités suivantes : le maire ; le ministre ; le député, le directeur d’école ; le conseiller municipal.",
+      "label": "b.",
+      "prompt": "est élue ?",
+      "points": 1.5,
+      "type": "SHORT_TEXT",
+      "answer": "Le maire, le député et le conseiller municipal sont élus.",
+      "grading": "0,5 pt par personnalité juste (le maire, le député, le conseiller municipal). Retirer 0,5 pt par personnalité nommée citée à tort."
+    },
+    {
+      "id": "q5",
+      "stem": "3. Un véhicule cherche à dépasser un autre dans un tournant de la route.",
+      "label": "a.",
+      "prompt": "Est-il autorisé à le faire ?",
+      "points": 0.5,
+      "type": "CHOICE",
+      "options": ["Oui", "Non"],
+      "correctOption": 1,
+      "answer": "Non, il est interdit de dépasser dans un tournant (un virage)."
+    },
+    {
+      "id": "q6",
+      "stem": "3. Un véhicule cherche à dépasser un autre dans un tournant de la route.",
+      "label": "b.",
+      "prompt": "Pourquoi ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Parce que dans un tournant, le conducteur ne voit pas les véhicules qui arrivent en face : il risque de provoquer un grave accident (une collision).",
+      "grading": "1 pt pour l’idée de visibilité réduite et de risque d’accident."
+    },
+    {
+      "id": "q7",
+      "label": "4.",
+      "prompt": "Voici des valeurs : le travail, la justice, la démocratie, la tolérance, la liberté. Choisis une valeur et dis en quelques phrases pourquoi elle est nécessaire pour le développement du Togo.",
+      "points": 3,
+      "type": "SHORT_TEXT",
+      "answer": "Exemple avec le travail : Le travail est nécessaire pour le développement du Togo. Quand chacun travaille bien, à l’école, au champ ou au bureau, le pays produit plus de richesses. Ces richesses permettent de construire des écoles, des hôpitaux et des routes. Sans travail, un pays ne peut pas avancer.",
+      "grading": "0,5 pt pour le choix d’une valeur de la liste ; 2,5 pts pour l’explication (idées justes et en lien avec le développement du Togo, quelques phrases correctes)."
+    }
+  ]
+}

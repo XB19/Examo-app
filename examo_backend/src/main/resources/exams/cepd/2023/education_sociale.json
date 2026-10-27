@@ -1,0 +1,97 @@
+{
+  "level": "CEPD",
+  "year": 2023,
+  "month": "JUIN",
+  "subject": "EDUCATION_SOCIALE",
+  "title": "EDUCATION SOCIALE",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant (nombre de députés et présidente de l’Assemblée nationale à la date de l’examen, juin 2023).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Ton petit frère ne connaît pas bien les mots qui composent la devise du Togo. Voici une liste de mots : honneur ; travail ; amour ; liberté ; bonté ; patrie.\nA partir de ces mots, donne la devise du Togo.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Travail – Liberté – Patrie.",
+      "grading": "0,5 pt par mot juste (travail, liberté, patrie) ; 0,5 pt si les trois mots sont dans le bon ordre."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "prompt": "Ton oncle ne connaît pas le panneau de sens interdit. Dessine ce panneau.",
+      "points": 2,
+      "type": "PHOTO",
+      "answer": "Le panneau de sens interdit est un disque rouge avec une barre horizontale blanche au milieu.",
+      "grading": "1 pt pour le disque rouge ; 1 pt pour la barre blanche horizontale."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "prompt": "En promenade avec ton oncle, vous remarquez ensemble les comportements des citoyens que voici : balayer devant sa maison –violer les feux tricolores –jouer fort la musique même la nuit – refuser de se faire recenser.\nClasse ces comportements dans le tableau ci-dessous :",
+      "points": 2,
+      "type": "TABLE",
+      "table": {
+        "header": ["Bons comportements", "Mauvais comportements"],
+        "rows": [
+          [null, null]
+        ]
+      },
+      "tableAnswer": [
+        ["balayer devant sa maison", "violer les feux tricolores ; jouer fort la musique même la nuit ; refuser de se faire recenser"]
+      ],
+      "answer": "Bons comportements : balayer devant sa maison.\nMauvais comportements : violer les feux tricolores ; jouer fort la musique même la nuit ; refuser de se faire recenser.",
+      "grading": "0,5 pt par comportement bien classé (quatre comportements)."
+    },
+    {
+      "id": "q4",
+      "stem": "4. Ta tante a accouché un joli bébé ce matin.",
+      "label": "a)",
+      "prompt": "Quelle pièce vas-tu lui conseiller d’établir à l’enfant ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Un acte de naissance.",
+      "grading": "0,5 pt pour l’acte de naissance."
+    },
+    {
+      "id": "q5",
+      "stem": "4. Ta tante a accouché un joli bébé ce matin.",
+      "label": "b)",
+      "prompt": "A quel service doit-elle s’adresser ?",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Au centre d’état civil (à la mairie).",
+      "grading": "0,5 pt pour le centre d’état civil / la mairie."
+    },
+    {
+      "id": "q6",
+      "stem": "5. Ton grand père et toi suivez le journal à la radio et on parle de l’assemblée nationale togolaise. Réponds aux questions suivantes qu’il te pose :",
+      "label": "a)",
+      "prompt": "Combien de députés compte l’assemblée nationale du Togo ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "91 députés (à la date de l’examen, en juin 2023). Depuis les élections législatives de 2024, l’Assemblée nationale compte 113 députés.",
+      "grading": "1 pt pour 91. Accepter 113 si l’élève se base sur l’Assemblée élue en 2024."
+    },
+    {
+      "id": "q7",
+      "stem": "5. Ton grand père et toi suivez le journal à la radio et on parle de l’assemblée nationale togolaise. Réponds aux questions suivantes qu’il te pose :",
+      "label": "b)",
+      "prompt": "Donne le nom de la présidente de l’assemblée nationale togolaise.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Yawa Djigbodi Tségan (présidente de l’Assemblée nationale de 2019 à 2024).",
+      "grading": "1 pt pour Yawa Djigbodi Tségan (accepter l’orthographe approchée)."
+    },
+    {
+      "id": "q8",
+      "label": "6.",
+      "prompt": "Propose à ton maître deux règles pour avoir l’ordre et la discipline dans ta classe.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : lever le doigt avant de parler ; arriver à l’heure ; respecter le maître et les camarades ; ne pas bavarder pendant les leçons ; garder la classe propre.",
+      "grading": "0,5 pt par règle valable."
+    }
+  ]
+}

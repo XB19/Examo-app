@@ -1,0 +1,20 @@
+{
+  "level": "CEPD",
+  "year": 2021,
+  "month": "JUIN",
+  "subject": "REDACTION",
+  "title": "Rédaction (Je produis un texte).",
+  "durationMinutes": 60,
+  "reviewNotes": "Sujet imprimé six fois sur la page : retranscrit une seule fois. Barème non imprimé : 20 points (hypothèse à valider par un enseignant).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Quelle est la carrière ou le métier que tu aimerais exercer plus tard ? Dis en quoi ce métier t’intéresse tant.",
+      "points": 20,
+      "type": "LONG_TEXT",
+      "answer": "Il n’y a pas une seule bonne réponse. Une bonne rédaction comporte :\n– une introduction : présenter le métier choisi (par exemple médecin, enseignant, agriculteur, ingénieur) ;\n– un développement : expliquer ce que fait ce métier et pourquoi il t’intéresse (aider les autres, développer le pays, passion depuis l’enfance), avec des exemples ;\n– une conclusion : ce que tu vas faire pour y arriver (bien travailler à l’école) et ton espoir.\nExemple de début : « Plus tard, je voudrais être médecin. Depuis que ma petite sœur a été soignée à l’hôpital de notre village, je rêve de soigner les malades… »",
+      "grading": "Sur 20 : respect du sujet (le métier choisi et les raisons de ce choix) 6 pts ; plan (introduction, développement, conclusion) 4 pts ; richesse des idées 3 pts ; expression et vocabulaire 3 pts ; orthographe et grammaire 3 pts ; présentation 1 pt."
+    }
+  ]
+}

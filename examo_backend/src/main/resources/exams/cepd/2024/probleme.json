@@ -1,0 +1,70 @@
+{
+  "level": "CEPD",
+  "year": 2024,
+  "month": "JUIN",
+  "subject": "PROBLEME",
+  "title": "PROBLEME",
+  "durationMinutes": 45,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "STATEMENT",
+      "text": "Un champ est représenté sur un plan cadastral à l’échelle de 1/2500 par un rectangle de 8 cm de long sur 5 cm de large."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Représente ce champ sur ta copie en utilisant la règle et l’équerre.",
+      "points": 2,
+      "type": "PHOTO",
+      "answer": "Trace un rectangle de 8 cm de long et 5 cm de large, avec quatre angles droits tracés à l’équerre.",
+      "grading": "1 pt pour les bonnes dimensions (8 cm et 5 cm) ; 1 pt pour les angles droits."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "Calcule les dimensions réelles et l’aire du champ ?",
+      "points": 3,
+      "type": "SHORT_TEXT",
+      "answer": "Longueur réelle : 8 cm × 2 500 = 20 000 cm = 200 m.\nLargeur réelle : 5 cm × 2 500 = 12 500 cm = 125 m.\nAire : 200 m × 125 m = 25 000 m² (soit 250 a ou 2,5 ha).",
+      "grading": "1 pt pour la longueur (200 m) ; 1 pt pour la largeur (125 m) ; 1 pt pour l’aire (25 000 m²)."
+    },
+    {
+      "id": "q3",
+      "stem": "3. Le propriétaire voudrait vendre son champ à raison de 400.000 F l’are et placer la somme issue de cette vente dans une banque où le taux d’intérêt est de 5%.",
+      "label": "a)",
+      "passage": "p1",
+      "prompt": "Quelle somme lui rapporterait cette vente ?",
+      "points": 1.5,
+      "type": "SHORT_TEXT",
+      "answer": "25 000 m² = 250 a.\nPrix de vente : 400 000 F × 250 = 100 000 000 F (cent millions de francs).",
+      "grading": "0,5 pt pour la conversion en ares (250 a) ; 1 pt pour 100 000 000 F. Accepter un résultat juste calculé à partir d’une aire fausse."
+    },
+    {
+      "id": "q4",
+      "stem": "3. Le propriétaire voudrait vendre son champ à raison de 400.000 F l’are et placer la somme issue de cette vente dans une banque où le taux d’intérêt est de 5%.",
+      "label": "b)",
+      "passage": "p1",
+      "prompt": "Quel sera le montant des intérêts que rapporterait cette somme en 5 ans ?",
+      "points": 1.5,
+      "type": "SHORT_TEXT",
+      "answer": "Intérêt d’un an : 100 000 000 F × 5 ÷ 100 = 5 000 000 F.\nIntérêts en 5 ans : 5 000 000 F × 5 = 25 000 000 F.",
+      "grading": "0,75 pt pour l’intérêt d’un an ; 0,75 pt pour les intérêts en 5 ans."
+    },
+    {
+      "id": "q5",
+      "label": "4.",
+      "passage": "p1",
+      "prompt": "Le nouveau propriétaire du champ y plante des ignames dont le rendement s’élève à 12 tonnes à l’hectare. Quel est, en kilogrammes, la masse de la récolte ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "25 000 m² = 2,5 ha.\nRécolte : 12 t × 2,5 = 30 t = 30 000 kg.",
+      "grading": "0,5 pt pour 2,5 ha ; 1 pt pour 30 t ; 0,5 pt pour la conversion en 30 000 kg."
+    }
+  ]
+}

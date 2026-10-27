@@ -1,0 +1,20 @@
+{
+  "level": "CEPD",
+  "year": 2021,
+  "month": "JUIN",
+  "subject": "DESSIN",
+  "title": "Dessin (Education artistique).",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé sept fois sur la page : retranscrit une seule fois. Barème non imprimé : 10 points (hypothèse à valider par un enseignant).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Dessine une route bordée d’arbres",
+      "points": 10,
+      "type": "PHOTO",
+      "answer": "Le dessin montre une route (par exemple qui s’éloigne vers l’horizon, de plus en plus étroite) avec des arbres alignés de chaque côté. Les arbres sont bien reconnaissables (tronc, branches, feuillage) et deviennent plus petits au loin. Le dessin occupe bien la feuille et il est soigné.",
+      "grading": "Sur 10 : respect du sujet (une route avec des arbres sur ses bords) 4 pts ; route et arbres bien dessinés 3 pts ; mise en page et impression de profondeur 2 pts ; soin et couleurs 1 pt."
+    }
+  ]
+}

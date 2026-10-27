@@ -1,0 +1,107 @@
+{
+  "level": "CEPD",
+  "year": 2020,
+  "month": "AOUT",
+  "subject": "DICTEE_QUESTIONS",
+  "title": "DICTEE-QUESTIONS",
+  "reviewNotes": "Session « CEPD - AOÛT 2020 ». Seule la durée des questions est imprimée (30 minutes). Barème de la dictée non imprimé : 10 points (hypothèse à valider). Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "DICTATION",
+      "title": "<u>Dictée</u> : la santé à l’école.",
+      "text": "Mon frère et ma sœur sont membres du comité de santé de notre école. Chaque matin, la sœur contrôle avec les majors de classe la propreté des salles. Le frère s’occupe de celle de la cour et surveille le jet des ordures au dépotoir.\nPendant la récréation, les élèves se lavent les mains sous le dispositif de lavage de mains avant et après le manger. Ce comité contrôle aussi les repas et les carnets de santé des vendeuses."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q0",
+      "passage": "p1",
+      "prompt": "<u>Dictée</u> : la santé à l’école.",
+      "points": 10,
+      "type": "DICTATION",
+      "answer": "Le texte exact de la dictée est affiché dans la correction.",
+      "grading": "Sur 10 points : retirer 1 point par faute d’orthographe ou de grammaire (un mot oublié compte comme une faute) et 0,5 point par faute d’accent, de majuscule ou de ponctuation. La note ne descend pas sous 0."
+    },
+    {
+      "id": "q1",
+      "section": "<u>Questions</u> (30 minutes)",
+      "label": "1-",
+      "passage": "p1",
+      "prompt": "Réponds par vrai ou faux.\n« Mon frère et ma sœur sont membres du comité de discipline ».",
+      "points": 2,
+      "type": "CHOICE",
+      "options": ["vrai", "faux"],
+      "correctOption": 1,
+      "answer": "Faux : ils sont membres du comité de santé de leur école."
+    },
+    {
+      "id": "q2",
+      "section": "<u>Questions</u> (30 minutes)",
+      "stem": "2- Dans ce comité, dis ce que fait :",
+      "label": "a-",
+      "passage": "p1",
+      "prompt": "Le frère ………..",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Le frère s’occupe de la propreté de la cour et surveille le jet des ordures au dépotoir.",
+      "grading": "0,5 pt pour la propreté de la cour ; 0,5 pt pour la surveillance du jet des ordures."
+    },
+    {
+      "id": "q3",
+      "section": "<u>Questions</u> (30 minutes)",
+      "stem": "2- Dans ce comité, dis ce que fait :",
+      "label": "b-",
+      "passage": "p1",
+      "prompt": "La sœur…………",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "La sœur contrôle chaque matin, avec les majors de classe, la propreté des salles.",
+      "grading": "1 pt pour le contrôle de la propreté des salles."
+    },
+    {
+      "id": "q4",
+      "section": "<u>Questions</u> (30 minutes)",
+      "label": "3- a-",
+      "passage": "p1",
+      "prompt": "Trouve un homonyme de ‘‘salle’’.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Sale (le contraire de propre).",
+      "grading": "1 pt pour « sale »."
+    },
+    {
+      "id": "q5",
+      "section": "<u>Questions</u> (30 minutes)",
+      "label": "b-",
+      "passage": "p1",
+      "prompt": "Mets cet homonyme dans une courte phrase.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : Ma chemise est sale.",
+      "grading": "1 pt pour une courte phrase correcte avec l’homonyme bien employé."
+    },
+    {
+      "id": "q6",
+      "section": "<u>Questions</u> (30 minutes)",
+      "label": "4-",
+      "passage": "p1",
+      "prompt": "Pour donner la conclusion du texte de la dictée, mets en ordre les éléments de cette phrase en respectant la définition d’une phrase : ‘‘ les latrines et les urinoirs – dans – entretenus – notre – bien – école – sont’’.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Dans notre école, les latrines et les urinoirs sont bien entretenus.\n(ou : Les latrines et les urinoirs sont bien entretenus dans notre école.)",
+      "grading": "1,5 pt pour l’ordre des mots ; 0,5 pt pour la majuscule et le point."
+    },
+    {
+      "id": "q7",
+      "section": "<u>Questions</u> (30 minutes)",
+      "label": "5-",
+      "passage": "p1",
+      "prompt": "« Mon frère et ma sœur ne sont plus membres du comité de santé ». Réécris cette phrase en la commençant par : « L’année prochaine, …. »",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "L’année prochaine, mon frère et ma sœur ne seront plus membres du comité de santé.",
+      "grading": "2 pts pour le verbe au futur (« ne seront plus ») ; 1 pt si la phrase est juste mais mal recopiée."
+    }
+  ]
+}

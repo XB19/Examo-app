@@ -1,0 +1,94 @@
+{
+  "level": "CEPD",
+  "year": 2025,
+  "month": "JUIN",
+  "subject": "DICTEE_QUESTIONS",
+  "title": "DICTEE-QUESTIONS",
+  "reviewNotes": "Seule la durée des questions est imprimée (30 min). Barème de la dictée non imprimé : 10 points (hypothèse à valider). Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "DICTATION",
+      "title": "<u>Dictée</u> : Tout le monde travaille.",
+      "text": "Sur la terre, qui ne travaille pas ? Les termites construisent leur habitation sous la protection de leurs soldats. Les abeilles fabriquent le miel ; les oiseaux tissent leurs nids.\nComment l’homme peut-il rester indifférent au milieu de toutes ces activités ? Par son travail, il aide, lui aussi, le monde à se développer. Le paysan laboure la terre pour nourrir l’humanité. Le balayeur de rue garde la ville propre. L’instituteur instruit et éduque les élèves ; le soldat défend la patrie."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q0",
+      "passage": "p1",
+      "prompt": "<u>Dictée</u> : Tout le monde travaille.",
+      "points": 10,
+      "type": "DICTATION",
+      "answer": "Le texte exact de la dictée est affiché dans la correction.",
+      "grading": "Sur 10 points : retirer 1 point par faute d’orthographe ou de grammaire (un mot oublié compte comme une faute) et 0,5 point par faute d’accent, de majuscule ou de ponctuation. La note ne descend pas sous 0."
+    },
+    {
+      "id": "q1",
+      "section": "Questions",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Choisis la bonne réponse : « Le soldat défend la patrie » veut dire :",
+      "points": 1,
+      "type": "CHOICE",
+      "options": ["le soldat trahit son pays", "le soldat protège son pays", "le soldat attaque son pays."],
+      "correctOption": 1,
+      "answer": "« Le soldat défend la patrie » veut dire : le soldat protège son pays."
+    },
+    {
+      "id": "q2",
+      "section": "Questions",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "Trouve un synonyme de « habitation » et emploie-le dans une phrase.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Synonymes : maison, demeure, logement, logis, case.\nExemple : Les termites construisent leur maison sous la protection de leurs soldats.",
+      "grading": "1 pt pour un synonyme juste ; 1 pt pour une phrase correcte où il est bien employé."
+    },
+    {
+      "id": "q3",
+      "section": "Questions",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "Relève dans le texte une phrase interronégative.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "« Sur la terre, qui ne travaille pas ? »",
+      "grading": "1 pt. C’est la seule phrase à la fois interrogative et négative : « Comment l’homme peut-il rester indifférent… ? » est interrogative mais pas négative."
+    },
+    {
+      "id": "q4",
+      "section": "Questions",
+      "label": "4.",
+      "passage": "p1",
+      "prompt": "« Tout le monde travaille ». Ecris cette phrase aux autres temps simples de l’indicatif.",
+      "points": 3,
+      "type": "SHORT_TEXT",
+      "answer": "Imparfait : Tout le monde travaillait.\nPassé simple : Tout le monde travailla.\nFutur simple : Tout le monde travaillera.",
+      "grading": "1 pt par temps juste (imparfait, passé simple, futur simple). Accepter aussi le conditionnel présent (Tout le monde travaillerait) sans le pénaliser."
+    },
+    {
+      "id": "q5",
+      "section": "Questions",
+      "label": "5.",
+      "passage": "p1",
+      "prompt": "« Les termites construisent leur habitation. L’homme laboure la terre pour nourrir l’humanité ». Mets ces deux phrases à l’imparfait de l’indicatif.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Les termites construisaient leur habitation. L’homme labourait la terre pour nourrir l’humanité.",
+      "grading": "1 pt par phrase juste."
+    },
+    {
+      "id": "q6",
+      "section": "Questions",
+      "label": "6.",
+      "passage": "p1",
+      "prompt": "Ecris d’une autre manière la phrase suivante sans changer son sens : « Sur la terre, qui ne travaille pas ? ».",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Sur la terre, tout le monde travaille. (ou : Tout le monde travaille sur la terre.)",
+      "grading": "1 pt pour une phrase affirmative de même sens."
+    }
+  ]
+}

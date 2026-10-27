@@ -1,0 +1,142 @@
+{
+  "level": "CEPD",
+  "year": 2025,
+  "month": "JUIN",
+  "subject": "ETUDE_TEXTE",
+  "title": "ETUDE DE TEXTE",
+  "durationMinutes": 75,
+  "reviewNotes": "Numérotation d’origine conservée (la 2e question de la partie III est numérotée « 1. » sur le sujet). Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "TEXT",
+      "title": "<u>Texte</u> : Le téléphone",
+      "text": "De tout temps, les hommes communiquent à distance. Dans certaines traditions, le tam-tam parlant ou la fumée permet de transmettre un message.\nL’invention du téléphone a permis d’améliorer les conditions de communication à distance. Aujourd’hui, le téléphone mobile a conquis le monde. Il n’y a plus de village ni de hameau sans téléphone : tout le monde utilise la petite boîte magique, même les analphabètes.\nPartout, on utilise le téléphone : sur le chemin de l’école, au marché, au champ, dans les lieux de prières, dans la circulation. Il n’est pas rare de voir quelqu’un, écouteurs dans les oreilles, danser tout seul ou fredonner un air musical. C’est dommage de voir ce genre de comportements. C’est même choquant d’entendre un portable sonner en pleine réunion, à une prière ou à un enterrement.\nL’homme n’a plus la maîtrise de l’outil qu’il a inventé. Il est temps de changer de comportements dans l’utilisation du téléphone portable pour éviter les accidents domestiques et de la circulation et pour apprendre à respecter les autres."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "section": "I. J’utilise les mots nouveaux.",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Donne le sens de : les hommes communiquent à distance ; un analphabète.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Les hommes communiquent à distance : les hommes échangent des messages, se parlent, alors qu’ils sont loin les uns des autres.\nUn analphabète : une personne qui ne sait ni lire ni écrire.",
+      "grading": "1 pt par sens juste."
+    },
+    {
+      "id": "q2",
+      "section": "I. J’utilise les mots nouveaux.",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "Donne deux mots de la même famille que « marché ».",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Marchand, marchande, marchander, marchandise, marchandage (deux au choix).",
+      "grading": "1 pt par mot juste. « marcher » n’est pas de la même famille."
+    },
+    {
+      "id": "q3",
+      "section": "I. J’utilise les mots nouveaux.",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "« On voit <u>beaucoup</u> de gens qui utilisent le téléphone ». Recopie cette phrase en remplaçant le mot souligné par son contraire.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "On voit peu de gens qui utilisent le téléphone.",
+      "grading": "1 pt si « peu » remplace « beaucoup » dans la phrase recopiée."
+    },
+    {
+      "id": "q4",
+      "section": "I. J’utilise les mots nouveaux.",
+      "label": "4.",
+      "passage": "p1",
+      "prompt": "Trouve un homonyme de « sans » et emploie-le dans une phrase.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Homonymes : sang, cent, sent (du verbe sentir), s’en.\nExemple : Le blessé a perdu beaucoup de sang.",
+      "grading": "0,5 pt pour un homonyme juste ; 0,5 pt pour une phrase correcte où il est bien employé."
+    },
+    {
+      "id": "q5",
+      "section": "II. Je manipule les phrases 1 et 2",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "« De tout temps, les hommes communiquent à distance. » Réécris cette phrase de deux autres manières différentes en utilisant chaque fois les mêmes mots.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Les hommes communiquent à distance de tout temps.\nLes hommes, de tout temps, communiquent à distance.",
+      "grading": "1 pt par phrase juste (mêmes mots, même sens)."
+    },
+    {
+      "id": "q6",
+      "section": "II. Je manipule les phrases 1 et 2",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "« Le téléphone mobile a conquis le monde aujourd’hui » Donne la structure de cette phrase.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Le téléphone mobile : groupe nominal sujet (GNS).\na conquis le monde : groupe verbal (GV).\naujourd’hui : complément circonstanciel de temps (CCT).\nStructure : GNS + GV + CCT.",
+      "grading": "2 pts si les trois constituants sont justes, 1 pt si deux le sont. Accepter « sujet + verbe + COD + complément de temps »."
+    },
+    {
+      "id": "q7",
+      "section": "II. Je manipule les phrases 1 et 2",
+      "stem": "3. « Tout le monde utilise le portable ».",
+      "label": "a.",
+      "passage": "p1",
+      "prompt": "A quel mode et à quel temps est conjugué le verbe de cette phrase ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Le verbe « utilise » est conjugué au mode indicatif, au présent.",
+      "grading": "0,5 pt pour le mode indicatif ; 0,5 pt pour le présent."
+    },
+    {
+      "id": "q8",
+      "section": "II. Je manipule les phrases 1 et 2",
+      "stem": "3. « Tout le monde utilise le portable ».",
+      "label": "b.",
+      "passage": "p1",
+      "prompt": "Mets cette phrase au futur simple, à l’imparfait et au passé composé de l’indicatif.",
+      "points": 3,
+      "type": "SHORT_TEXT",
+      "answer": "Futur simple : Tout le monde utilisera le portable.\nImparfait : Tout le monde utilisait le portable.\nPassé composé : Tout le monde a utilisé le portable.",
+      "grading": "1 pt par temps juste."
+    },
+    {
+      "id": "q9",
+      "section": "III. Je comprends le texte.",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Relève dans le texte deux moyens par lesquels les gens communiquent à distance entre eux en dehors du téléphone.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Le tam-tam parlant et la fumée.",
+      "grading": "1 pt par moyen relevé."
+    },
+    {
+      "id": "q10",
+      "section": "III. Je comprends le texte.",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Qu’est-ce qui a amélioré les conditions de communication à distance ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "C’est l’invention du téléphone qui a amélioré les conditions de communication à distance.",
+      "grading": "2 pts pour « l’invention du téléphone »."
+    },
+    {
+      "id": "q11",
+      "section": "III. Je comprends le texte.",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "Donne deux comportements à adopter pour éviter les accidents liés à l’utilisation du téléphone portable ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : ne pas téléphoner en conduisant une voiture ou une moto ; ne pas utiliser le téléphone ni des écouteurs en traversant la route ; éteindre le téléphone ou le mettre en silencieux pendant les réunions, les prières et les enterrements.",
+      "grading": "1 pt par comportement valable."
+    }
+  ]
+}

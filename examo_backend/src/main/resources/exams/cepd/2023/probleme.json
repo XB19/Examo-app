@@ -1,0 +1,58 @@
+{
+  "level": "CEPD",
+  "year": 2023,
+  "month": "JUIN",
+  "subject": "PROBLEME",
+  "title": "PROBLEME",
+  "durationMinutes": 45,
+  "reviewNotes": "Sujet imprimé trois fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "STATEMENT",
+      "text": "Ton père possède une rizière de forme rectangulaire. Comme il n’a pas de décamètre pour mesurer ses dimensions, il parcourt le périmètre en comptant ses pas. Il trouve 720 pas. Sachant qu’un pas mesure en moyenne 0,75 m et que la longueur est le double de la largeur, calcule :"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Le périmètre de son champ.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Périmètre : 0,75 m × 720 = 540 m.",
+      "grading": "1 pt pour l’opération ; 1 pt pour 540 m."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "Les dimensions du champ.",
+      "points": 3,
+      "type": "SHORT_TEXT",
+      "answer": "Demi-périmètre : 540 m ÷ 2 = 270 m.\nLa longueur vaut 2 parts et la largeur 1 part : 3 parts = 270 m, donc 1 part = 90 m.\nLargeur : 90 m ; longueur : 90 m × 2 = 180 m.",
+      "grading": "1 pt pour le demi-périmètre (270 m) ; 1 pt pour la largeur (90 m) ; 1 pt pour la longueur (180 m)."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "L’aire du champ (réponse en ha).",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Aire : 180 m × 90 m = 16 200 m² = 1,62 ha.",
+      "grading": "1 pt pour 16 200 m² ; 1 pt pour la conversion en 1,62 ha."
+    },
+    {
+      "id": "q4",
+      "label": "4.",
+      "passage": "p1",
+      "prompt": "Sur ce terrain, ton père récolte 24 sacs de riz pesant au total 1968 kg. Chaque sac vide pèse 1 kg. Calcule la masse du riz récolté.",
+      "points": 3,
+      "type": "SHORT_TEXT",
+      "answer": "Masse des sacs vides : 1 kg × 24 = 24 kg.\nMasse du riz : 1 968 kg − 24 kg = 1 944 kg.",
+      "grading": "1 pt pour la masse des sacs (24 kg) ; 2 pts pour la masse du riz (1 944 kg)."
+    }
+  ]
+}

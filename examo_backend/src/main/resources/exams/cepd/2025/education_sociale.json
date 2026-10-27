@@ -1,0 +1,116 @@
+{
+  "level": "CEPD",
+  "year": 2025,
+  "month": "JUIN",
+  "subject": "EDUCATION_SOCIALE",
+  "title": "EDUCATION SOCIALE",
+  "durationMinutes": 30,
+  "reviewNotes": "Corrigé rédigé par Examo, à valider par un enseignant (délai légal de déclaration de naissance en particulier).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "1. Ton cousin est né le 15 mars 2025. Revenu du voyage le 25 mai 2025, son père décide de lui faire établir sa pièce de naissance.",
+      "label": "a.",
+      "prompt": "A quel service doit-il s’adresser et pourquoi ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Il doit s’adresser au tribunal (tribunal de première instance), parce que le délai légal pour déclarer la naissance au centre d’état civil (45 jours) est dépassé : du 15 mars au 25 mai, plus de 45 jours se sont écoulés.",
+      "grading": "0,5 pt pour le tribunal ; 0,5 pt pour la raison (délai de déclaration dépassé)."
+    },
+    {
+      "id": "q2",
+      "stem": "1. Ton cousin est né le 15 mars 2025. Revenu du voyage le 25 mai 2025, son père décide de lui faire établir sa pièce de naissance.",
+      "label": "b.",
+      "prompt": "Quelle pièce de naissance lui sera établie ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Un jugement supplétif d’acte de naissance (il tient lieu d’acte de naissance).",
+      "grading": "1 pt pour le jugement supplétif."
+    },
+    {
+      "id": "q3",
+      "label": "2.",
+      "prompt": "Complète la phrase suivante : L’assemblée nationale détient le pouvoir ___ tandis que les ministres détiennent le pouvoir ___",
+      "points": 1,
+      "type": "FILL_BLANKS",
+      "blanksAnswer": ["législatif", "exécutif"],
+      "answer": "L’assemblée nationale détient le pouvoir législatif tandis que les ministres détiennent le pouvoir exécutif.",
+      "grading": "0,5 pt par mot juste."
+    },
+    {
+      "id": "q4",
+      "stem": "3. Réponds par vrai ou faux aux affirmations suivantes :",
+      "label": "a.",
+      "prompt": "La commune est dirigée par le maire.",
+      "points": 1,
+      "type": "CHOICE",
+      "options": ["vrai", "faux"],
+      "correctOption": 0,
+      "answer": "Vrai : la commune est dirigée par le maire."
+    },
+    {
+      "id": "q5",
+      "stem": "3. Réponds par vrai ou faux aux affirmations suivantes :",
+      "label": "b.",
+      "prompt": "Le gouverneur dirige la préfecture.",
+      "points": 1,
+      "type": "CHOICE",
+      "options": ["vrai", "faux"],
+      "correctOption": 1,
+      "answer": "Faux : c’est le préfet qui dirige la préfecture."
+    },
+    {
+      "id": "q6",
+      "stem": "4. Réponds par « bon » ou « mauvais » aux comportements suivants :",
+      "label": "a.",
+      "prompt": "Installer un moulin à côté d’une école.",
+      "points": 1,
+      "type": "CHOICE",
+      "options": ["bon", "mauvais"],
+      "correctOption": 1,
+      "answer": "Mauvais : le bruit et la poussière du moulin dérangent les élèves."
+    },
+    {
+      "id": "q7",
+      "stem": "4. Réponds par « bon » ou « mauvais » aux comportements suivants :",
+      "label": "b.",
+      "prompt": "Utiliser un téléphone portable au volant d’une voiture ou en roulant à moto.",
+      "points": 1,
+      "type": "CHOICE",
+      "options": ["bon", "mauvais"],
+      "correctOption": 1,
+      "answer": "Mauvais : c’est dangereux et cela peut provoquer un accident."
+    },
+    {
+      "id": "q8",
+      "stem": "5. Dans la circulation routière, certains véhicules sont appelés « véhicules prioritaires ».",
+      "label": "a.",
+      "prompt": "Qu’est-ce qu’un véhicule prioritaire ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "C’est un véhicule qui a le droit de passer avant les autres quand il est en mission urgente ; il le signale avec une sirène et un gyrophare.",
+      "grading": "1 pt pour l’idée de passage prioritaire en mission urgente."
+    },
+    {
+      "id": "q9",
+      "stem": "5. Dans la circulation routière, certains véhicules sont appelés « véhicules prioritaires ».",
+      "label": "b.",
+      "prompt": "Donne deux exemples de véhicules prioritaires.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "L’ambulance, le camion ou la voiture des sapeurs-pompiers, la voiture de la police ou de la gendarmerie en mission.",
+      "grading": "0,5 pt par exemple juste."
+    },
+    {
+      "id": "q10",
+      "stem": "5. Dans la circulation routière, certains véhicules sont appelés « véhicules prioritaires ».",
+      "label": "c.",
+      "prompt": "Que doivent faire les usagers de la route quand ces véhicules passent ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Ils doivent ralentir, se ranger sur le côté ou s’arrêter, et leur céder le passage.",
+      "grading": "1 pt pour « se ranger / s’arrêter et céder le passage »."
+    }
+  ]
+}

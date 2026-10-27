@@ -1,0 +1,110 @@
+{
+  "level": "CEPD",
+  "year": 2020,
+  "month": "AOUT",
+  "subject": "PROBLEME",
+  "title": "PROBLEME",
+  "durationMinutes": 45,
+  "reviewNotes": "Session « CEPD - AOÛT 2020 ». Sujet imprimé deux fois : retranscrit le premier exemplaire (le prix marqué est effacé dans le second). Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "STATEMENT",
+      "text": "Papa achète une télé dont le prix marqué est 92500 F. Il paie 25000 F à la commande, 15000 F à la livraison."
+    },
+    {
+      "id": "p2",
+      "kind": "STATEMENT",
+      "text": "Papa achète une télé dont le prix marqué est 92500 F. Il paie 25000 F à la commande, 15000 F à la livraison.\nLe reste est augmenté de 6% et payable en 6 mensualités égales."
+    },
+    {
+      "id": "p3",
+      "kind": "STATEMENT",
+      "text": "Papa achète une télé dont le prix marqué est 92500 F. Il paie 25000 F à la commande, 15000 F à la livraison.\nLe reste est augmenté de 6% et payable en 6 mensualités égales.\nSi papa avait payé comptant, il aurait eu 5% de remise sur le prix marqué."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1-",
+      "passage": "p1",
+      "prompt": "Combien a-t-il payé ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "25 000 F + 15 000 F = 40 000 F. Il a payé 40 000 F.",
+      "grading": "1 pt pour l’opération ; 1 pt pour 40 000 F."
+    },
+    {
+      "id": "q2",
+      "stem": "2-",
+      "label": "a.",
+      "passage": "p2",
+      "prompt": "Calcule le montant du reste à payer.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "92 500 F − 40 000 F = 52 500 F.",
+      "grading": "1 pt pour 52 500 F."
+    },
+    {
+      "id": "q3",
+      "stem": "2-",
+      "label": "b",
+      "passage": "p2",
+      "prompt": "Calcule le montant de l’intérêt du reste à payer.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "52 500 F × 6 ÷ 100 = 3 150 F.",
+      "grading": "1 pt pour 3 150 F. Accepter un résultat juste calculé à partir d’un reste faux."
+    },
+    {
+      "id": "q4",
+      "label": "3-",
+      "passage": "p2",
+      "prompt": "Combien versera-t-il par mois ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Reste augmenté : 52 500 F + 3 150 F = 55 650 F.\nPar mois : 55 650 F ÷ 6 = 9 275 F.",
+      "grading": "1 pt pour 9 275 F."
+    },
+    {
+      "id": "q5",
+      "label": "4-",
+      "passage": "p2",
+      "prompt": "Quelle sera le prix de revient versé ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "40 000 F + 55 650 F = 95 650 F.",
+      "grading": "1 pt pour 95 650 F."
+    },
+    {
+      "id": "q6",
+      "label": "5-",
+      "passage": "p3",
+      "prompt": "Calcule le montant de la remise ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "92 500 F × 5 ÷ 100 = 4 625 F.",
+      "grading": "1 pt pour 4 625 F."
+    },
+    {
+      "id": "q7",
+      "label": "6-",
+      "passage": "p3",
+      "prompt": "Combien aurait-il payé dans ce cas ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "92 500 F − 4 625 F = 87 875 F.",
+      "grading": "1 pt pour 87 875 F."
+    },
+    {
+      "id": "q8",
+      "label": "7-",
+      "passage": "p3",
+      "prompt": "Quelle économie aurait-il réalisée en adoptant ce mode de payement ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "95 650 F − 87 875 F = 7 775 F. Il aurait économisé 7 775 F.",
+      "grading": "1 pt pour l’opération ; 1 pt pour 7 775 F."
+    }
+  ]
+}

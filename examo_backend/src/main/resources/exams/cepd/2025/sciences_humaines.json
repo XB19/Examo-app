@@ -1,0 +1,110 @@
+{
+  "level": "CEPD",
+  "year": 2025,
+  "month": "JUIN",
+  "subject": "SCIENCES_HUMAINES",
+  "title": "SCIENCES HUMAINES",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Corrigé rédigé par Examo, à valider par un enseignant (faits historiques et foyers de résistance en particulier).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "1. A quels événements sont liés les dates suivantes dans l’histoire du Togo :",
+      "label": "a.",
+      "prompt": "5 juillet 1884",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "La signature du traité de protectorat entre l’Allemagne (représentée par Gustav Nachtigal) et le roi Mlapa III de Togoville : le Togo devient un protectorat allemand.",
+      "grading": "0,5 pt pour le traité de protectorat allemand (ou « début de la colonisation allemande »)."
+    },
+    {
+      "id": "q2",
+      "stem": "1. A quels événements sont liés les dates suivantes dans l’histoire du Togo :",
+      "label": "b.",
+      "prompt": "27 avril 1960",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "La proclamation de l’indépendance du Togo.",
+      "grading": "0,5 pt pour l’indépendance du Togo."
+    },
+    {
+      "id": "q3",
+      "stem": "1. A quels événements sont liés les dates suivantes dans l’histoire du Togo :",
+      "label": "c.",
+      "prompt": "1ᵉʳ juin de chaque année",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "La Journée nationale de l’arbre (fête de l’arbre) : ce jour-là, on plante des arbres partout au Togo.",
+      "grading": "0,5 pt pour la journée (fête) de l’arbre."
+    },
+    {
+      "id": "q4",
+      "stem": "1. A quels événements sont liés les dates suivantes dans l’histoire du Togo :",
+      "label": "d.",
+      "prompt": "30 août 1956",
+      "points": 0.5,
+      "type": "SHORT_TEXT",
+      "answer": "Le Togo devient une République autonome (statut de République autonome du Togo).",
+      "grading": "0,5 pt pour la République autonome du Togo."
+    },
+    {
+      "id": "q5",
+      "label": "2.",
+      "prompt": "Cite deux foyers de résistance du peuple togolais face à la colonisation allemande.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : Tové, Bassar, Kabou, le pays kabyè, les Konkomba, Sansanné-Mango (les Tchokossi).",
+      "grading": "0,5 pt par foyer de résistance juste."
+    },
+    {
+      "id": "q6",
+      "label": "3.",
+      "prompt": "Complète le tableau suivant :",
+      "points": 2,
+      "type": "TABLE",
+      "table": {
+        "header": ["Empire", "Capitale", "Empereur"],
+        "rows": [
+          [null, null, "Soundiata Kéita"],
+          ["Songhai", null, "Soni Ali Ber"],
+          ["Ghana", "Koumbi Saleh", null]
+        ]
+      },
+      "tableAnswer": [
+        ["Mali", "Niani", "Soundiata Kéita"],
+        ["Songhai", "Gao", "Soni Ali Ber"],
+        ["Ghana", "Koumbi Saleh", "Kaya Maghan"]
+      ],
+      "answer": "Mali – Niani – Soundiata Kéita\nSonghai – Gao – Soni Ali Ber\nGhana – Koumbi Saleh – Kaya Maghan (Kaya Maghan Cissé)",
+      "grading": "0,5 pt par case juste (4 cases). Pour le Ghana, accepter Kaya Maghan, Kaya Maghan Cissé ou Tounka Manin."
+    },
+    {
+      "id": "q7",
+      "label": "4.a.",
+      "prompt": "Certaines préfectures du Togo portent le nom des cours d’eau qui les traversent. Donne deux exemples et indique leurs chefs-lieux respectifs.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : Zio (Tsévié), Haho (Notsè), Ogou (Atakpamé), Amou (Amlamé), Oti (Mango), Kéran (Kandé), Anié (Anié), Moyen-Mono (Tohoun), Bas-Mono (Afagnan).",
+      "grading": "0,25 pt par préfecture juste et 0,25 pt par chef-lieu juste (deux exemples)."
+    },
+    {
+      "id": "q8",
+      "label": "b.",
+      "prompt": "Cite deux activités que peuvent mener les populations des localités du Togo traversées par ces cours d’eau.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "La pêche, l’agriculture (cultures irriguées, maraîchage), l’élevage, l’extraction du sable, le transport en pirogue.",
+      "grading": "0,5 pt par activité valable."
+    },
+    {
+      "id": "q9",
+      "label": "5.",
+      "prompt": "Un groupe de touristes veut visiter les chefs-lieux des régions économiques du Togo. Sur une carte du Togo, délimite ces régions et indique leurs chefs-lieux respectifs. Indique ensuite les deux grands vents qui soufflent au Togo ?",
+      "points": 3,
+      "type": "PHOTO",
+      "answer": "Les 5 régions économiques, du nord au sud, et leurs chefs-lieux : Région des Savanes (Dapaong), Région de la Kara (Kara), Région Centrale (Sokodé), Région des Plateaux (Atakpamé), Région Maritime (Lomé).\nLes deux grands vents : l’harmattan (vent sec qui vient du nord-est) et la mousson (vent humide qui vient du sud-ouest).",
+      "grading": "1 pt pour la carte avec les 5 régions délimitées dans le bon ordre ; 1 pt pour les 5 chefs-lieux (0,2 pt chacun) ; 1 pt pour les deux vents (0,5 pt chacun)."
+    }
+  ]
+}

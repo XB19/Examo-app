@@ -1,0 +1,90 @@
+{
+  "level": "CEPD",
+  "year": 2022,
+  "month": "JUIN",
+  "subject": "CALCUL_ECRIT",
+  "title": "EXERCICES ECRITS",
+  "durationMinutes": 45,
+  "reviewNotes": "Session « CEPD MAI – JUIN 2022 ». Sujet imprimé deux fois sur la page : retranscrit une seule fois. Les questions 4 et 5 n’ont pas de barème imprimé : 4 points chacune (hypothèse à valider, total sur 20). Les fractions de la question 4.b sont écrites « 1/2 », « 1/3 » et « 5/6 ». Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "1. Pour remplir deux reçus d’achat, ton oncle sollicite ton aide pour l’écrire des nombres entiers en chiffres et en lettres. Aide-le à bien écrire :",
+      "label": "a.",
+      "prompt": "En chiffres : Vingt mille vingt-deux.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "20 022",
+      "grading": "2 pts pour 20 022. 0 sinon."
+    },
+    {
+      "id": "q2",
+      "stem": "1. Pour remplir deux reçus d’achat, ton oncle sollicite ton aide pour l’écrire des nombres entiers en chiffres et en lettres. Aide-le à bien écrire :",
+      "label": "b.",
+      "prompt": "En lettres : 1.006.080.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Un million six mille quatre-vingts.",
+      "grading": "2 pts si le nombre est juste et bien écrit (« quatre-vingts » prend un s) ; 1 pt si le nombre est juste avec une faute d’orthographe."
+    },
+    {
+      "id": "q3",
+      "stem": "2. Ton maitre organise le jeu de meilleur mathématicien de la classe. Pour participer et gagner, il te demande d’utiliser une règle, un compas et un rapporteur pour :",
+      "label": "a.",
+      "prompt": "Tracer un angle de 120°.\nTrace-les en utilisant correctement les instruments de mesures demandés.",
+      "points": 2,
+      "type": "PHOTO",
+      "answer": "Trace une demi-droite, place le centre du rapporteur sur son origine, marque 120° et trace la deuxième demi-droite : l’angle est obtus (plus grand qu’un angle droit).",
+      "grading": "2 pts pour un angle de 120° (tolérance de quelques degrés) ; 1 pt si l’angle est obtus mais mal mesuré."
+    },
+    {
+      "id": "q4",
+      "stem": "2. Ton maitre organise le jeu de meilleur mathématicien de la classe. Pour participer et gagner, il te demande d’utiliser une règle, un compas et un rapporteur pour :",
+      "label": "b.",
+      "prompt": "Tracer la bissectrice de cet angle.\nTrace-les en utilisant correctement les instruments de mesures demandés.",
+      "points": 2,
+      "type": "PHOTO",
+      "answer": "La bissectrice partage l’angle de 120° en deux angles égaux de 60°. Au compas : trace un arc depuis le sommet qui coupe les deux côtés, puis deux arcs de même rayon depuis ces points ; relie le sommet au point où ils se croisent.",
+      "grading": "2 pts pour la bissectrice qui coupe l’angle en deux angles égaux de 60° ; 1 pt si elle est approximative."
+    },
+    {
+      "id": "q5",
+      "label": "3.",
+      "prompt": "Une route mesure 35,5 cm sur un plan cadastral à l’échelle de 1/250.000.\nAide le chauffeur de ton village à connaître cette longueur en mètres puis en kilomètres.",
+      "points": 4,
+      "type": "SHORT_TEXT",
+      "answer": "Longueur réelle : 35,5 cm × 250 000 = 8 875 000 cm.\nEn mètres : 8 875 000 cm = 88 750 m.\nEn kilomètres : 88 750 m = 88,75 km.",
+      "grading": "2 pts pour l’opération (8 875 000 cm) ; 1 pt pour 88 750 m ; 1 pt pour 88,75 km."
+    },
+    {
+      "id": "q6",
+      "stem": "4. Pose et effectue correctement les opérations suivantes :",
+      "label": "a.",
+      "prompt": "2,34 + 900,7 + 32 + 59,075",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "On aligne les virgules : 2,340 + 900,700 + 32,000 + 59,075 = 994,115.",
+      "grading": "2 pts pour 994,115. 0 sinon."
+    },
+    {
+      "id": "q7",
+      "stem": "4. Pose et effectue correctement les opérations suivantes :",
+      "label": "b.",
+      "prompt": "1/2 + 1/3 + 5/6",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "On réduit au même dénominateur 6 : 3/6 + 2/6 + 5/6 = 10/6 = 5/3.",
+      "grading": "1 pt pour la réduction au même dénominateur ; 1 pt pour 10/6 ou 5/3."
+    },
+    {
+      "id": "q8",
+      "label": "5.",
+      "prompt": "Ta sœur veut placer les points suivants sur un quadrillage : A(3; 6); B(2; 3); C(7; 1); D(8; 4).\nAide-la à placer ces points.\nElle te demande de joindre ces points dans l’ordre. Quelle figure obtiens-tu ?",
+      "points": 4,
+      "type": "PHOTO",
+      "answer": "On place chaque point : le premier nombre se compte vers la droite, le second vers le haut. En joignant A, B, C, D et en revenant à A, on obtient un parallélogramme : les côtés [AB] et [DC] sont parallèles et de même longueur, comme [BC] et [AD].",
+      "grading": "2 pts pour les quatre points bien placés (0,5 pt chacun) ; 1 pt pour la figure tracée dans l’ordre ; 1 pt pour le nom « parallélogramme »."
+    }
+  ]
+}

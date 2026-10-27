@@ -1,0 +1,94 @@
+{
+  "level": "CEPD",
+  "year": 2021,
+  "month": "JUIN",
+  "subject": "HISTOIRE_GEO",
+  "title": "HISTOIRE – GEOGRAPHIE (Sciences humaines).",
+  "durationMinutes": 30,
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit le premier exemplaire (le second numérote par erreur « c., d. » et « 3. Complète »). Aux questions 3.a et 3.b, la même carte peut être photographiée deux fois. Corrigé rédigé par Examo, à valider par un enseignant (nombre de directions régionales en 2021).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "1. Ton grand-père raconte que les valides noirs ont été déportés en Amérique pour travailler dans les plantations et dans les mines.",
+      "label": "a.",
+      "prompt": "De quel phénomène s’agit-il ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "La traite négrière (la traite des Noirs, le commerce des esclaves).",
+      "grading": "1 pt pour la traite négrière ; accepter « l’esclavage » ou « le commerce triangulaire »."
+    },
+    {
+      "id": "q2",
+      "stem": "1. Ton grand-père raconte que les valides noirs ont été déportés en Amérique pour travailler dans les plantations et dans les mines.",
+      "label": "b.",
+      "prompt": "Donne deux conséquences de ce phénomène pour l’Afrique.",
+      "points": 1.5,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : l’Afrique a perdu ses hommes et ses femmes les plus forts (dépeuplement) ; les villages et les familles ont été détruits ; les guerres entre royaumes se sont multipliées ; l’agriculture et le développement ont pris du retard.",
+      "grading": "0,75 pt par conséquence valable."
+    },
+    {
+      "id": "q3",
+      "label": "2.",
+      "prompt": "Complète le tableau suivant :",
+      "points": 1.75,
+      "type": "TABLE",
+      "table": {
+        "header": ["Pays", "Capitale", "Nom des habitants"],
+        "rows": [
+          ["Togo", null, "Togolais"],
+          ["Ghana", null, null],
+          [null, "Ouagadougou", null],
+          [null, null, "Béninois"]
+        ]
+      },
+      "tableAnswer": [
+        ["Togo", "Lomé", "Togolais"],
+        ["Ghana", "Accra", "Ghanéens"],
+        ["Burkina Faso", "Ouagadougou", "Burkinabè"],
+        ["Bénin", "Porto-Novo", "Béninois"]
+      ],
+      "answer": "Togo – Lomé – Togolais\nGhana – Accra – Ghanéens\nBurkina Faso – Ouagadougou – Burkinabè\nBénin – Porto-Novo – Béninois",
+      "grading": "0,25 pt par case juste (7 cases). Pour le Bénin, accepter Porto-Novo ou Cotonou ; accepter « Burkinabé » ou « Burkinabè »."
+    },
+    {
+      "id": "q4",
+      "stem": "3. Sur une carte du Togo :",
+      "label": "a.",
+      "prompt": "Place les régions économiques.",
+      "points": 2.5,
+      "type": "PHOTO",
+      "answer": "La carte du Togo montre les 5 régions économiques, du nord au sud : Région des Savanes, Région de la Kara, Région Centrale, Région des Plateaux, Région Maritime.",
+      "grading": "0,5 pt par région bien placée et nommée."
+    },
+    {
+      "id": "q5",
+      "stem": "3. Sur une carte du Togo :",
+      "label": "b.",
+      "prompt": "Place ta préfecture (là où se trouve ton école) et nomme-la.",
+      "points": 0.75,
+      "type": "PHOTO",
+      "answer": "La préfecture de l’élève est placée au bon endroit sur la carte et son nom est écrit (par exemple le Golfe pour une école de Lomé, la Kozah pour une école de Kara).",
+      "grading": "0,5 pt pour une préfecture plausible bien placée dans sa région ; 0,25 pt pour son nom."
+    },
+    {
+      "id": "q6",
+      "label": "4. a.",
+      "prompt": "Le ministère dont dépend ton école compte combien de directions régionales.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Sept (7) directions régionales de l’éducation (DRE) en 2021.",
+      "grading": "1 pt pour 7."
+    },
+    {
+      "id": "q7",
+      "label": "b.",
+      "prompt": "Cite-les.",
+      "points": 1.5,
+      "type": "SHORT_TEXT",
+      "answer": "DRE Lomé-Golfe, DRE Maritime, DRE Plateaux-Est, DRE Plateaux-Ouest, DRE Centrale, DRE Kara et DRE Savanes.",
+      "grading": "Environ 0,2 pt par direction régionale juste (1,5 pt pour les 7)."
+    }
+  ]
+}

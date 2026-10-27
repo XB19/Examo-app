@@ -1,0 +1,105 @@
+{
+  "level": "CEPD",
+  "year": 2023,
+  "month": "JUIN",
+  "subject": "DICTEE_QUESTIONS",
+  "title": "DICTEE - QUESTIONS",
+  "reviewNotes": "Seule la durée des questions est imprimée (30 min). Barème de la dictée non imprimé : 10 points (hypothèse à valider). La consigne « NB : Ecrire Bhako au tableau » est montrée à l’élève à la place du tableau. Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "DICTATION",
+      "title": "<u>Dictée</u> : Un bon élève",
+      "text": "Bhako est élève au cours moyen deuxième année. Chaque matin, il arrive à l’école à six heures. Il suit attentivement le maître en classe. Après dix-sept heures, il rentre calmement à la maison. Il aide sa maman et apprend ses leçons. Bhako dort à vingt et une heures. Il se lève très tôt. Il prend le temps de lire ses leçons avant d’aller à l’école. Pour préparer l’examen, il travaille en groupe avec certains camarades de classe. Il est le premier de la classe. C’est un élève très discipliné. Tous les enseignants de l’école l’apprécient."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q0",
+      "stem": "NB : Ecrire Bhako au tableau",
+      "passage": "p1",
+      "prompt": "<u>Dictée</u> : Un bon élève",
+      "points": 10,
+      "type": "DICTATION",
+      "answer": "Le texte exact de la dictée est affiché dans la correction.",
+      "grading": "Sur 10 points : retirer 1 point par faute d’orthographe ou de grammaire (un mot oublié compte comme une faute) et 0,5 point par faute d’accent, de majuscule ou de ponctuation. La note ne descend pas sous 0. Le nom « Bhako » était écrit au tableau."
+    },
+    {
+      "id": "q1",
+      "section": "QUESTIONS :",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Dis autrement : un élève discipliné ; les enseignants l’apprécient.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Un élève discipliné : un élève sage, obéissant, qui respecte le règlement.\nLes enseignants l’apprécient : les enseignants l’aiment bien, l’estiment.",
+      "grading": "1 pt par expression bien reformulée."
+    },
+    {
+      "id": "q2",
+      "section": "QUESTIONS :",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "Donne deux mots de la même famille que « école ».",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Écolier, écolière, scolaire, scolarité (deux au choix).",
+      "grading": "0,5 pt par mot juste."
+    },
+    {
+      "id": "q3",
+      "section": "QUESTIONS :",
+      "label": "3. a.",
+      "passage": "p1",
+      "prompt": "Quel est le contraire de « tôt ».",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Tard.",
+      "grading": "1 pt pour « tard »."
+    },
+    {
+      "id": "q4",
+      "section": "QUESTIONS :",
+      "label": "b.",
+      "passage": "p1",
+      "prompt": "Construis une phrase simple avec le contraire trouvé.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : Hier soir, je me suis couché tard.",
+      "grading": "1 pt pour une phrase simple et correcte contenant « tard »."
+    },
+    {
+      "id": "q5",
+      "section": "QUESTIONS :",
+      "label": "4.",
+      "passage": "p1",
+      "prompt": "« Tous les enseignants de l’école apprécient Bhako ». Mets cette phrase à la forme passive.",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "Bhako est apprécié par tous les enseignants de l’école.",
+      "grading": "1 pt pour la phrase passive correcte."
+    },
+    {
+      "id": "q6",
+      "section": "QUESTIONS :",
+      "label": "5.",
+      "passage": "p1",
+      "prompt": "« Il se lève tôt ». Mets cette phrase à l’imparfait et au futur simple de l’indicatif.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Imparfait : Il se levait tôt.\nFutur simple : Il se lèvera tôt.",
+      "grading": "1 pt par temps juste."
+    },
+    {
+      "id": "q7",
+      "section": "QUESTIONS :",
+      "label": "6.",
+      "passage": "p1",
+      "prompt": "Dis en deux phrases ce que Bako ne fait pas.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Par exemple : Bhako n’arrive pas en retard à l’école. Il ne se couche pas tard. (Ou : Il ne bavarde pas en classe ; il ne traîne pas dans la rue après l’école.)",
+      "grading": "1 pt par phrase négative juste et en accord avec le texte."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "level": "CEPD",
+  "year": 2025,
+  "month": "JUIN",
+  "subject": "CALCUL_MENTAL",
+  "title": "CALCUL MENTAL",
+  "reviewNotes": "Barème et durée non imprimés sur le sujet : 2 points par question (hypothèse à valider par un enseignant). Corrigé rédigé par Examo, à valider.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Un écolier met 45 min pour se rendre à l’école. Il quitte la maison à 6 h 15 min. A quelle heure arrivera-t-il à l’école.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "6 h 15 min + 45 min = 7 h. Il arrivera à l’école à 7 h.",
+      "grading": "2 pts pour 7 h (ou 7 h 00 min). 0 sinon."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "prompt": "Trois œufs sont vendus à 250 F au marché. Maman en achète 9 pour le petit déjeuner de la famille. Combien doit-elle payer ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "9 œufs, c’est 3 fois 3 œufs : 250 F × 3 = 750 F. Elle doit payer 750 F.",
+      "grading": "2 pts pour 750 F. 0 sinon."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "prompt": "La cour de récréation d’une école est un carré de 90 m de côté. Quelle est l’aire de cette cour ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "90 m × 90 m = 8 100 m². L’aire de la cour est 8 100 m².",
+      "grading": "2 pts pour 8 100 m². 1 pt si le nombre est juste mais l’unité est absente ou fausse."
+    },
+    {
+      "id": "q4",
+      "label": "4.",
+      "prompt": "Le berger de la ferme d’élevage de la famille a recueilli ce matin 45 hl de lait. Exprime cette quantité de lait en litres.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "1 hl = 100 l, donc 45 hl = 4 500 l.",
+      "grading": "2 pts pour 4 500 l. 0 sinon."
+    },
+    {
+      "id": "q5",
+      "label": "5.",
+      "prompt": "Une école a présenté 60 élèves au CEPD et le pourcentage des admis est de 90%. Trouve le nombre d’élèves admis.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "60 × 90 ÷ 100 = 54. 54 élèves ont été admis.",
+      "grading": "2 pts pour 54 élèves. 0 sinon."
+    }
+  ]
+}

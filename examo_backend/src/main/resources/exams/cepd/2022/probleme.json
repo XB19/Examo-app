@@ -1,0 +1,81 @@
+{
+  "level": "CEPD",
+  "year": 2022,
+  "month": "JUIN",
+  "subject": "PROBLEME",
+  "title": "PROBLEME",
+  "durationMinutes": 45,
+  "reviewNotes": "Session « CEPD MAI - JUIN 2022 ». Sujet imprimé deux fois sur la page : retranscrit une seule fois. La fraction « deux tiers » est écrite « (2/3) ». Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [
+    {
+      "id": "p1",
+      "kind": "STATEMENT",
+      "text": "Ton oncle a un champ de soja de 400 m de long et 150 m de large."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "passage": "p1",
+      "prompt": "Il voudrait connaître l’aire en hectare (ha) de son champ. Aide-le.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Aire : 400 m × 150 m = 60 000 m² = 6 ha.",
+      "grading": "1 pt pour 60 000 m² ; 1 pt pour 6 ha."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "passage": "p1",
+      "prompt": "Son champ a produit 1400 Kg par hectare. Aide ton oncle à calculer la masse totale en tonnes de soja récolté.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Masse : 1 400 kg × 6 = 8 400 kg = 8,4 t.",
+      "grading": "1 pt pour 8 400 kg ; 1 pt pour 8,4 t. Accepter un résultat juste calculé à partir d’une aire fausse."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "passage": "p1",
+      "prompt": "Il vend son soja à 250000F la tonne. Que gagne ton oncle après la vente ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "250 000 F × 8,4 = 2 100 000 F.",
+      "grading": "1 pt pour 2 100 000 F."
+    },
+    {
+      "id": "q4",
+      "stem": "4. Il décide de placer les deux tiers (2/3) de cette somme à la banque au taux de 6% et le reste pour ses besoins.",
+      "label": "a.",
+      "passage": "p1",
+      "prompt": "Aide-le à calculer la somme à placer à la banque.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "2 100 000 F × 2 ÷ 3 = 1 400 000 F.",
+      "grading": "1 pt pour l’opération ; 1 pt pour 1 400 000 F."
+    },
+    {
+      "id": "q5",
+      "stem": "4. Il décide de placer les deux tiers (2/3) de cette somme à la banque au taux de 6% et le reste pour ses besoins.",
+      "label": "b.",
+      "passage": "p1",
+      "prompt": "Quel montant reste-t-il pour ces besoins ?",
+      "points": 1,
+      "type": "SHORT_TEXT",
+      "answer": "2 100 000 F − 1 400 000 F = 700 000 F.",
+      "grading": "1 pt pour 700 000 F."
+    },
+    {
+      "id": "q6",
+      "stem": "4. Il décide de placer les deux tiers (2/3) de cette somme à la banque au taux de 6% et le reste pour ses besoins.",
+      "label": "c.",
+      "passage": "p1",
+      "prompt": "Quel sera son intérêt à la fin de l’année ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "Intérêt : 1 400 000 F × 6 ÷ 100 = 84 000 F.",
+      "grading": "1 pt pour l’opération ; 1 pt pour 84 000 F."
+    }
+  ]
+}

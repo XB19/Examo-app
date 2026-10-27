@@ -1,0 +1,56 @@
+{
+  "level": "CEPD",
+  "year": 2024,
+  "month": "JUIN",
+  "subject": "CALCUL_MENTAL",
+  "title": "CALCUL MENTAL",
+  "reviewNotes": "Sujet imprimé deux fois sur la page : retranscrit une seule fois. Barème et durée non imprimés : 2 points par question (hypothèse à valider). Corrigé rédigé par Examo, à valider par un enseignant.",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "label": "1.",
+      "prompt": "Ta maman va au marché avec un billet de 10.000 F. Après les achats, elle revient à la maison avec une monnaie de 1200 F. Elle te demande de l’aider à trouver le montant total de ces dépenses. Aide-la.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "10 000 F − 1 200 F = 8 800 F. Elle a dépensé 8 800 F.",
+      "grading": "2 pts pour 8 800 F. 0 sinon."
+    },
+    {
+      "id": "q2",
+      "label": "2.",
+      "prompt": "Ton petit frère fait des pas de 0,5 m. Il veut déterminer le périmètre du jardin de papa. Il compte au total 200 pas sur le pourtour. Retrouve ce périmètre.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "0,5 m × 200 = 100 m. Le périmètre du jardin est 100 m.",
+      "grading": "2 pts pour 100 m. 1 pt si le nombre est juste sans unité."
+    },
+    {
+      "id": "q3",
+      "label": "3.",
+      "prompt": "Pour acheter tes cahiers, ton oncle vend 11 bols de maïs à 850 F le bol. Trouve le prix de vente de son maïs.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "850 F × 11 = 9 350 F. Le prix de vente est 9 350 F.",
+      "grading": "2 pts pour 9 350 F. 0 sinon."
+    },
+    {
+      "id": "q4",
+      "label": "4.",
+      "prompt": "Pour la fête, ta maman t’achète 2,5 m de tissu à 1000 F le mètre. Trouve le montant de la somme qu’elle payera au commerçant.",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "1 000 F × 2,5 = 2 500 F. Elle payera 2 500 F.",
+      "grading": "2 pts pour 2 500 F. 0 sinon."
+    },
+    {
+      "id": "q5",
+      "label": "5.",
+      "prompt": "Un kilogramme de viande coûte 2400 F. Maman en achète 1,5 kg. Combien doit-elle payer ?",
+      "points": 2,
+      "type": "SHORT_TEXT",
+      "answer": "2 400 F × 1,5 = 3 600 F (2 400 F + 1 200 F). Elle doit payer 3 600 F.",
+      "grading": "2 pts pour 3 600 F. 0 sinon."
+    }
+  ]
+}

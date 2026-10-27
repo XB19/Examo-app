@@ -1,0 +1,20 @@
+{
+  "level": "CEPD",
+  "year": 2025,
+  "month": "JUIN",
+  "subject": "REDACTION",
+  "title": "REDACTION",
+  "durationMinutes": 60,
+  "reviewNotes": "Barème non imprimé sur le sujet : 20 points (hypothèse à valider par un enseignant).",
+  "passages": [],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "<u>Sujet</u> : Tu travailles bien à l’école. Tes parents sont fiers de toi. Ils te promettent un joli cadeau à ton choix si tu réussis à ton examen de CEPD cette année.\nQuel cadeau aimerais-tu avoir ? Dis les raisons de ton choix et ce que tu en feras.",
+      "points": 20,
+      "type": "LONG_TEXT",
+      "answer": "Il n’y a pas une seule bonne réponse. Une bonne rédaction comporte :\n– une introduction : rappeler la promesse des parents ;\n– un développement : le cadeau choisi (par exemple une bicyclette pour aller au collège), les raisons de ce choix et ce que tu en feras ;\n– une conclusion : ta joie, tes remerciements et ta promesse de continuer à bien travailler.\nExemple de début : « Mes parents sont fiers de moi, car je travaille bien à l’école. Un soir, papa m’a dit : “Si tu réussis au CEPD, nous t’offrirons le cadeau de ton choix.” J’ai tout de suite pensé à une bicyclette… »",
+      "grading": "Sur 20 : respect du sujet (le cadeau, les raisons du choix, ce que l’élève en fera) 6 pts ; plan (introduction, développement, conclusion) 4 pts ; richesse des idées 3 pts ; expression et vocabulaire 3 pts ; orthographe et grammaire 3 pts ; présentation 1 pt."
+    }
+  ]
+}
