@@ -3,6 +3,7 @@ target/
 
 ### Local secrets and downloaded exam files ###
 secrets.properties
+.env
 storage/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
