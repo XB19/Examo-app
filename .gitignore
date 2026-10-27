@@ -1,0 +1,2 @@
+# docker-compose à la racine : secrets locaux, jamais commités.
+.env
